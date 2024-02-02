@@ -1,13 +1,75 @@
+import { useEffect, useState } from "react";
 import CTA2 from "./c-t-a2";
 
 const Hero1 = () => {
+  const [counter1, setCounter1] = useState(0);
+  const [counter2, setCounter2] = useState(0);
+  const [counter3, setCounter3] = useState(0);
+  const [counter4, setCounter4] = useState(0);
+  const [counter5, setCounter5] = useState(0);
+
+  useEffect(() => {
+    const interval1 = setInterval(() => {
+      if (counter1 < 84) {
+        setCounter1((prevCounter) => prevCounter + 1);
+      }
+    }, 10);
+
+    const interval2 = setInterval(() => {
+      if (counter2 < 30) {
+        setCounter2((prevCounter) => prevCounter + 1);
+      }
+    }, 50);
+
+    const interval3 = setInterval(() => {
+      if (counter3 < 15) {
+        setCounter3((prevCounter) => prevCounter + 1);
+      }
+    }, 50);
+    const interval4 = setInterval(() => {
+      if (counter4 < 99) {
+        setCounter4((prevCounter) => prevCounter + 1);
+      }
+    }, 10);
+    const interval5 = setInterval(() => {
+      if (counter5 < 145) {
+        setCounter5((prevCounter) => prevCounter + 1);
+      }
+    }, 10);
+
+    return () => {
+      clearInterval(interval1);
+      clearInterval(interval2);
+      clearInterval(interval3);
+      clearInterval(interval4);
+      clearInterval(interval5);
+    };
+  }, [counter1, counter2, counter3, counter4, counter5]);
   return (
     <section className="self-stretch bg-primary-20 overflow-hidden flex flex-col items-center justify-center py-[100px] px-5 box-border max-w-full text-center text-41xl text-secondary-dark-20 font-paragraphs-para-18px-semibold mq750:pt-[42px] mq750:pb-[42px] mq750:box-border mq1250:gap-[60px] mq1250:pt-[65px] mq1250:pb-[65px] mq1250:box-border">
       <div className="w-[1140px] rounded-11xl flex flex-col items-center justify-center gap-[50px] max-w-full mq750:gap-[50px]">
-        <CTA2
-          heading="Our Expertise: Navigating the Marketing Landscape"
-          para="With a mission focused on strategic marketing, we're here to be your trusted partner, helping you navigate the complex marketing landscape. Choose us for our expertise, experience, and unwavering dedication to your success."
+        
+         <div
+      className="w-[850px] flex flex-col items-center justify-center gap-[25px] min-w-[360px] max-w-full text-center text-41xl text-secondary-dark-20 font-paragraphs-para-18px-semibold"
+      
+    >
+      <h1 className="m-0 self-stretch h-36 relative text-inherit font-bold font-sub-headings-sub-heading-26px-semibold inline-block mq450:text-17xl mq750:text-29xl" data-aos="fade-up">
+      Our Expertise: Navigating the Marketing Landscape
+      </h1>
+      <div className="self-stretch relative text-lg leading-[27px] font-medium text-secondary-dark-40" data-aos="fade-up" data-aos-delay="100">
+      With a mission focused on strategic marketing, we're here to be your trusted partner, helping you navigate the complex marketing landscape. Choose us for our expertise, experience, and unwavering dedication to your success.
+      </div>
+      <div className="w-[225px] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hidden flex-row items-center justify-center py-[15px] px-[30px] box-border gap-[10px] min-w-[140px] whitespace-nowrap text-left text-base text-secondary-light-10">
+        <b className="h-7 flex-1 relative leading-[28px] inline-block">
+          Get Started Now
+        </b>
+        <img
+          className="h-6 w-6 relative overflow-hidden shrink-0"
+          alt=""
+          src="/btn-icons.svg"
         />
+      </div>
+    </div>
         <img
           className="self-stretch h-[580px] relative rounded-31xl max-w-full overflow-hidden shrink-0 object-cover"
           loading="eager"
@@ -58,41 +120,41 @@ const Hero1 = () => {
           />
         </div>
         <div className="self-stretch flex flex-row flex-wrap items-center justify-start py-0 pr-0.5 pl-0 gap-[22px] text-29xl font-sub-headings-sub-heading-26px-semibold">
-          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]">
+          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]" data-aos="fade-up" data-aos-delay="100">
             <div className="self-stretch h-[58px] relative font-semibold text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-10xl mq750:text-19xl">
-              84+
+              {counter1}+
             </div>
             <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-transparent !bg-clip-text [background:linear-gradient(96.6deg,_#2c0058,_#06000c_66.67%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
               Expert Members
             </div>
           </div>
-          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]">
+          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]" data-aos="fade-up" data-aos-delay="200"> 
             <div className="self-stretch h-[58px] relative font-semibold text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-10xl mq750:text-19xl">
-              30+
+            {counter2}+
             </div>
             <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-transparent !bg-clip-text [background:linear-gradient(96.6deg,_#2c0058,_#06000c_66.67%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
               Marketing Tactics
             </div>
           </div>
-          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]">
+          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]" data-aos="fade-up" data-aos-delay="300">
             <div className="self-stretch h-[58px] relative font-semibold text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-10xl mq750:text-19xl">
-              15yr+
+            {counter3}+
             </div>
             <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-transparent !bg-clip-text [background:linear-gradient(96.6deg,_#2c0058,_#06000c_66.67%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
               Industry Experience
             </div>
           </div>
-          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]">
+          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]" data-aos="fade-up" data-aos-delay="400">
             <div className="self-stretch h-[58px] relative font-semibold text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-10xl mq750:text-19xl">
-              99%
+            {counter4}%
             </div>
             <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-transparent !bg-clip-text [background:linear-gradient(96.6deg,_#2c0058,_#06000c_66.67%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
               Client Satisfaction
             </div>
           </div>
-          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]">
+          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]" data-aos="fade-up" data-aos-delay="500">
             <div className="self-stretch h-[58px] relative font-semibold text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-10xl mq750:text-19xl">
-              145+
+            {counter5}+
             </div>
             <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-transparent !bg-clip-text [background:linear-gradient(96.6deg,_#2c0058,_#06000c_66.67%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
               Global Companies

@@ -34,3 +34,5 @@ const CTA2 = ({ heading, para, paraWidth, paraGap }) => {
 };
 
 export default CTA2;
+
+//not used
