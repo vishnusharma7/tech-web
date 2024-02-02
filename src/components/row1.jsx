@@ -37,7 +37,7 @@ const Row1 = ({
           to helping you unlock your brand's full potential.
         </div>
         <button
-          className="cursor-pointer [border:none] py-[15px] px-[30px] bg-[transparent] rounded-26xl-7 [background:linear-gradient(140.99deg,_#4743ff,_#8712e3)] flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap"
+          className="cursor-pointer [border:none] py-[15px] px-[30px] bg-[transparent] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap"
           style={btn3Style}
         >
           <b className="relative text-base leading-[28px] font-paragraphs-para-18px-semibold text-secondary-light-10 text-left">
@@ -50,8 +50,8 @@ const Row1 = ({
           />
         </button>
       </div>
-      <div className="flex-[0.8974] rounded-11xl bg-secondary-light-30 flex flex-row items-start justify-start p-[30px] box-border min-w-[360px] max-w-full text-xl text-primary-dark-80">
-        <div className="flex-1 rounded-xl bg-secondary-light-10 shadow-[5px_5px_30px_rgba(0,_0,_0,_0.08)] overflow-hidden flex flex-col items-start justify-center p-6 box-border gap-[10px] min-w-[350px] max-w-full">
+      <div className="flex-[0.8974] rounded-11xl bg-secondary-light-30 flex flex-row items-start justify-start p-[30px] box-border  max-w-full text-xl text-primary-dark-80">
+        <div className="flex-1 rounded-xl bg-secondary-light-10 shadow-[5px_5px_30px_rgba(0,_0,_0,_0.08)] overflow-hidden flex flex-col items-start justify-center p-6 box-border gap-[10px] min-w-[300px] max-w-full">
           <div className="w-20 h-20 relative flex items-center justify-center">
             <img
               className="w-full h-full object-contain absolute left-[4px] top-[4px] [transform:scale(1.5)]"

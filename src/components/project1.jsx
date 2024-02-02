@@ -4,7 +4,7 @@ const Project1 = () => {
   return (
     <div className="self-stretch bg-secondary-light-30 overflow-hidden flex flex-col items-center justify-center py-[100px] px-5 box-border max-w-full text-center text-35xl text-secondary-dark-20 font-sub-headings-sub-heading-26px-semibold mq450:pt-[27px] mq450:pb-[27px] mq450:box-border mq1050:pt-[42px] mq1050:pb-[42px] mq1050:box-border mq1250:pt-[65px] mq1250:pb-[65px] mq1250:box-border">
       <div className="w-[1240px] flex flex-col items-center justify-center gap-[60px] max-w-full mq750:gap-[60px]">
-        <div className="w-[1000px] flex flex-col items-center justify-center gap-[15px] min-w-[360px] max-w-full">
+        <div className="w-[1000px] flex flex-col items-center justify-center gap-[15px] min-w-[360px] max-w-full" data-aos="fade-up">
           <h1 className="m-0 self-stretch h-[130px] relative text-inherit font-bold font-inherit inline-block mq450:text-13xl mq750:text-24xl">
             A Showcase of Our Varied Marketing Projects
           </h1>

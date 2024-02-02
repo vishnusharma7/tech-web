@@ -15,7 +15,7 @@ const Newsletter = () => {
             placeholder="Type Your Email"
             type="text"
           />
-          <button className="cursor-pointer [border:none] py-[15px] px-[25px] bg-[transparent] rounded-26xl-7 [background:linear-gradient(140.99deg,_#4743ff,_#8712e3)] shadow-[4px_4px_30px_rgba(0,_0,_0,_0.04)] flex flex-row items-center justify-center box-border gap-[9.14px] min-w-[140px] whitespace-nowrap">
+          <button className="cursor-pointer [border:none] py-[15px] px-[25px] bg-[transparent] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] shadow-[4px_4px_30px_rgba(0,_0,_0,_0.04)] flex flex-row items-center justify-center box-border gap-[9.14px] min-w-[140px] whitespace-nowrap">
             <div className="relative text-lg leading-[32px] font-semibold font-paragraphs-para-18px-semibold text-secondary-light-10 text-left">
               Get Marketing Tips
             </div>

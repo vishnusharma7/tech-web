@@ -20,19 +20,19 @@ const TeamMember = ({ image }) => {
             Expertise:
           </div>
           <div className="self-stretch flex flex-row flex-wrap items-center justify-start gap-[10px_6px] min-h-[90px]">
-            <button className="cursor-pointer py-2.5 pr-[15px] pl-3.5 bg-secondary-light-10 rounded-31xl shadow-[5px_5px_20px_rgba(0,_0,_0,_0.05)] flex flex-row items-center justify-start gap-[6px] whitespace-nowrap border-[1px] border-solid border-secondary-light-60 hover:bg-gainsboro-100 hover:box-border hover:border-[1px] hover:border-solid hover:border-silver">
+            <button className="transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-[5px_5px_20px_rgba(0,_0,_0,_0.05)] cursor-pointer py-2.5 pr-[15px] pl-3.5 bg-secondary-light-10 rounded-31xl shadow-[5px_5px_20px_rgba(0,_0,_0,_0.05)] flex flex-row items-center justify-start gap-[6px] whitespace-nowrap border-[1px] border-solid border-secondary-light-60   ">
               <img className="h-3 w-3 relative" alt="" src="/star-14.svg" />
               <div className="relative text-sm leading-[20px] font-semibold font-paragraphs-para-18px-semibold text-secondary-dark-50 text-left">
                 Web Developer
               </div>
             </button>
-            <button className="cursor-pointer py-2.5 pr-[15px] pl-3.5 bg-secondary-light-10 rounded-31xl shadow-[5px_5px_20px_rgba(0,_0,_0,_0.05)] flex flex-row items-center justify-start gap-[6px] whitespace-nowrap border-[1px] border-solid border-secondary-light-60 hover:bg-gainsboro-100 hover:box-border hover:border-[1px] hover:border-solid hover:border-silver">
+            <button className="transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-[5px_5px_20px_rgba(0,_0,_0,_0.05)] cursor-pointer py-2.5 pr-[15px] pl-3.5 bg-secondary-light-10 rounded-31xl shadow-[5px_5px_20px_rgba(0,_0,_0,_0.05)] flex flex-row items-center justify-start gap-[6px] whitespace-nowrap border-[1px] border-solid border-secondary-light-60   ">
               <img className="h-3 w-3 relative" alt="" src="/star-14.svg" />
               <div className="relative text-sm leading-[20px] font-semibold font-paragraphs-para-18px-semibold text-secondary-dark-50 text-left">
                 Graphic Designer
               </div>
             </button>
-            <button className="cursor-pointer py-2.5 pr-[15px] pl-3.5 bg-secondary-light-10 rounded-31xl shadow-[5px_5px_20px_rgba(0,_0,_0,_0.05)] flex flex-row items-center justify-start gap-[6px] whitespace-nowrap border-[1px] border-solid border-secondary-light-60 hover:bg-gainsboro-100 hover:box-border hover:border-[1px] hover:border-solid hover:border-silver">
+            <button className="transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-[5px_5px_20px_rgba(0,_0,_0,_0.05)] cursor-pointer py-2.5 pr-[15px] pl-3.5 bg-secondary-light-10 rounded-31xl shadow-[5px_5px_20px_rgba(0,_0,_0,_0.05)] flex flex-row items-center justify-start gap-[6px] whitespace-nowrap border-[1px] border-solid border-secondary-light-60   ">
               <img className="h-3 w-3 relative" alt="" src="/star-14.svg" />
               <div className="relative text-sm leading-[20px] font-semibold font-paragraphs-para-18px-semibold text-secondary-dark-50 text-left">
                 Marketing Manger
@@ -45,21 +45,21 @@ const TeamMember = ({ image }) => {
             Follow Me:
           </div>
           <div className="self-stretch flex flex-row items-center justify-start gap-[8px] mq450:flex-wrap">
-            <div className="h-[29.9px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+            <div className="transition-transform duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-[5px_5px_20px_rgba(0,_0,_0,_0.05)] cursor-pointer h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
               <img
                 className="w-[18px] h-[17.9px] relative"
                 alt=""
                 src="/group-4.svg"
               />
             </div>
-            <div className="h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+            <div className="transition-transform duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-[5px_5px_20px_rgba(0,_0,_0,_0.05)] cursor-pointer h-[29.9px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
               <img
                 className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
                 alt=""
                 src="/linkedin.svg"
               />
             </div>
-            <div className="h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+            <div className="transition-transform duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-[5px_5px_20px_rgba(0,_0,_0,_0.05)] cursor-pointer h-[29.9px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
               <img
                 className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
                 alt=""

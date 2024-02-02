@@ -19,7 +19,7 @@ const CTA2 = ({ heading, para, paraWidth, paraGap }) => {
       <div className="self-stretch relative text-lg leading-[27px] font-medium text-secondary-dark-40">
         {para}
       </div>
-      <div className="w-[225px] rounded-26xl-7 [background:linear-gradient(140.99deg,_#4743ff,_#8712e3)] hidden flex-row items-center justify-center py-[15px] px-[30px] box-border gap-[10px] min-w-[140px] whitespace-nowrap text-left text-base text-secondary-light-10">
+      <div className="w-[225px] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hidden flex-row items-center justify-center py-[15px] px-[30px] box-border gap-[10px] min-w-[140px] whitespace-nowrap text-left text-base text-secondary-light-10">
         <b className="h-7 flex-1 relative leading-[28px] inline-block">
           Get Started Now
         </b>

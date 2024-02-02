@@ -1,7 +1,7 @@
 const History2 = ({ heading, heading1 }) => {
   return (
     <div className="self-stretch shadow-[5px_5px_30px_rgba(0,_0,_0,_0.05)] box-border flex flex-row items-start justify-start p-[30px] gap-[20px] max-w-full text-left text-17xl text-secondary-dark-30 font-sub-headings-sub-heading-26px-semibold border-t-[1px] border-solid border-secondary-light-70 mq750:flex-wrap">
-      <div className="rounded-[6.08px] [background:linear-gradient(140.99deg,_#4743ff,_#8712e3)] overflow-hidden flex flex-row items-center justify-center p-2.5 box-border w-11 h-11">
+      <div className="rounded-[6.08px] [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] overflow-hidden flex flex-row items-center justify-center p-2.5 box-border w-11 h-11">
         <img
           className="h-6 w-6 relative"
           loading="eager"

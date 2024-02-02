@@ -3,7 +3,7 @@ import Column from "./column";
 
 const Row = () => {
   return (
-    <div className="w-[1240px] flex flex-col items-center justify-start gap-[60px] max-w-full text-left text-xl text-primary-dark-80 font-sub-headings-sub-heading-26px-semibold mq750:gap-[60px]">
+    <div className="w-[1240px] flex flex-col items-center justify-start gap-[60px] max-w-full text-left text-xl text-primary-dark-80 font-sub-headings-sub-heading-26px-semibold mq750:gap-[60px]" data-aos="fade-up">
       <Row1
         heading="Rave Reviews for Our Marketing Agency"
         image="/image3@2x.png"
@@ -11,7 +11,7 @@ const Row = () => {
         propAlignSelf="stretch"
         propBackgroundColor="#AACE88"
         propBackground="unset"
-      />
+      / >
       <div className="self-stretch hidden flex-row items-center justify-center gap-[90px] mq1250:flex-wrap mq1250:justify-start">
         <img
           className="h-[36.7px] w-[150px] relative overflow-hidden shrink-0 object-cover"

@@ -74,13 +74,13 @@ const Statistics = () => {
     <div className="w-[1240px] flex flex-col items-start justify-start gap-[30px] max-w-full">
       <div className="self-stretch box-border flex flex-row flex-wrap items-center justify-center pt-0 px-0 pb-10 gap-[20px] max-w-full border-b-[1px] border-solid border-secondary-light-60">
         <div className="w-[435px] flex flex-col items-start justify-center min-w-[360px] max-w-full">
-          <h1 className="m-0 self-stretch h-[129px] relative text-inherit font-semibold font-inherit inline-block mq450:text-3xl mq750:text-10xl">
+          <h1 className="m-0 self-stretch h-[129px] relative text-inherit font-semibold font-inherit inline-block mq450:text-3xl mq750:text-10xl" data-aos="fade-up">
             Over 95% of our clients report high satisfaction with our
             services
           </h1>
         </div>
         <div className="flex-1 flex flex-row flex-wrap items-center justify-start py-0 pr-0.5 pl-0 box-border min-w-[335px] max-w-full text-center text-29xl">
-          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[120px]">
+          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[120px]" data-aos="fade-up" data-aos-delay="100">
             <div className="self-stretch h-[58px] relative font-semibold inline-block mq450:text-10xl mq750:text-19xl">
             {counter1}+
             </div>
@@ -88,7 +88,7 @@ const Statistics = () => {
               Expert Entrepreneurs
             </div>
           </div>
-          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[120px]">
+          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[120px]" data-aos="fade-up" data-aos-delay="200"> 
             <div className="self-stretch h-[58px] relative font-semibold inline-block mq450:text-10xl mq750:text-19xl">
             {counter2}+
             </div>
@@ -96,7 +96,7 @@ const Statistics = () => {
               Distinct Accents
             </div>
           </div>
-          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[120px]">
+          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[120px]" data-aos="fade-up" data-aos-delay="300">
             <div className="self-stretch h-[58px] relative font-semibold inline-block mq450:text-10xl mq750:text-19xl">
             {counter3}+
             </div>
