@@ -7,7 +7,7 @@ const Hero = () => {
           <h1 className="m-0 self-stretch  relative text-inherit font-bold font-inherit  mq450:text-17xl mq750:text-29xl">
             Your Brand's Future, Our Marketing Expertise
           </h1>
-          <div className="self-stretch h-[81px] relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-secondary-light-40 inline-block">
+          <div className="self-stretch  relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-secondary-light-40 inline-block">
             We understand that each business is unique, and our tailor-made
             strategies are designed to amplify your individuality and propel
             your success.
@@ -24,7 +24,7 @@ const Hero = () => {
           </button>
         </div>
         <div className="self-stretch flex flex-row flex-wrap items-center justify-start py-2.5 pr-[22px] pl-0 gap-[10px] text-base text-secondary-light-40 font-paragraphs-para-18px-semibold">
-          <div className="flex flex flex-row items-center justify-start gap-[4px] ">
+          <div className="flex  flex-row items-center justify-start  gap-[4px] ">
             <img
               className="h-3.5 w-3.5 relative"
               alt=""
@@ -62,7 +62,7 @@ const Hero = () => {
         data-aos-duration="700"
       >
         <img
-          className="relative  lg:w-[536.5px]  h-[529px]  object-cover"
+          className="relative w-full   lg:w-[536.5px]   object-cover"
           alt=""
           src="/hero-image.svg"
         />
