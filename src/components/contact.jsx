@@ -13,7 +13,7 @@ const Contact = () => {
           <div className="self-stretch relative text-lg leading-[27px] font-medium text-secondary-dark-40">
             Our experienced team is passionate about helping your business thrive in the digital landscape. Drive your marketing efforts to new heights.
           </div>
-          <div className="w-[225px] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hidden flex-row items-center justify-center py-[15px] px-[30px] box-border gap-[10px] min-w-[140px] whitespace-nowrap text-left text-base text-secondary-light-10">
+          <div className="w-[225px] rounded-45.7-custom-border [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hidden flex-row items-center justify-center py-[15px] px-[30px] box-border gap-[10px] min-w-[140px] whitespace-nowrap text-left text-base text-secondary-light-10">
             <b className="h-7 flex-1 relative leading-[28px] inline-block">
               Get Started Now
             </b>
@@ -113,7 +113,7 @@ const Contact = () => {
           </div>
 
         </div>
-        <div className="self-stretch rounded-11xl bg-secondary-light-10 overflow-hidden flex flex-row items-center justify-center [row-gap:20px] max-w-full text-left text-36-custom text-secondary-dark-30 mq1050:flex-wrap">
+        <div className="self-stretch rounded-30-custom-border bg-secondary-light-10 overflow-hidden flex flex-row items-center justify-center [row-gap:20px] max-w-full text-left text-36-custom text-secondary-dark-30 mq1050:flex-wrap">
           <div className="flex-1 shadow-[5px_5px_30px_rgba(0,_0,_0,_0.04)] overflow-hidden flex flex-col items-start justify-start p-10 box-border gap-[20px] min-w-[526px] max-w-full mq750:pt-[26px] mq750:pb-[26px] mq750:box-border mq750:min-w-full">
             <b className="self-stretch h-[86px] relative hidden mq750:text-29-custom mq450:text-22-custom">
               We’re Are Here To Help Your Business In Growth!
@@ -146,7 +146,7 @@ const Contact = () => {
               rows={15}
               cols={36}
             />
-            <button className="cursor-pointer group [border:none] py-[15px] px-[30px] bg-[transparent] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)]  flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap">
+            <button className="cursor-pointer group [border:none] py-[15px] px-[30px] bg-[transparent] rounded-45.7-custom-border [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)]  flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap">
               <b className="relative text-base leading-[28px] font-custom-bold text-secondary-light-10 text-left">
                 Submit Your Request
               </b>

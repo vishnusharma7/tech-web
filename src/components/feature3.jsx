@@ -123,7 +123,7 @@ const Feature3 = () => {
               </div>
             </div>
           </div>
-          <button className=" group cursor-pointer py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-secondary-light-30 hover:bg-primary-80 hover:box-border hover:border-[2px] hover:border-solid hover:border-primary-80">
+          <button className=" group cursor-pointer py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-secondary-light-30 hover:bg-primary-80 hover:box-border hover:border-[2px] hover:border-solid hover:border-primary-80">
             <div className="relative text-base leading-[25px] font-semibold font-custom-bold text-secondary-light-30 text-left">
               Get Started Now
             </div>

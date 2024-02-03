@@ -16,7 +16,7 @@ const CTA = () => {
               assessing ROI and guide decision-making for ongoing and future
               marketing initiatives.
             </div>
-            <button className="cursor-pointer group [border:none] py-[15px] px-[30px] bg-[transparent] rounded-26xl-7 [background:linear-gradient(140.99deg,_#4743ff,_#8712e3)] flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap">
+            <button className="cursor-pointer group [border:none] py-[15px] px-[30px] bg-[transparent] rounded-45.7-custom-border [background:linear-gradient(140.99deg,_#4743ff,_#8712e3)] flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap">
               <b className="relative text-base leading-[28px] font-custom-bold text-secondary-light-10 text-left">
                 Get Started Now
               </b>

@@ -8,7 +8,7 @@ const Process = () => {
           <h1 className="m-0 self-stretch h-[100px] relative text-inherit font-bold font-inherit inline-block mq450:text-25-custom mq750:text-34-custom">
             Our Simple Workflow To Start Your Dream Voice Over Project
           </h1>
-          <button className=" group cursor-pointer py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100">
+          <button className=" group cursor-pointer py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100">
             <div className="relative text-base leading-[25px] font-semibold font-custom-bold text-primary-dark-80 text-left">
               Get Started Now
             </div>

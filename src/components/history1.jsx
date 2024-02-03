@@ -10,7 +10,7 @@ const History1 = () => {
             It's our commitment to innovation, data-driven strategies, and a
             customer-centric approach.
           </div>
-          <button className="cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:box-border hover:border-[2px] hover:border-solid ">
+          <button className="cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:box-border hover:border-[2px] hover:border-solid ">
             <div className="relative text-base leading-[25px] font-semibold font-custom-bold text-primary-dark-80 text-left">
               Get Started Now
             </div>
@@ -21,7 +21,7 @@ const History1 = () => {
             />
           </button>
           <img
-            className="self-stretch h-[794px] relative rounded-31xl max-w-full overflow-hidden shrink-0 object-cover"
+            className="self-stretch h-[794px] relative rounded-50-custom-border max-w-full overflow-hidden shrink-0 object-cover"
             alt=""
             src="/image-12@2x.png"
           />

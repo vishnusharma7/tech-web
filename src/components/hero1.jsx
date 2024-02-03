@@ -47,7 +47,7 @@ const Hero1 = () => {
   }, [counter1, counter2, counter3, counter4, counter5]);
   return (
     <section className="self-stretch bg-primary-20 overflow-hidden flex flex-col items-center justify-center py-[100px] px-5 box-border max-w-full text-center text-60-custom text-secondary-dark-20 font-custom-bold mq750:pt-[42px] mq750:pb-[42px] mq750:box-border mq1250:gap-[60px] mq1250:pt-[65px] mq1250:pb-[65px] mq1250:box-border">
-      <div className="w-[1140px] rounded-11xl flex flex-col items-center justify-center gap-[50px] max-w-full mq750:gap-[50px]">
+      <div className="w-[1140px] rounded-30-custom-border flex flex-col items-center justify-center gap-[50px] max-w-full mq750:gap-[50px]">
         
          <div
       className="w-[850px] flex flex-col items-center justify-center gap-[25px] min-w-[360px] max-w-full text-center text-60-custom text-secondary-dark-20 font-custom-bold"
@@ -59,7 +59,7 @@ const Hero1 = () => {
       <div className="self-stretch relative text-lg leading-[27px] font-medium text-secondary-dark-40" data-aos="fade-up" data-aos-delay="100">
       With a mission focused on strategic marketing, we're here to be your trusted partner, helping you navigate the complex marketing landscape. Choose us for our expertise, experience, and unwavering dedication to your success.
       </div>
-      <div className="w-[225px] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hidden flex-row items-center justify-center py-[15px] px-[30px] box-border gap-[10px] min-w-[140px] whitespace-nowrap text-left text-base text-secondary-light-10">
+      <div className="w-[225px] rounded-45.7-custom-border [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hidden flex-row items-center justify-center py-[15px] px-[30px] box-border gap-[10px] min-w-[140px] whitespace-nowrap text-left text-base text-secondary-light-10">
         <b className="h-7 flex-1 relative leading-[28px] inline-block">
           Get Started Now
         </b>
@@ -71,7 +71,7 @@ const Hero1 = () => {
       </div>
     </div>
         <img
-          className="self-stretch h-[580px] relative rounded-31xl max-w-full overflow-hidden shrink-0 object-cover"
+          className="self-stretch h-[580px] relative rounded-50-custom-border max-w-full overflow-hidden shrink-0 object-cover"
           loading="eager"
           alt=""
           src="/image4@2x.png"
@@ -120,7 +120,7 @@ const Hero1 = () => {
           />
         </div>
         <div className="self-stretch flex flex-row flex-wrap items-center justify-start py-0 pr-0.5 pl-0 gap-[22px] text-48-custom font-familymain">
-          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]" data-aos="fade-up" data-aos-delay="100">
+          <div className="flex-1 rounded-10-custom-border overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]" data-aos="fade-up" data-aos-delay="100">
             <div className="self-stretch h-[58px] relative font-semibold text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-29-custom mq750:text-38-custom">
               {counter1}+
             </div>
@@ -128,7 +128,7 @@ const Hero1 = () => {
               Expert Members
             </div>
           </div>
-          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]" data-aos="fade-up" data-aos-delay="200"> 
+          <div className="flex-1 rounded-10-custom-border overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]" data-aos="fade-up" data-aos-delay="200"> 
             <div className="self-stretch h-[58px] relative font-semibold text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-29-custom mq750:text-38-custom">
             {counter2}+
             </div>
@@ -136,7 +136,7 @@ const Hero1 = () => {
               Marketing Tactics
             </div>
           </div>
-          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]" data-aos="fade-up" data-aos-delay="300">
+          <div className="flex-1 rounded-10-custom-border overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]" data-aos="fade-up" data-aos-delay="300">
             <div className="self-stretch h-[58px] relative font-semibold text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-29-custom mq750:text-38-custom">
             {counter3}+
             </div>
@@ -144,7 +144,7 @@ const Hero1 = () => {
               Industry Experience
             </div>
           </div>
-          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]" data-aos="fade-up" data-aos-delay="400">
+          <div className="flex-1 rounded-10-custom-border overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]" data-aos="fade-up" data-aos-delay="400">
             <div className="self-stretch h-[58px] relative font-semibold text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-29-custom mq750:text-38-custom">
             {counter4}%
             </div>
@@ -152,7 +152,7 @@ const Hero1 = () => {
               Client Satisfaction
             </div>
           </div>
-          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]" data-aos="fade-up" data-aos-delay="500">
+          <div className="flex-1 rounded-10-custom-border overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]" data-aos="fade-up" data-aos-delay="500">
             <div className="self-stretch h-[58px] relative font-semibold text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-29-custom mq750:text-38-custom">
             {counter5}+
             </div>

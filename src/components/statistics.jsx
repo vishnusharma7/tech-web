@@ -46,7 +46,7 @@ const Statistics = () => {
           </h1>
         </div>
         <div className="flex-1 flex flex-row flex-wrap items-center justify-start py-0 pr-0.5 pl-0 box-border min-w-[335px] max-w-full text-center text-48-custom">
-          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[80px]" data-aos="fade-up" data-aos-delay="100">
+          <div className="flex-1 rounded-10-custom-border overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[80px]" data-aos="fade-up" data-aos-delay="100">
             <div className="self-stretch h-[58px] relative font-semibold inline-block mq450:text-29-custom mq750:text-38-custom">
             {counter1}+
             </div>
@@ -54,7 +54,7 @@ const Statistics = () => {
               Expert Entrepreneurs
             </div>
           </div>
-          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[80px]" data-aos="fade-up" data-aos-delay="200"> 
+          <div className="flex-1 rounded-10-custom-border overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[80px]" data-aos="fade-up" data-aos-delay="200"> 
             <div className="self-stretch h-[58px] relative font-semibold inline-block mq450:text-29-custom mq750:text-38-custom">
             {counter2}+
             </div>
@@ -62,7 +62,7 @@ const Statistics = () => {
               Distinct Accents
             </div>
           </div>
-          <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[80px]" data-aos="fade-up" data-aos-delay="300">
+          <div className="flex-1 rounded-10-custom-border overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[80px]" data-aos="fade-up" data-aos-delay="300">
             <div className="self-stretch h-[58px] relative font-semibold inline-block mq450:text-29-custom mq750:text-38-custom">
             {counter3}+
             </div>

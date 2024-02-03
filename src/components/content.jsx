@@ -229,7 +229,7 @@ const Content = ({
     >
       <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px] max-w-full mq450:gap-[70px] mq750:gap-[70px]">
         <div
-          className="flex-[0.8872] rounded-6xl flex flex-row items-end justify-end p-[30px] box-border bg-[url('/public/image5@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] min-h-[480px] max-w-full"
+          className="flex-[0.8872] rounded-25-custom-border flex flex-row items-end justify-end p-[30px] box-border bg-[url('/public/image5@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] min-h-[480px] max-w-full"
           style={imageStyle}
         >
           <div className="w-[280px] rounded-[14.24px] bg-gray-400 [backdrop-filter:blur(25.45px)] overflow-hidden shrink-0 flex flex-col items-center justify-start p-[25px] box-border gap-[19px]">
@@ -396,7 +396,7 @@ const Content = ({
             </div>
           </div>
           <button
-            className="cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100"
+            className="cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100"
             style={btn1Style}
           >
             <div
@@ -467,7 +467,7 @@ const Content = ({
             </div>
           </div>
           <button
-            className="cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100"
+            className="cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100"
             style={bTNStyle}
           >
             <div
@@ -484,7 +484,7 @@ const Content = ({
           </button>
         </div>
         <div
-          className="h-[480px] flex-[0.8872] rounded-6xl flex flex-row items-end justify-start p-[30px] box-border bg-[url('/public/image6@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] max-w-full text-17.5-custom text-secondary-light-10 font-familymain"
+          className="h-[480px] flex-[0.8872] rounded-25-custom-border flex flex-row items-end justify-start p-[30px] box-border bg-[url('/public/image6@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] max-w-full text-17.5-custom text-secondary-light-10 font-familymain"
           style={image1Style}
         >
           <div className="w-[250px] rounded-[12.71px] bg-gray-400 [backdrop-filter:blur(25px)] overflow-hidden shrink-0 flex flex-col items-center justify-start py-[23px] px-[22px] box-border relative gap-[43px] mq450:gap-[43px]">
@@ -497,7 +497,7 @@ const Content = ({
                   Energy Display Rate
                 </div>
               </div>
-              <div className="self-stretch h-[129.9px] relative rounded-smi-5 bg-gray-300 [backdrop-filter:blur(43.75px)] overflow-hidden shrink-0 text-22-custom-6">
+              <div className="self-stretch h-[129.9px] relative rounded-12.5-custom-border bg-gray-300 [backdrop-filter:blur(43.75px)] overflow-hidden shrink-0 text-22-custom-6">
                 <div className="absolute top-[28.6px] left-[27.8px] w-[148.3px] h-[73.4px] flex items-center justify-center">
                   <img
                     className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.154)]"

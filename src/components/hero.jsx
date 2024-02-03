@@ -13,7 +13,7 @@ const Hero = () => {
             strategies are designed to amplify your individuality and propel
             your success.
           </div>
-          <button className="group cursor-pointer [border:none] py-[15px] px-[30px] bg-[transparent] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap ">
+          <button className="group cursor-pointer [border:none] py-[15px] px-[30px] bg-[transparent] rounded-45.7-custom-border [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap ">
             <b className="relative text-base leading-[28px] font-custom-bold text-secondary-light-10 text-left">
               Request a Quote
             </b>

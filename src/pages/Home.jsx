@@ -27,7 +27,7 @@ const Home = () => {
 
         <div className="self-stretch bg-secondary-light-10 overflow-hidden flex flex-col items-center justify-center py-[120px] px-5 box-border gap-[60px] max-w-full z-[1] mt-[-1px] mq750:gap-[60px] mq750:pb-[51px] mq750:box-border mq1250:pb-[78px] mq1250:box-border">
           <Row />
-          <div className="self-stretch rounded-11xl bg-primary-dark-80 box-border hidden flex-col items-center justify-center py-[50px] px-14 max-w-full border-[4px] border-solid border-primary-801">
+          <div className="self-stretch rounded-30-custom-border bg-primary-dark-80 box-border hidden flex-col items-center justify-center py-[50px] px-14 max-w-full border-[4px] border-solid border-primary-801">
             <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[20px_40px] max-w-full">
               <div className="w-[434px] flex flex-col items-start justify-center min-w-[360px] max-w-full">
                 <div className="self-stretch h-[129px] relative font-semibold inline-block mq450:text-22-custom mq750:text-29-custom">
@@ -37,7 +37,7 @@ const Home = () => {
               </div>
 
               <div className="flex-1 flex flex-row flex-wrap items-center justify-start min-w-[335px] max-w-full text-center text-48-custom">
-                <div className="h-[91px] flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[200px]">
+                <div className="h-[91px] flex-1 rounded-10-custom-border overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[200px]">
                   <div className="self-stretch flex-1 relative font-semibold mq450:text-29-custom mq750:text-38-custom">
                     88+
                   </div>
@@ -45,7 +45,7 @@ const Home = () => {
                     Global Companes
                   </div>
                 </div>
-                <div className="h-[91px] flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[200px]">
+                <div className="h-[91px] flex-1 rounded-10-custom-border overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[200px]">
                   <div className="self-stretch flex-1 relative font-semibold mq450:text-29-custom mq750:text-38-custom">
                     30+
                   </div>
@@ -53,7 +53,7 @@ const Home = () => {
                     Marketing Tactics
                   </div>
                 </div>
-                <div className="h-[91px] flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[200px]">
+                <div className="h-[91px] flex-1 rounded-10-custom-border overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[200px]">
                   <div className="self-stretch flex-1 relative font-semibold mq450:text-29-custom mq750:text-38-custom">
                     15yr+
                   </div>

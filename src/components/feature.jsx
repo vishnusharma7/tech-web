@@ -15,7 +15,7 @@ const Feature = () => {
             results, driving real growth and helping you build a stronger, more
             successful brand.
           </div>
-          <button className="cursor-pointer [border:none] py-[15px] pr-[29px] pl-[30px] bg-[transparent] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-start box-border gap-[11px] min-w-[140px] whitespace-nowrap">
+          <button className="cursor-pointer [border:none] py-[15px] pr-[29px] pl-[30px] bg-[transparent] rounded-45.7-custom-border [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-start box-border gap-[11px] min-w-[140px] whitespace-nowrap">
             <b className="relative text-base leading-[28px] font-custom-bold text-secondary-light-10 text-left">
               Get Started Now
             </b>
@@ -167,7 +167,7 @@ const Feature = () => {
                   </div>
                 </div>
               </div>
-              <button className="cursor-pointer group border-[2px] border-solid border-secondary-light-10 py-[15px] px-[30px] bg-[transparent] rounded-26xl-7 hover:bg-primary-80 hover:border-primary-80 flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap" data-aos="fade-right" data-aos-duration="200">
+              <button className="cursor-pointer group border-[2px] border-solid border-secondary-light-10 py-[15px] px-[30px] bg-[transparent] rounded-45.7-custom-border hover:bg-primary-80 hover:border-primary-80 flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap" data-aos="fade-right" data-aos-duration="200">
                 <b className="  relative text-base leading-[28px] font-custom-bold text-secondary-light-10 text-left">
                   Get Started Now
                 </b>
@@ -230,7 +230,7 @@ const Feature = () => {
                     platforms
                   </div>
                 </div>
-                <button className="group transition ease-in-out duration-300 cursor-pointer py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-secondary-light-10 text-secondary-light-10  hover:bg-primary-80 hover:box-border hover:border-[2px] hover:border-solid hover:border-primary-80">
+                <button className="group transition ease-in-out duration-300 cursor-pointer py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-secondary-light-10 text-secondary-light-10  hover:bg-primary-80 hover:box-border hover:border-[2px] hover:border-solid hover:border-primary-80">
                   <div className="relative text-base leading-[25px] font-semibold font-custom-bold text-secondary-light-10 text-left">
                     Get Started Now
                   </div>
@@ -251,7 +251,7 @@ const Feature = () => {
                     Energy Display Rate
                   </div>
                 </div>
-                <div className="absolute top-[53.7px] left-[22.6px] rounded-smi-5 bg-grey [backdrop-filter:blur(43.75px)] w-[204.8px] h-[129.9px] overflow-hidden text-sub-medium-headings">
+                <div className="absolute top-[53.7px] left-[22.6px] rounded-12.5-custom-border bg-grey [backdrop-filter:blur(43.75px)] w-[204.8px] h-[129.9px] overflow-hidden text-sub-medium-headings">
                   <img
                     className="absolute top-[28.2px] left-[28.2px] w-[148.3px] h-[73.4px] object-cover"
                     alt=""

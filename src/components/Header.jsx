@@ -74,7 +74,7 @@ const Header = () => {
                 </div>
               </Link>
               <Link to="/contact" className="no-underline">
-                <button className=" cursor-pointer group [border:none] py-2.5 px-6 bg-[transparent] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-center box-border gap-[6px] min-w-[140px] whitespace-nowrap">
+                <button className=" cursor-pointer group [border:none] py-2.5 px-6 bg-[transparent] rounded-45.7-custom-border [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-center box-border gap-[6px] min-w-[140px] whitespace-nowrap">
                   <img
                     className="h-4 w-4 relative overflow-hidden shrink-0"
                     alt=""

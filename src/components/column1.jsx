@@ -38,7 +38,7 @@ const Column1 = ({
           style={socialIconsGroupStyle}
         />
         <div className="self-stretch flex flex-col items-start justify-center gap-[16px]">
-          <div className="rounded-31xl bg-primary-401 flex flex-row items-center justify-center py-[3px] px-[17px] text-center text-sm">
+          <div className="rounded-50-custom-border bg-primary-401 flex flex-row items-center justify-center py-[3px] px-[17px] text-center text-sm">
             <b className="relative leading-[24px]">Marketing</b>
           </div>
           <h2 className="m-0 self-stretch relative text-26-custom leading-[36px] font-semibold font-familymain text-secondary-dark-20 mq450:text-21-custom mq450:leading-[29px]">
@@ -77,7 +77,7 @@ const Column1 = ({
           style={footerBottomIconStyle}
         />
         <div className="self-stretch flex flex-col items-start justify-center gap-[16px]">
-          <div className="rounded-31xl  bg-primary-401 flex flex-row items-center justify-center py-[3px] px-[17px] text-center text-sm">
+          <div className="rounded-50-custom-border  bg-primary-401 flex flex-row items-center justify-center py-[3px] px-[17px] text-center text-sm">
             <b className="relative leading-[24px]">Marketing</b>
           </div>
           <h2

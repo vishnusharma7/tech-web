@@ -43,7 +43,7 @@ const Services = () => {
             A range of marketing services, including SEO, social media management, content marketing, email campaigns, and more.
           </div>
           <div
-            className="w-[225px] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hidden flex-row items-center justify-center py-[15px] px-[30px] box-border gap-[10px] min-w-[140px] whitespace-nowrap text-left text-base text-secondary-light-10"
+            className="w-[225px] rounded-45.7-custom-border [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hidden flex-row items-center justify-center py-[15px] px-[30px] box-border gap-[10px] min-w-[140px] whitespace-nowrap text-left text-base text-secondary-light-10"
           >
             <b className="h-7 flex-1 relative leading-[28px] inline-block">
               Get Started Now
@@ -79,7 +79,7 @@ const Services = () => {
             ))}
           </div>
           <div className="self-stretch rounded-xl bg-secondary-light-10 box-border overflow-hidden flex flex-row flex-wrap items-center justify-center py-0 pr-px pl-0 gap-[29px] max-w-full text-30-custom border-[1px] border-solid border-secondary-light-80">
-            <div className="flex-[0.8584] rounded-3xs flex flex-col items-start justify-center py-5 pr-20 pl-10 box-border gap-[10px] min-w-[360px] max-w-full mq750:pr-10 mq750:box-border">
+            <div className="flex-[0.8584] rounded-10-custom-border flex flex-col items-start justify-center py-5 pr-20 pl-10 box-border gap-[10px] min-w-[360px] max-w-full mq750:pr-10 mq750:box-border">
               {tabData.map((tab, index) => (
                 <div key={index} className={`${activeTab === tab.title ? 'block' : 'hidden'}`}>
                   <div className="self-stretch flex flex-col items-start justify-center gap-[20px] min-w-[360px]">
@@ -90,7 +90,7 @@ const Services = () => {
                       {tab.content}
                     </div>
 
-                    <button className="cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80  hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100 ">
+                    <button className="cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80  hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100 ">
                       <div className="relative text-base leading-[25px] font-semibold font-custom-bold text-primary-dark-80 text-left">
                         Get Started Now
                       </div>
@@ -137,7 +137,7 @@ const Services = () => {
               ))}
             </div>
             <div className="flex-1 flex flex-row items-end justify-start py-[21px] px-5 box-border bg-[url('/public/column-right@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[335px] min-h-[450px] max-w-full text-16.8-custom text-secondary-light-10">
-              <div className="w-[300px] rounded-2xl-6 bg-gray-400 [backdrop-filter:blur(24px)] overflow-hidden shrink-0 flex flex-row items-center justify-center pt-[27px] px-[26px] pb-[26px] box-border">
+              <div className="w-[300px] rounded-21.6-custom-border bg-gray-400 [backdrop-filter:blur(24px)] overflow-hidden shrink-0 flex flex-row items-center justify-center pt-[27px] px-[26px] pb-[26px] box-border">
                 <div className="flex-1 flex flex-row items-start justify-start py-0 px-px gap-[34px] mq450:flex-wrap">
                   <div className="flex-1 flex flex-col items-start justify-start gap-[21px] min-w-[84px]">
                     <div className="self-stretch relative tracking-[-0.03em] leading-[20.34px] font-semibold">

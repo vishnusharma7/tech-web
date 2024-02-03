@@ -18,17 +18,17 @@ const Footer = () => {
             </div> */}
           </div>
           <div className="flex flex-row items-center justify-start gap-[20px]">
-            <div className="h-10 w-10 rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+            <div className="h-10 w-10 rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
               <img className="w-7 h-7 relative" alt="" src="/group.svg" />
             </div>
-            <div className="h-10 w-10 rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+            <div className="h-10 w-10 rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
               <img
                 className="w-7 h-7 relative overflow-hidden shrink-0"
                 alt=""
                 src="/linkedin.svg"
               />
             </div>
-            <div className="h-10 w-10 rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+            <div className="h-10 w-10 rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
               <img
                 className="w-7 h-7 relative overflow-hidden shrink-0"
                 alt=""

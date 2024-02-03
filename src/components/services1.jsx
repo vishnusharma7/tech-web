@@ -30,7 +30,7 @@ const Services1 = () => {
           Your One-Stop Marketing Partner: A Look at Our Agency's Capabilities
         </h1>
         <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-dark-40">{`With a relentless commitment to delivering excellence, we have partnered with clients from various industries, helping them achieve their marketing goals and elevate their brand presence. `}</div>
-        <button className="cursor-pointer group [border:none] py-[15px] px-[30px] bg-[transparent] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-start box-border gap-[10px] min-w-[140px] whitespace-nowrap">
+        <button className="cursor-pointer group [border:none] py-[15px] px-[30px] bg-[transparent] rounded-45.7-custom-border [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-start box-border gap-[10px] min-w-[140px] whitespace-nowrap">
           <b className="relative text-base leading-[28px] font-custom-bold text-secondary-light-10 text-left">
             Get Started Now
 

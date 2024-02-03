@@ -15,7 +15,7 @@ const Project = () => {
             alongside our valued clients, and we invite you to explore the range
             of industries we've worked with and the outcomes we've generated.
           </div>
-          <div className="w-56 rounded-26xl-7 box-border hidden flex-row items-center justify-center py-[15px] px-[30px] gap-[10px] min-w-[140px] text-base text-primary-dark-80 border-[2px] border-solid border-primary-dark-80">
+          <div className="w-56 rounded-45.7-custom-border box-border hidden flex-row items-center justify-center py-[15px] px-[30px] gap-[10px] min-w-[140px] text-base text-primary-dark-80 border-[2px] border-solid border-primary-dark-80">
             <div className="w-[130px] relative leading-[25px] font-semibold hidden">
               Get Started Now
             </div>

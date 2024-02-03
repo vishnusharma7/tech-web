@@ -24,7 +24,7 @@ const Column = ({
 
   return (
     <div className="flex-1 flex flex-col items-start justify-start gap-[40px] min-w-[350px] max-w-full text-left text-xl text-primary-dark-80 font-familymain mq450:gap-[40px] ">
-      <div className="self-stretch rounded-3xs bg-secondary-light-10 shadow-[5px_5px_30px_rgba(0,_0,_0,_0.04)] box-border overflow-hidden flex flex-col items-start justify-center py-[30px] px-[29px] gap-[10px] min-w-[350px] lg:min-w-[400px] border-[1px] border-solid border-secondary-light-80">
+      <div className="self-stretch rounded-10-custom-border bg-secondary-light-10 shadow-[5px_5px_30px_rgba(0,_0,_0,_0.04)] box-border overflow-hidden flex flex-col items-start justify-center py-[30px] px-[29px] gap-[10px] min-w-[350px] lg:min-w-[400px] border-[1px] border-solid border-secondary-light-80">
         <div className="flex flex-row items-center justify-center gap-[10px]">
           <img
             className="h-5 w-5 relative min-h-[20px]"
@@ -63,7 +63,7 @@ const Column = ({
           {reviewText}
         </div>
       </div>
-      <div className="self-stretch rounded-3xs bg-secondary-light-10 shadow-[5px_5px_30px_rgba(0,_0,_0,_0.04)] box-border overflow-hidden flex flex-col items-start justify-center py-[30px] px-[29px] gap-[10px] min-w-[350px] border-[1px] border-solid border-secondary-light-80">
+      <div className="self-stretch rounded-10-custom-border bg-secondary-light-10 shadow-[5px_5px_30px_rgba(0,_0,_0,_0.04)] box-border overflow-hidden flex flex-col items-start justify-center py-[30px] px-[29px] gap-[10px] min-w-[350px] border-[1px] border-solid border-secondary-light-80">
         <div className="flex flex-row items-center justify-center gap-[10px]">
           <img
             className="h-5 w-5 relative min-h-[20px]"
@@ -99,7 +99,7 @@ const Column = ({
           {reviewText1}
         </div>
       </div>
-      <div className="self-stretch rounded-3xs bg-secondary-light-10 shadow-[5px_5px_30px_rgba(0,_0,_0,_0.04)] box-border overflow-hidden flex flex-col items-start justify-center py-[30px] px-[29px] gap-[10px] min-w-[350px] border-[1px] border-solid border-secondary-light-80">
+      <div className="self-stretch rounded-10-custom-border bg-secondary-light-10 shadow-[5px_5px_30px_rgba(0,_0,_0,_0.04)] box-border overflow-hidden flex flex-col items-start justify-center py-[30px] px-[29px] gap-[10px] min-w-[350px] border-[1px] border-solid border-secondary-light-80">
         <div className="flex flex-row items-center justify-center gap-[10px]">
           <img
             className="h-5 w-5 relative min-h-[20px]"

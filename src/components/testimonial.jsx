@@ -13,7 +13,7 @@ const Testimonial = () => {
               alt=""
               src="/image@2x.png"
             />
-            <div className="flex-[0.8975] rounded-6xl bg-secondary-light-10 shadow-[4px_4px_30px_rgba(0,_0,_0,_0.05)] box-border flex flex-col items-center justify-start p-[30px] gap-[20px] min-w-[393px] max-w-full border-[1px] border-solid border-secondary-light-70 mq1050:flex-1 mq750:pt-5 mq750:pb-5 mq750:box-border mq750:min-w-full">
+            <div className="flex-[0.8975] rounded-25-custom-border bg-secondary-light-10 shadow-[4px_4px_30px_rgba(0,_0,_0,_0.05)] box-border flex flex-col items-center justify-start p-[30px] gap-[20px] min-w-[393px] max-w-full border-[1px] border-solid border-secondary-light-70 mq1050:flex-1 mq750:pt-5 mq750:pb-5 mq750:box-border mq750:min-w-full">
               <h1 className="m-0 self-stretch h-[250px] relative text-inherit font-semibold font-inherit inline-block mq750:text-34-custom mq450:text-25-custom">
                 "Outstanding service! Our business has seen a significant boost
                 in online visibility since partnering with them."
