@@ -1,4 +1,3 @@
-import Content from "./content";
 
 const Feature = () => {
   return (
@@ -117,14 +116,14 @@ const Feature = () => {
               data-aos="fade-left"
               data-aos-duration="700"
             >
-              <div className="self-stretch text-inherit  relative text-24xl mq450:text-13xl mq750:text-24xl font-semibold font-h4-desktop-h4-bold text-secondary-light-10">
+              <div className="self-stretch relative   text-24xl mq450:text-13xl mq750:text-24xl font-semibold text-secondary-light-10">
                 Partner with Us for Strategic Marketing Excellence
               </div>
               <div className="self-stretch relative text-xl leading-[30px] font-medium">
                 Provide a wide array of digital marketing services, including
                 SEO, content marketing, social media.
               </div>
-            
+
               <div className="self-stretch flex flex-col items-start justify-start gap-[8px] text-secondary-light-40">
                 <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
                   <img
@@ -169,15 +168,15 @@ const Feature = () => {
                 </div>
               </div>
               <button className="cursor-pointer group border-[2px] border-solid border-secondary-light-10 py-[15px] px-[30px] bg-[transparent] rounded-26xl-7 hover:bg-primary-80 hover:border-primary-80 flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap" data-aos="fade-right" data-aos-duration="200">
-          <b className="  relative text-base leading-[28px] font-paragraphs-para-18px-semibold text-secondary-light-10 text-left">
-            Get Started Now
-          </b>
-          <img
-            className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
-            alt=""
-            src="/btn-icons.svg"
-          />
-        </button>
+                <b className="  relative text-base leading-[28px] font-paragraphs-para-18px-semibold text-secondary-light-10 text-left">
+                  Get Started Now
+                </b>
+                <img
+                  className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
+                  alt=""
+                  src="/btn-icons.svg"
+                />
+              </button>
             </div>
           </div>
           <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px] text-base text-secondary-light-30 font-paragraphs-para-16px-semibold">
@@ -243,45 +242,45 @@ const Feature = () => {
                 </button>
               </div>
 
-              
+
             </div>
             <div className="flex-1 rounded-medium-text h-[480px] flex flex-col items-start justify-end p-[30px] box-border bg-[url('/public/image1@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] text-mid-5 text-secondary-light-10 font-h4-desktop-h4-bold" data-aos="fade-left">
-                <div className="relative rounded-[12.71px] bg-gray-200 [backdrop-filter:blur(25px)] w-[250px] h-[268.4px] overflow-hidden shrink-0">
-                  <div className="absolute top-[22.6px] left-[22.6px] w-[204.8px] flex flex-row items-center justify-start">
-                    <div className="flex-1 relative tracking-[-0.03em] leading-[16.95px] font-semibold">
-                      Energy Display Rate
-                    </div>
+              <div className="relative rounded-[12.71px] bg-gray-200 [backdrop-filter:blur(25px)] w-[250px] h-[268.4px] overflow-hidden shrink-0">
+                <div className="absolute top-[22.6px] left-[22.6px] w-[204.8px] flex flex-row items-center justify-start">
+                  <div className="flex-1 relative tracking-[-0.03em] leading-[16.95px] font-semibold">
+                    Energy Display Rate
                   </div>
-                  <div className="absolute top-[53.7px] left-[22.6px] rounded-smi-5 bg-grey [backdrop-filter:blur(43.75px)] w-[204.8px] h-[129.9px] overflow-hidden text-sub-medium-headings">
-                    <img
-                      className="absolute top-[28.2px] left-[28.2px] w-[148.3px] h-[73.4px] object-cover"
-                      alt=""
-                      src="/ellipse-100.svg"
-                    />
-                    <img
-                      className="absolute top-[59.3px] left-[76.4px] w-[51.9px] h-[10.7px] object-cover"
-                      alt=""
-                      src="/ellipse-102.svg"
-                    />
-                    <img
-                      className="absolute top-[28.2px] left-[28.2px] w-[126.6px] h-[73.4px] object-cover"
-                      alt=""
-                      src="/ellipse-101.svg"
-                    />
-                    <div className="absolute top-[79.1px] left-[68.5px] tracking-[-0.02em] leading-[28.25px] font-semibold">
-                      72.8%
-                    </div>
-                    <img
-                      className="absolute top-[50.8px] left-[93.9px] rounded-[8.47px] w-[16.9px] h-[16.9px] object-cover"
-                      alt=""
-                      src="/fillweatherflashlightfill.svg"
-                    />
-                  </div>
-                  <div className="absolute top-[226px] left-[22.6px] rounded-[24.72px] bg-primary-80 w-[170.9px] h-[5.6px]" />
-                  <div className="absolute top-[240.1px] left-[22.6px] rounded-[24.72px] bg-primary-80 w-[113px] h-[5.6px]" />
-                  <div className="absolute top-[206.2px] left-[22.6px] rounded-[24.72px] bg-primary-80 w-[55.1px] h-[8.5px]" />
                 </div>
+                <div className="absolute top-[53.7px] left-[22.6px] rounded-smi-5 bg-grey [backdrop-filter:blur(43.75px)] w-[204.8px] h-[129.9px] overflow-hidden text-sub-medium-headings">
+                  <img
+                    className="absolute top-[28.2px] left-[28.2px] w-[148.3px] h-[73.4px] object-cover"
+                    alt=""
+                    src="/ellipse-100.svg"
+                  />
+                  <img
+                    className="absolute top-[59.3px] left-[76.4px] w-[51.9px] h-[10.7px] object-cover"
+                    alt=""
+                    src="/ellipse-102.svg"
+                  />
+                  <img
+                    className="absolute top-[28.2px] left-[28.2px] w-[126.6px] h-[73.4px] object-cover"
+                    alt=""
+                    src="/ellipse-101.svg"
+                  />
+                  <div className="absolute top-[79.1px] left-[68.5px] tracking-[-0.02em] leading-[28.25px] font-semibold">
+                    72.8%
+                  </div>
+                  <img
+                    className="absolute top-[50.8px] left-[93.9px] rounded-[8.47px] w-[16.9px] h-[16.9px] object-cover"
+                    alt=""
+                    src="/fillweatherflashlightfill.svg"
+                  />
+                </div>
+                <div className="absolute top-[226px] left-[22.6px] rounded-[24.72px] bg-primary-80 w-[170.9px] h-[5.6px]" />
+                <div className="absolute top-[240.1px] left-[22.6px] rounded-[24.72px] bg-primary-80 w-[113px] h-[5.6px]" />
+                <div className="absolute top-[206.2px] left-[22.6px] rounded-[24.72px] bg-primary-80 w-[55.1px] h-[8.5px]" />
               </div>
+            </div>
           </div>
         </div>
       </div>

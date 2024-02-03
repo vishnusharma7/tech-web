@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import CTA2 from "./c-t-a2";
+
 
 const Hero1 = () => {
   const [counter1, setCounter1] = useState(0);

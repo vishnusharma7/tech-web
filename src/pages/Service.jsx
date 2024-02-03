@@ -3,7 +3,7 @@ import Hero2 from "../components/hero2";
 import Project2 from "../components/project2";
 import Feature6 from "../components/feature6";
 import Process from "../components/process";
-import CTA4 from "../components/c-t-a4";
+import CTA3 from "../components/c-t-a3";
 
 const Service = () => {
   return (
@@ -12,7 +12,7 @@ const Service = () => {
       <Project2 />
       <Feature6 />
       <Process />
-      <CTA4 />
+      <CTA3 />
     </>
   )
 }

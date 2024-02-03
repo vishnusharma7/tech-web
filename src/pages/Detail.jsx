@@ -3,6 +3,7 @@ import Feature5 from "../components/feature5";
 import Services1 from "../components/services1";
 import Testimonial1 from "../components/testimonial1";
 import CTA3 from "../components/c-t-a3";
+import Sliders from '../components/sliders';
 
 const Detail = () => {
   return (
@@ -31,7 +32,7 @@ const Detail = () => {
       </section>
       <Feature5 />
       <Services1 />
-      <Testimonial1 />
+      <Sliders />
       <CTA3 />
     </>
   )

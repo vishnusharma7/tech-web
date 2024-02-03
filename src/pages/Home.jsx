@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
-import { LuArrowLeftRight } from "react-icons/lu";
-import { GiPikeman } from "react-icons/gi";
+
 import Hero from "../components/hero";
 import Statistics from "../components/statistics";
 import Services from "../components/services";
@@ -12,12 +11,14 @@ import Row from "../components/row";
 import Team from "../components/team";
 import FAQ from "../components/f-a-q";
 import CTA3 from "../components/c-t-a3";
+import Sliders from "../components/sliders";
 
 const Home = () => {
   return (
     <>
        <Hero />
      <Statistics />
+     <Sliders />
       <Services />
       <Feature1 />
       <Feature />
