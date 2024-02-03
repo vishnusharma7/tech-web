@@ -9,7 +9,7 @@ const ContactInfo = ({
 }) => {
   return (
     <div className="flex-1 rounded-xl bg-secondary-light-10 shadow-[5px_5px_30px_rgba(0,_0,_0,_0.05)] box-border overflow-hidden flex flex-col items-center justify-center py-[30px] px-[29px] gap-[20px] min-w-[280px] max-w-full text-center text-7xl text-secondary-dark-20 font-sub-headings-sub-heading-26px-semibold border-[1px] border-solid border-secondary-light-80">
-      <img
+       <img
         className="w-[50px] h-[50px] relative overflow-hidden shrink-0"
         alt=""
         src={icon}
