@@ -7,14 +7,14 @@ const Feature2 = () => {
         </h1>
         <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[20px] max-w-full text-left text-xl">
           <div className="flex-1 flex flex-col items-center justify-center gap-[20px] min-w-[138px] max-w-full">
-            <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
+            <div className=" cursor-pointer group self-stretch flex flex-row items-center justify-start gap-[10px]">
               <img
                 className="h-5 w-5 relative"
                 loading="eager"
                 alt=""
                 src="/star-9.svg"
               />
-              <div className="relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
+              <div className="transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
                 Strategic Planning
               </div>
             </div>
@@ -23,9 +23,9 @@ const Feature2 = () => {
               alt=""
               src="/divider-01.svg"
             />
-            <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
+            <div className=" cursor-pointer group self-stretch flex flex-row items-center justify-start gap-[10px]">
               <img className="h-5 w-5 relative" alt="" src="/star-9.svg" />
-              <div className="relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
+              <div className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
                 Customer Journey Mapping
               </div>
             </div>
@@ -34,17 +34,17 @@ const Feature2 = () => {
               alt=""
               src="/divider-01.svg"
             />
-            <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
+            <div className=" cursor-pointer group self-stretch flex flex-row items-center justify-start gap-[10px]">
               <img className="h-5 w-5 relative" alt="" src="/star-9.svg" />
-              <div className="relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
+              <div className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
                 Competitive Analysis
               </div>
             </div>
           </div>
           <div className="flex-1 flex flex-col items-center justify-center gap-[20px] min-w-[138px] max-w-full">
-            <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
+            <div className=" cursor-pointer group self-stretch flex flex-row items-center justify-start gap-[10px]">
               <img className="h-5 w-5 relative" alt="" src="/star-9.svg" />
-              <div className="relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
+              <div className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
                 Creative Campaigns
               </div>
             </div>
@@ -53,9 +53,9 @@ const Feature2 = () => {
               alt=""
               src="/divider-01.svg"
             />
-            <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
+            <div className=" cursor-pointer group self-stretch flex flex-row items-center justify-start gap-[10px]">
               <img className="h-5 w-5 relative" alt="" src="/star-9.svg" />
-              <div className="relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
+              <div className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
                 Reputation Management
               </div>
             </div>
@@ -64,17 +64,17 @@ const Feature2 = () => {
               alt=""
               src="/divider-01.svg"
             />
-            <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
+            <div className=" cursor-pointer group self-stretch flex flex-row items-center justify-start gap-[10px]">
               <img className="h-5 w-5 relative" alt="" src="/star-9.svg" />
-              <div className="relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
+              <div className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
                 Community Building
               </div>
             </div>
           </div>
           <div className="flex-1 flex flex-col items-center justify-center gap-[20px] min-w-[138px] max-w-full">
-            <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
+            <div className=" cursor-pointer group self-stretch flex flex-row items-center justify-start gap-[10px]">
               <img className="h-5 w-5 relative" alt="" src="/star-9.svg" />
-              <div className="relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
+              <div className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
                 Marketing Automation
               </div>
             </div>
@@ -83,9 +83,9 @@ const Feature2 = () => {
               alt=""
               src="/divider-01.svg"
             />
-            <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
+            <div className=" cursor-pointer group self-stretch flex flex-row items-center justify-start gap-[10px]">
               <img className="h-5 w-5 relative" alt="" src="/star-9.svg" />
-              <div className="relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
+              <div className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
                 Brand Development
               </div>
             </div>
@@ -94,9 +94,9 @@ const Feature2 = () => {
               alt=""
               src="/divider-01.svg"
             />
-            <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
+            <div className=" cursor-pointer group self-stretch flex flex-row items-center justify-start gap-[10px]">
               <img className="h-5 w-5 relative" alt="" src="/star-9.svg" />
-              <div className="relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
+              <div className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
                 Customer Retention
               </div>
             </div>
