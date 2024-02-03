@@ -36,7 +36,7 @@ const LeftColumn = ({
   }, [propHeight1, propMinWidth2]);
 
   return (
-    <div className="flex-1 flex flex-col items-start justify-start gap-[20px] min-w-[360px] max-w-full text-left text-5xl text-secondary-dark-40 font-sub-headings-sub-heading-26px-semibold">
+    <div className="flex-1 flex flex-col items-start justify-start gap-[20px] min-w-[360px] max-w-full text-left text-24-custom text-secondary-dark-40 font-familymain">
       <div className="self-stretch rounded-mini bg-secondary-light-10 shadow-[5px_5px_20px_rgba(0,_0,_0,_0.05)] box-border flex flex-col items-start justify-center py-[35px] pr-[41px] pl-[39px] gap-[20px] max-w-full border-[1px] border-solid border-secondary-light-70">
         <div className="self-stretch flex flex-row items-baseline justify-center gap-[31px] max-w-full mq750:flex-wrap mq750:gap-[31px]">
           <h3
@@ -51,7 +51,7 @@ const LeftColumn = ({
             src="/acc-icon.svg"
           />
         </div>
-        <div className="self-stretch h-[120px] relative text-xl leading-[30px] font-paragraphs-para-18px-semibold text-secondary-dark-50 inline-block mq450:text-base mq450:leading-[24px]">
+        <div className="self-stretch h-[120px] relative text-xl leading-[30px] font-custom-bold text-secondary-dark-50 inline-block mq450:text-base mq450:leading-[24px]">
           {answer}
         </div>
       </div>

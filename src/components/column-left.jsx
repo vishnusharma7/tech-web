@@ -30,7 +30,7 @@ const ColumnLeft = ({
   }, [propHeight2]);
 
   return (
-    <div className="flex-1 flex flex-col items-center justify-start gap-[40px] min-w-[300px] max-w-full text-left text-base text-secondary-dark-50 font-paragraphs-para-18px-semibold mq750:gap-[40px]">
+    <div className="flex-1 flex flex-col items-center justify-start gap-[40px] min-w-[300px] max-w-full text-left text-base text-secondary-dark-50 font-custom-bold mq750:gap-[40px]">
       <div className="self-stretch flex flex-col items-start justify-center gap-[30px]">
         <img
           className="self-stretch h-[500px] relative rounded-xl max-w-full overflow-hidden shrink-0 object-cover"
@@ -43,7 +43,7 @@ const ColumnLeft = ({
           <div className="rounded-31xl cursor-pointer bg-primary-401 flex flex-row items-center justify-center py-[3px] px-[17px] text-center text-sm">
             <b className="relative leading-[24px]">Marketing</b>
           </div>
-          <h2 className="m-0 self-stretch relative text-7xl leading-[36px] font-semibold font-sub-headings-sub-heading-26px-semibold text-secondary-dark-20 mq450:text-2xl mq450:leading-[29px]">
+          <h2 className="m-0 self-stretch relative text-26-custom leading-[36px] font-semibold font-familymain text-secondary-dark-20 mq450:text-21-custom mq450:leading-[29px]">
             {heading}
           </h2>
           <div className="self-stretch relative leading-[25px] font-medium text-secondary-dark-40">
@@ -81,7 +81,7 @@ const ColumnLeft = ({
           <div className="rounded-31xl cursor-pointer bg-primary-401 flex flex-row items-center justify-center py-[3px] px-[17px] text-center text-sm">
             <b className="relative leading-[24px]">Marketing</b>
           </div>
-          <h2 className="m-0 self-stretch relative text-7xl leading-[36px] font-semibold font-sub-headings-sub-heading-26px-semibold text-secondary-dark-20 mq450:text-2xl mq450:leading-[29px]">
+          <h2 className="m-0 self-stretch relative text-26-custom leading-[36px] font-semibold font-familymain text-secondary-dark-20 mq450:text-21-custom mq450:leading-[29px]">
             {heading1}
           </h2>
           <div className="self-stretch relative leading-[25px] font-medium text-secondary-dark-40">
@@ -120,7 +120,7 @@ const ColumnLeft = ({
           <div className="rounded-31xl cursor-pointer bg-primary-401 flex flex-row items-center justify-center py-[3px] px-[17px] text-center text-sm">
             <b className="relative leading-[24px]">Marketing</b>
           </div>
-          <h2 className="m-0 self-stretch relative text-7xl leading-[36px] font-semibold font-sub-headings-sub-heading-26px-semibold text-secondary-dark-20 mq450:text-2xl mq450:leading-[29px]">
+          <h2 className="m-0 self-stretch relative text-26-custom leading-[36px] font-semibold font-familymain text-secondary-dark-20 mq450:text-21-custom mq450:leading-[29px]">
             {heading2}
           </h2>
           <div className="self-stretch relative leading-[25px] font-medium text-secondary-dark-40">

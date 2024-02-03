@@ -43,18 +43,18 @@ const FAQ = () => {
   };
 
   return (
-    <section className="self-stretch bg-secondary-light-10 overflow-hidden flex flex-col items-center justify-center py-[120px] px-5 box-border max-w-full text-center text-35xl text-secondary-dark-20 font-sub-headings-sub-heading-26px-semibold mq750:pt-[51px] mq750:pb-[51px] mq750:box-border mq1050:pt-[78px] mq1050:pb-[78px] mq1050:box-border">
+    <section className="self-stretch bg-secondary-light-10 overflow-hidden flex flex-col items-center justify-center py-[120px] px-5 box-border max-w-full text-center text-54-custom text-secondary-dark-20 font-familymain mq750:pt-[51px] mq750:pb-[51px] mq750:box-border mq1050:pt-[78px] mq1050:pb-[78px] mq1050:box-border">
       <div className="w-[1240px] flex flex-col items-center justify-center gap-[50px] max-w-full mq750:gap-[50px]">
         <div className="w-[900px] flex flex-col items-center justify-center gap-[15px] min-w-[360px] max-w-full">
-          <h1 className="m-0 self-stretch relative text-inherit font-bold font-inherit inline-block mq450:text-13xl mq750:text-24xl">
+          <h1 className="m-0 self-stretch relative text-inherit font-bold font-inherit inline-block mq450:text-32-custom mq750:text-43-custom">
             Frequently Asked Questions
           </h1>
-          <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-secondary-dark-40">
+          <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-dark-40">
             Let's explore how we can help your business thrive in the
             ever-evolving marketing landscape.
           </div>
           <button className="cursor-pointer group [border:none] py-[15px] px-[30px] bg-[transparent] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap">
-            <b className="relative text-base leading-[28px] font-paragraphs-para-18px-semibold text-secondary-light-10 text-left">
+            <b className="relative text-base leading-[28px] font-custom-bold text-secondary-light-10 text-left">
               Get Started Now
             </b>
             <img
@@ -64,7 +64,7 @@ const FAQ = () => {
             />
           </button>
         </div>
-        <div className="self-stretch flex flex-wrap  items-center justify-center gap-[20px] text-left text-35xl text-secondary-dark-50 font-h4-desktop-h4-bold">
+        <div className="self-stretch flex flex-wrap  items-center justify-center gap-[20px] text-left text-54-custom text-secondary-dark-50 font-h4-desktop-h4-bold">
             {accordionItems.map((item, index) => (
               <div
                 key={index}

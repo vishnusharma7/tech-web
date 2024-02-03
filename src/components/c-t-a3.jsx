@@ -1,9 +1,9 @@
 const CTA3 = () => {
   return (
-    <section className="self-stretch [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] box-border overflow-hidden flex flex-col items-center justify-start py-[100px] px-5 max-w-full text-left text-23xl text-secondary-light-40 font-paragraphs-para-18px-semibold border-t-[4px] border-solid border-primary-80 mq450:pt-[65px] mq450:pb-[65px] mq450:box-border">
+    <section className="self-stretch [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] box-border overflow-hidden flex flex-col items-center justify-start py-[100px] px-5 max-w-full text-left text-42-custom text-secondary-light-40 font-custom-bold border-t-[4px] border-solid border-primary-80 mq450:pt-[65px] mq450:pb-[65px] mq450:box-border">
         <div className="w-[1240px] flex flex-row flex-wrap items-center justify-between gap-[20px] max-w-full">
           <div className="w-[625px] flex flex-col items-start justify-center gap-[20px] max-w-full">
-            <h1 className="m-0 self-stretch h-[100px] relative text-inherit font-bold font-sub-headings-sub-heading-26px-semibold text-secondary-light-10 inline-block mq450:text-6xl mq750:text-15xl">
+            <h1 className="m-0 self-stretch h-[100px] relative text-inherit font-bold font-familymain text-secondary-light-10 inline-block mq450:text-25-custom mq750:text-34-custom">
               Bridging the Gap Between Brands and Audiences
             </h1>
             <div className="self-stretch relative text-lg leading-[27px] font-medium">
@@ -32,7 +32,7 @@ const CTA3 = () => {
             </div>
           </div>
           <button className="cursor-pointer group [border:none] py-[15px] px-[30px] bg-[transparent] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap">
-            <b className="relative text-base leading-[28px] font-paragraphs-para-18px-semibold text-secondary-light-10 text-left">
+            <b className="relative text-base leading-[28px] font-custom-bold text-secondary-light-10 text-left">
               Get Started Now
             </b>
             <img

@@ -2,14 +2,14 @@ import TopSection from "./top-section";
 
 const Process = () => {
   return (
-    <section className="self-stretch bg-secondary-light-30 overflow-hidden flex flex-col items-center justify-center py-[120px] px-5 box-border max-w-full text-center text-23xl text-secondary-dark-20 font-sub-headings-sub-heading-26px-semibold mq750:pt-[51px] mq750:pb-[51px] mq750:box-border mq1050:pt-[78px] mq1050:pb-[78px] mq1050:box-border">
+    <section className="self-stretch bg-secondary-light-30 overflow-hidden flex flex-col items-center justify-center py-[120px] px-5 box-border max-w-full text-center text-42-custom text-secondary-dark-20 font-familymain mq750:pt-[51px] mq750:pb-[51px] mq750:box-border mq1050:pt-[78px] mq1050:pb-[78px] mq1050:box-border">
       <div className="w-[1240px] flex flex-col items-center justify-center gap-[60px] max-w-full mq750:gap-[60px]">
         <div className="w-[600px] flex flex-col items-center justify-center gap-[20px] min-w-[360px] max-w-full">
-          <h1 className="m-0 self-stretch h-[100px] relative text-inherit font-bold font-inherit inline-block mq450:text-6xl mq750:text-15xl">
+          <h1 className="m-0 self-stretch h-[100px] relative text-inherit font-bold font-inherit inline-block mq450:text-25-custom mq750:text-34-custom">
             Our Simple Workflow To Start Your Dream Voice Over Project
           </h1>
           <button className=" group cursor-pointer py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100">
-            <div className="relative text-base leading-[25px] font-semibold font-paragraphs-para-18px-semibold text-primary-dark-80 text-left">
+            <div className="relative text-base leading-[25px] font-semibold font-custom-bold text-primary-dark-80 text-left">
               Get Started Now
             </div>
             <img
@@ -19,7 +19,7 @@ const Process = () => {
             />
           </button>
         </div>
-        <div className="self-stretch flex flex-col items-center justify-start gap-[30px] max-w-full text-left text-5xl font-paragraphs-para-18px-semibold">
+        <div className="self-stretch flex flex-col items-center justify-start gap-[30px] max-w-full text-left text-24-custom font-custom-bold">
           <TopSection
             stepNo="Step #1"
             headings="Client Consultation"

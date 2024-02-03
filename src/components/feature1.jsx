@@ -1,9 +1,9 @@
 const Feature1 = () => {
   return (
 
-    <section className="self-stretch bg-primary-20 overflow-hidden flex flex-col items-center justify-center p-5 box-border min-h-[590px] max-w-full text-center text-35xl text-secondary-light-10 font-sub-headings-sub-heading-26px-semibold mq750:gap-[60px]">
+    <section className="self-stretch bg-primary-20 overflow-hidden flex flex-col items-center justify-center p-5 box-border min-h-[590px] max-w-full text-center text-54-custom text-secondary-light-10 font-familymain mq750:gap-[60px]">
     <div className="w-[1240px] rounded-xl [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)]  flex flex-col items-center justify-center py-[60px] px-20 box-border gap-[50px] max-w-full mq750:gap-[50px] mq750:pt-[39px] mq750:pb-[39px] mq750:box-border mq1250:pl-10 mq1250:pr-10 mq1250:box-border">
-      <h1 className="m-0 self-stretch  relative text-inherit font-bold font-inherit inline-block mq450:text-13xl mq750:text-24xl" data-aos="fade-up" data-aos-duration="700">
+      <h1 className="m-0 self-stretch  relative text-inherit font-bold font-inherit inline-block mq450:text-32-custom mq750:text-43-custom" data-aos="fade-up" data-aos-duration="700">
         Elevate Your Brand with Expert Content Marketing Services
       </h1>
       <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[20px] max-w-full text-left text-xl" data-aos="fade-up" data-aos-duration="700">

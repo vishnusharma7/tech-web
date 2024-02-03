@@ -224,7 +224,7 @@ const Content = ({
 
   return (
     <div
-      className="flex-1 flex flex-col items-start justify-start gap-[60px] max-w-full text-left text-base-3 text-secondary-light-10 font-sub-headings-sub-heading-26px-semibold mq750:gap-[60px]"
+      className="flex-1 flex flex-col items-start justify-start gap-[60px] max-w-full text-left text-16.3-custom text-secondary-light-10 font-familymain mq750:gap-[60px]"
       style={contentStyle}
     >
       <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px] max-w-full mq450:gap-[70px] mq750:gap-[70px]">
@@ -246,7 +246,7 @@ const Content = ({
                 />
               </div>
             </div>
-            <div className="self-stretch flex flex-col items-start justify-start py-0 pr-px pl-0 gap-[12px] text-center text-3xs-5 text-secondary-light-60 font-inter">
+            <div className="self-stretch flex flex-col items-start justify-start py-0 pr-px pl-0 gap-[12px] text-center text-9.5-custom text-secondary-light-60 font-inter">
               <div
                 className="self-stretch flex flex-col items-start justify-start gap-[1px]"
                 style={rowStyle}
@@ -338,9 +338,9 @@ const Content = ({
             </div>
           </div>
         </div>
-        <div className="flex-1 flex flex-col items-start justify-center py-5 px-0 box-border gap-[20px] min-w-[360px] max-w-full text-23xl text-secondary-dark-20 font-paragraphs-para-18px-semibold">
+        <div className="flex-1 flex flex-col items-start justify-center py-5 px-0 box-border gap-[20px] min-w-[360px] max-w-full text-42-custom text-secondary-dark-20 font-custom-bold">
           <h1
-            className="m-0 self-stretch h-[100px] relative text-inherit font-semibold font-sub-headings-sub-heading-26px-semibold inline-block mq450:text-6xl mq750:text-15xl"
+            className="m-0 self-stretch h-[100px] relative text-inherit font-semibold font-familymain inline-block mq450:text-25-custom mq750:text-34-custom"
             style={heading1Style}
           >
             Partner with Us for Strategic Marketing Excellence
@@ -400,7 +400,7 @@ const Content = ({
             style={btn1Style}
           >
             <div
-              className="relative text-base leading-[25px] font-semibold font-paragraphs-para-18px-semibold text-primary-dark-80 text-left"
+              className="relative text-base leading-[25px] font-semibold font-custom-bold text-primary-dark-80 text-left"
               style={btnTextStyle}
             >
               Get Started Now
@@ -413,10 +413,10 @@ const Content = ({
           </button>
         </div>
       </div>
-      <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px] max-w-full text-23xl text-secondary-dark-20 font-paragraphs-para-18px-semibold mq450:gap-[70px] mq750:gap-[70px]">
+      <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px] max-w-full text-42-custom text-secondary-dark-20 font-custom-bold mq450:gap-[70px] mq750:gap-[70px]">
         <div className="flex-1 flex flex-col items-start justify-center py-5 px-0 box-border gap-[20px] min-w-[360px] max-w-full">
           <h1
-            className="m-0 self-stretch h-[100px] relative text-inherit font-semibold font-sub-headings-sub-heading-26px-semibold inline-block mq450:text-6xl mq750:text-15xl"
+            className="m-0 self-stretch h-[100px] relative text-inherit font-semibold font-familymain inline-block mq450:text-25-custom mq750:text-34-custom"
             style={heading2Style}
           >
             Driving Real Business Growth and Building Stronger Brands
@@ -471,7 +471,7 @@ const Content = ({
             style={bTNStyle}
           >
             <div
-              className="relative text-base leading-[25px] font-semibold font-paragraphs-para-18px-semibold text-primary-dark-80 text-left"
+              className="relative text-base leading-[25px] font-semibold font-custom-bold text-primary-dark-80 text-left"
               style={btnText1Style}
             >
               Get Started Now
@@ -484,7 +484,7 @@ const Content = ({
           </button>
         </div>
         <div
-          className="h-[480px] flex-[0.8872] rounded-6xl flex flex-row items-end justify-start p-[30px] box-border bg-[url('/public/image6@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] max-w-full text-mid-5 text-secondary-light-10 font-sub-headings-sub-heading-26px-semibold"
+          className="h-[480px] flex-[0.8872] rounded-6xl flex flex-row items-end justify-start p-[30px] box-border bg-[url('/public/image6@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] max-w-full text-17.5-custom text-secondary-light-10 font-familymain"
           style={image1Style}
         >
           <div className="w-[250px] rounded-[12.71px] bg-gray-400 [backdrop-filter:blur(25px)] overflow-hidden shrink-0 flex flex-col items-center justify-start py-[23px] px-[22px] box-border relative gap-[43px] mq450:gap-[43px]">
@@ -497,7 +497,7 @@ const Content = ({
                   Energy Display Rate
                 </div>
               </div>
-              <div className="self-stretch h-[129.9px] relative rounded-smi-5 bg-gray-300 [backdrop-filter:blur(43.75px)] overflow-hidden shrink-0 text-3xl-6">
+              <div className="self-stretch h-[129.9px] relative rounded-smi-5 bg-gray-300 [backdrop-filter:blur(43.75px)] overflow-hidden shrink-0 text-22-custom-6">
                 <div className="absolute top-[28.6px] left-[27.8px] w-[148.3px] h-[73.4px] flex items-center justify-center">
                   <img
                     className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.154)]"

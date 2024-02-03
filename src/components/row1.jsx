@@ -26,14 +26,14 @@ const Row1 = ({
 
   return (
     <div
-      className="w-[1240px] flex flex-row flex-wrap items-start justify-center  max-w-full text-left text-35xl text-secondary-dark-20 font-sub-headings-sub-heading-26px-semibold mq450:gap-[70px] mq750:gap-[70px]"
+      className="w-[1240px] flex flex-row flex-wrap items-start justify-center  max-w-full text-left text-54-custom text-secondary-dark-20 font-familymain mq450:gap-[70px] mq750:gap-[70px]"
       style={row2Style}
     >
       <div className="flex-1 flex flex-col items-start justify-center gap-[15px] min-w-[360px] max-w-full">
-        <h1 className="m-0 self-stretch  relative text-inherit font-bold font-inherit inline-block mq450:text-13xl mq750:text-24xl">
+        <h1 className="m-0 self-stretch  relative text-inherit font-bold font-inherit inline-block mq450:text-32-custom mq750:text-43-custom">
           {heading}
         </h1>
-        <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-secondary-dark-40">
+        <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-dark-40">
           That's the essence of our approach. We're more than just a service
           provider; we're a team of passionate professionals who are committed
           to helping you unlock your brand's full potential.
@@ -42,7 +42,7 @@ const Row1 = ({
           className="cursor-pointer group [border:none] py-[15px] px-[30px] bg-[transparent] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap"
           style={btn3Style}
         >
-          <b className="relative text-base leading-[28px] font-paragraphs-para-18px-semibold text-secondary-light-10 text-left">
+          <b className="relative text-base leading-[28px] font-custom-bold text-secondary-light-10 text-left">
             Get Started Now
           </b>
           <img
@@ -92,7 +92,7 @@ const Row1 = ({
               src="/star-1.svg"
             />
           </div>
-          <div className="self-stretch relative text-base leading-[25px] font-paragraphs-para-18px-semibold text-secondary-dark-50">
+          <div className="self-stretch relative text-base leading-[25px] font-custom-bold text-secondary-dark-50">
             The results have been nothing short of remarkable. Our online
             presence has significantly improved, and our sales have seen a
             steady increase since we partnered with them.

@@ -16,14 +16,14 @@ const TopSection = ({
   }, [propHeight]);
 
   return (
-    <div className="self-stretch flex flex-row flex-wrap items-start justify-center gap-[30px] max-w-full text-left text-5xl text-secondary-dark-20 font-paragraphs-para-18px-semibold">
+    <div className="self-stretch flex flex-row flex-wrap items-start justify-center gap-[30px] max-w-full text-left text-24-custom text-secondary-dark-20 font-custom-bold">
       <div className="flex-1 rounded-xl bg-secondary-light-10 shadow-[5px_5px_30px_rgba(0,_0,_0,_0.05)] box-border overflow-hidden flex flex-col items-start justify-start py-[25px] px-6 gap-[18px] min-w-[360px] max-w-full border-[1px] border-solid border-secondary-light-80" data-aos="fade-right">
         <button className="cursor-pointer [border:none] py-1.5 px-[17px] bg-primary-80 rounded-31xl flex flex-row items-center justify-center whitespace-nowrap ">
-          <div className="relative text-lg leading-[32px] font-semibold font-paragraphs-para-18px-semibold text-secondary-light-10 text-center">
+          <div className="relative text-lg leading-[32px] font-semibold font-custom-bold text-secondary-light-10 text-center">
             {stepNo}
           </div>
         </button>
-        <h3 className="m-0 self-stretch relative text-inherit leading-[30px] font-semibold font-sub-headings-sub-heading-26px-semibold mq450:text-lgi mq450:leading-[24px]">
+        <h3 className="m-0 self-stretch relative text-inherit leading-[30px] font-semibold font-familymain mq450:text-lgi mq450:leading-[24px]">
           {headings}
         </h3>
         <div
@@ -52,11 +52,11 @@ const TopSection = ({
       </div>
       <div className="flex-1 rounded-xl bg-secondary-light-10 shadow-[5px_5px_30px_rgba(0,_0,_0,_0.05)] box-border overflow-hidden flex flex-col items-start justify-start py-[25px] px-6 gap-[18px] min-w-[360px] max-w-full border-[1px] border-solid border-secondary-light-80" data-aos="fade-left">
         <button className="cursor-pointer [border:none] py-1.5 px-[17px] bg-primary-80 rounded-31xl flex flex-row items-center justify-center whitespace-nowrap">
-          <div className="relative text-lg leading-[32px] font-semibold font-paragraphs-para-18px-semibold text-secondary-light-10 text-center">
+          <div className="relative text-lg leading-[32px] font-semibold font-custom-bold text-secondary-light-10 text-center">
             {stepNo1}
           </div>
         </button>
-        <h3 className="m-0 self-stretch relative text-inherit leading-[30px] font-semibold font-sub-headings-sub-heading-26px-semibold mq450:text-lgi mq450:leading-[24px]">
+        <h3 className="m-0 self-stretch relative text-inherit leading-[30px] font-semibold font-familymain mq450:text-lgi mq450:leading-[24px]">
           {headings1}
         </h3>
         <div className="self-stretch relative text-base leading-[25px] text-secondary-dark-30">

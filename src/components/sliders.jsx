@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -40,7 +41,7 @@ function Sliders() {
 
 
   return (
-          <section className="self-stretch bg-secondary-light-10 overflow-hidden flex flex-row items-center justify-center p-[60px] box-border max-w-full text-left text-17xl text-secondary-dark-20 font-sub-headings-sub-heading-26px-semibold mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq1250:pl-[30px] mq1250:pr-[30px] mq1250:box-border">
+          <section className="self-stretch bg-secondary-light-10 overflow-hidden flex flex-row items-center justify-center p-[60px] box-border max-w-full text-left text-36-custom text-secondary-dark-20 font-familymain mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq1250:pl-[30px] mq1250:pr-[30px] mq1250:box-border">
 
           <div className="w-[1240px] flex flex-col items-start justify-start gap-[30px] max-w-full">
 

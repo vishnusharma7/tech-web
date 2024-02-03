@@ -23,7 +23,7 @@ const Column = ({
   }, [propHeight1]);
 
   return (
-    <div className="flex-1 flex flex-col items-start justify-start gap-[40px] min-w-[350px] max-w-full text-left text-xl text-primary-dark-80 font-sub-headings-sub-heading-26px-semibold mq450:gap-[40px] ">
+    <div className="flex-1 flex flex-col items-start justify-start gap-[40px] min-w-[350px] max-w-full text-left text-xl text-primary-dark-80 font-familymain mq450:gap-[40px] ">
       <div className="self-stretch rounded-3xs bg-secondary-light-10 shadow-[5px_5px_30px_rgba(0,_0,_0,_0.04)] box-border overflow-hidden flex flex-col items-start justify-center py-[30px] px-[29px] gap-[10px] min-w-[350px] lg:min-w-[400px] border-[1px] border-solid border-secondary-light-80">
         <div className="flex flex-row items-center justify-center gap-[10px]">
           <img
@@ -57,7 +57,7 @@ const Column = ({
           {clientName}
         </div>
         <div
-          className="self-stretch h-[125px] relative text-base leading-[25px] font-paragraphs-para-18px-semibold text-secondary-dark-50 inline-block"
+          className="self-stretch h-[125px] relative text-base leading-[25px] font-custom-bold text-secondary-dark-50 inline-block"
           style={reviewText1Style}
         >
           {reviewText}
@@ -95,7 +95,7 @@ const Column = ({
         <div className="self-stretch relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
           {clientName1}
         </div>
-        <div className="self-stretch relative text-base leading-[25px] font-paragraphs-para-18px-semibold text-secondary-dark-50">
+        <div className="self-stretch relative text-base leading-[25px] font-custom-bold text-secondary-dark-50">
           {reviewText1}
         </div>
       </div>
@@ -132,7 +132,7 @@ const Column = ({
           {clientName2}
         </div>
         <div
-          className="self-stretch h-[125px] relative text-base leading-[25px] font-paragraphs-para-18px-semibold text-secondary-dark-50 inline-block"
+          className="self-stretch h-[125px] relative text-base leading-[25px] font-custom-bold text-secondary-dark-50 inline-block"
           style={reviewText2Style}
         >
           {reviewText2}

@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-       <footer className="self-stretch bg-primary-dark-80 overflow-hidden flex flex-col items-center justify-center pt-[100px] px-0 pb-0 box-border gap-[100px] max-w-full text-left text-41xl-2 text-secondary-light-10 font-sub-headings-sub-heading-26px-semibold mq450:gap-[100px] mq750:gap-[100px] mq750:pt-[65px] mq750:box-border">
+       <footer className="self-stretch bg-primary-dark-80 overflow-hidden flex flex-col items-center justify-center pt-[100px] px-0 pb-0 box-border gap-[100px] max-w-full text-left text-60.2-custom text-secondary-light-10 font-familymain mq450:gap-[100px] mq750:gap-[100px] mq750:pt-[65px] mq750:box-border">
       <div className="w-[1280px] flex flex-row flex-wrap items-start justify-between py-0 pr-[21px] pl-5 box-border gap-[20px] max-w-full">
         <div className="flex flex-col items-start justify-start gap-[20px]">
           <div className="flex flex-row items-center justify-start gap-[13.37px] ">
@@ -13,7 +13,7 @@ const Footer = () => {
               alt=""
               src="/main-logo.png"
             />
-            {/* <div className="relative leading-[68.74px] font-semibold text-transparent !bg-clip-text [background:linear-gradient(140.99deg,_#f8efff,_#6b27ef)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] mq450:text-17xl mq450:leading-[41px] mq750:text-29xl mq750:leading-[55px]">
+            {/* <div className="relative leading-[68.74px] font-semibold text-transparent !bg-clip-text [background:linear-gradient(140.99deg,_#f8efff,_#6b27ef)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] mq450:text-36-custom mq450:leading-[41px] mq750:text-48-custom mq750:leading-[55px]">
               TechCreare
             </div> */}
           </div>
@@ -37,25 +37,25 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-[847px] flex flex-col items-start justify-start gap-[60px] max-w-full text-23xl mq1050:gap-[60px]">
+        <div className="w-[847px] flex flex-col items-start justify-start gap-[60px] max-w-full text-42-custom mq1050:gap-[60px]">
           <div className="self-stretch flex flex-col items-start justify-start gap-[10px]">
-            <h1 className="m-0 self-stretch h-[50px] relative text-inherit font-bold font-inherit inline-block mq450:text-6xl mq750:text-15xl">
+            <h1 className="m-0 self-stretch h-[50px] relative text-inherit font-bold font-inherit inline-block mq450:text-25-custom mq750:text-34-custom">
               About Us
             </h1>
-            <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-secondary-light-30">
+            <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-light-30">
               With a mission focused on strategic marketing, we're here to be
               your trusted partner, helping you navigate the complex marketing
               landscape. Choose us for our expertise, experience, and unwavering
               dedication to your success.
             </div>
           </div>
-          <div className="self-stretch flex flex-row flex-wrap items-start justify-start py-0 pr-0.5 pl-0 gap-[10px] text-7xl">
+          <div className="self-stretch flex flex-row flex-wrap items-start justify-start py-0 pr-0.5 pl-0 gap-[10px] text-26-custom">
             <div className="h-48 flex-1 flex flex-col items-start justify-start min-w-[200px]">
               <div className="self-stretch flex flex-col items-start justify-start gap-[10px]">
-                <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-2xl mq450:leading-[29px]">
+                <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
                   Quick Links
                 </h2>
-                <div className="flex flex-col items-start justify-start gap-[6px] text-base text-secondary-light-70 font-paragraphs-para-18px-semibold">
+                <div className="flex flex-col items-start justify-start gap-[6px] text-base text-secondary-light-70 font-custom-bold">
                   <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
                       Home
@@ -101,10 +101,10 @@ const Footer = () => {
             </div>
             <div className="h-48 flex-1 flex flex-col items-start justify-start min-w-[200px]">
               <div className="self-stretch flex flex-col items-start justify-start gap-[10px]">
-                <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-2xl mq450:leading-[29px]">
+                <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
                   Services
                 </h2>
-                <div className="flex flex-col items-start justify-start gap-[6px] text-base text-secondary-light-70 font-paragraphs-para-18px-semibold">
+                <div className="flex flex-col items-start justify-start gap-[6px] text-base text-secondary-light-70 font-custom-bold">
                   <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
                       Digital Marketing
@@ -148,10 +148,10 @@ const Footer = () => {
             </div>
             <div className="h-48 flex-1 flex flex-col items-start justify-start min-w-[200px]">
               <div className="self-stretch flex flex-col items-start justify-start gap-[10px]">
-                <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-2xl mq450:leading-[29px]">
+                <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
                   Contact Info
                 </h2>
-                <div className="flex flex-col items-start justify-start gap-[6px] text-base text-secondary-light-70 font-paragraphs-para-18px-semibold">
+                <div className="flex flex-col items-start justify-start gap-[6px] text-base text-secondary-light-70 font-custom-bold">
                   <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
                       Email Us
@@ -198,7 +198,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="self-stretch bg-secondary-dark-20 box-border flex flex-row flex-wrap items-center justify-center py-[30px] px-5 max-w-full text-left text-lg text-secondary-light-30 font-paragraphs-para-18px-semibold border-t-[1px] border-solid border-secondary-dark-60">
+      <div className="self-stretch bg-secondary-dark-20 box-border flex flex-row flex-wrap items-center justify-center py-[30px] px-5 max-w-full text-left text-lg text-secondary-light-30 font-custom-bold border-t-[1px] border-solid border-secondary-dark-60">
       <div
         className="w-[914px] relative leading-[27px] font-medium inline-block shrink-0 max-w-full"
        

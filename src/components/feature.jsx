@@ -1,22 +1,22 @@
 
 const Feature = () => {
   return (
-    <section className="self-stretch [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] overflow-hidden flex flex-row items-center justify-center py-[120px] px-5 box-border max-w-full text-center text-35xl text-secondary-light-10 font-sub-headings-sub-heading-26px-semibold mq450:pt-[33px] mq450:pb-[33px] mq450:box-border mq1050:pt-[51px] mq1050:pb-[51px] mq1050:box-border mq1250:pt-[78px] mq1250:pb-[78px] mq1250:box-border">
+    <section className="self-stretch [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] overflow-hidden flex flex-row items-center justify-center py-[120px] px-5 box-border max-w-full text-center text-54-custom text-secondary-light-10 font-familymain mq450:pt-[33px] mq450:pb-[33px] mq450:box-border mq1050:pt-[51px] mq1050:pb-[51px] mq1050:box-border mq1250:pt-[78px] mq1250:pb-[78px] mq1250:box-border">
       <div className="w-[1240px] flex flex-col items-center justify-start gap-[80px] max-w-full mq450:gap-[80px] mq750:gap-[80px]">
         <div
           className="w-[700px] flex flex-col items-center justify-start gap-[15px] min-w-[360px] max-w-full"
           data-aos="fade-up"
         >
-          <h1 className="m-0 self-stretch h-[130px] relative text-inherit font-bold font-inherit inline-block mq450:text-13xl mq750:text-24xl">
+          <h1 className="m-0 self-stretch h-[130px] relative text-inherit font-bold font-inherit inline-block mq450:text-32-custom mq750:text-43-custom">
             Experience the Power of Effective Marketing
           </h1>
-          <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-secondary-light-40">
+          <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-light-40">
             Together, we'll transform your ideas into tangible, measurable
             results, driving real growth and helping you build a stronger, more
             successful brand.
           </div>
           <button className="cursor-pointer [border:none] py-[15px] pr-[29px] pl-[30px] bg-[transparent] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-start box-border gap-[11px] min-w-[140px] whitespace-nowrap">
-            <b className="relative text-base leading-[28px] font-paragraphs-para-18px-semibold text-secondary-light-10 text-left">
+            <b className="relative text-base leading-[28px] font-custom-bold text-secondary-light-10 text-left">
               Get Started Now
             </b>
             <img
@@ -26,7 +26,7 @@ const Feature = () => {
             />
           </button>
         </div>
-        <div className="self-stretch flex flex-col items-center justify-start gap-[60px] text-left text-base-3 font-h4-desktop-h4-bold">
+        <div className="self-stretch flex flex-col items-center justify-start gap-[60px] text-left text-16.3-custom font-h4-desktop-h4-bold">
           <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px]">
             <div className="flex-1 rounded-medium-text h-[480px] flex flex-col items-end justify-end p-[30px] box-border bg-[url('/public/image1@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px]" data-aos="fade-right">
               <div className="relative rounded-[14.24px] bg-gray-200 [backdrop-filter:blur(25.45px)] w-[280px] h-[205.6px] overflow-hidden shrink-0">
@@ -116,7 +116,7 @@ const Feature = () => {
               data-aos="fade-left"
               data-aos-duration="700"
             >
-              <div className="self-stretch relative   text-24xl mq450:text-13xl mq750:text-24xl font-semibold text-secondary-light-10">
+              <div className="self-stretch relative   text-43-custom mq450:text-32-custom mq750:text-43-custom font-semibold text-secondary-light-10">
                 Partner with Us for Strategic Marketing Excellence
               </div>
               <div className="self-stretch relative text-xl leading-[30px] font-medium">
@@ -168,7 +168,7 @@ const Feature = () => {
                 </div>
               </div>
               <button className="cursor-pointer group border-[2px] border-solid border-secondary-light-10 py-[15px] px-[30px] bg-[transparent] rounded-26xl-7 hover:bg-primary-80 hover:border-primary-80 flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap" data-aos="fade-right" data-aos-duration="200">
-                <b className="  relative text-base leading-[28px] font-paragraphs-para-18px-semibold text-secondary-light-10 text-left">
+                <b className="  relative text-base leading-[28px] font-custom-bold text-secondary-light-10 text-left">
                   Get Started Now
                 </b>
                 <img
@@ -181,7 +181,7 @@ const Feature = () => {
           </div>
           <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px] text-base text-secondary-light-30 font-paragraphs-para-16px-semibold">
             <div className="flex-1 flex flex-col items-start justify-center gap-[20px] min-w-[360px]" data-aos="fade-right">
-              <div className="self-stretch relative   text-24xl mq450:text-13xl mq750:text-24xl font-semibold text-secondary-light-10">
+              <div className="self-stretch relative   text-43-custom mq450:text-32-custom mq750:text-43-custom font-semibold text-secondary-light-10">
                 Driving Real Business Growth and Building Stronger Brands
               </div>
               <div className="self-stretch relative text-xl leading-[30px] font-medium">
@@ -231,7 +231,7 @@ const Feature = () => {
                   </div>
                 </div>
                 <button className="group transition ease-in-out duration-300 cursor-pointer py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-secondary-light-10 text-secondary-light-10  hover:bg-primary-80 hover:box-border hover:border-[2px] hover:border-solid hover:border-primary-80">
-                  <div className="relative text-base leading-[25px] font-semibold font-paragraphs-para-18px-semibold text-secondary-light-10 text-left">
+                  <div className="relative text-base leading-[25px] font-semibold font-custom-bold text-secondary-light-10 text-left">
                     Get Started Now
                   </div>
                   <img
@@ -244,7 +244,7 @@ const Feature = () => {
 
 
             </div>
-            <div className="flex-1 rounded-medium-text h-[480px] flex flex-col items-start justify-end p-[30px] box-border bg-[url('/public/image1@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] text-mid-5 text-secondary-light-10 font-h4-desktop-h4-bold" data-aos="fade-left">
+            <div className="flex-1 rounded-medium-text h-[480px] flex flex-col items-start justify-end p-[30px] box-border bg-[url('/public/image1@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] text-17.5-custom text-secondary-light-10 font-h4-desktop-h4-bold" data-aos="fade-left">
               <div className="relative rounded-[12.71px] bg-gray-200 [backdrop-filter:blur(25px)] w-[250px] h-[268.4px] overflow-hidden shrink-0">
                 <div className="absolute top-[22.6px] left-[22.6px] w-[204.8px] flex flex-row items-center justify-start">
                   <div className="flex-1 relative tracking-[-0.03em] leading-[16.95px] font-semibold">

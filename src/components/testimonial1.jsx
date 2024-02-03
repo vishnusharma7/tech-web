@@ -2,7 +2,7 @@ import Row1 from "./row1";
 
 const Testimonial1 = () => {
   return (
-    <section className="self-stretch bg-secondary-light-10 overflow-hidden flex flex-col items-center justify-start py-[90px] px-5 box-border gap-[50px] max-w-full text-left text-35xl text-secondary-dark-20 font-sub-headings-sub-heading-26px-semibold mq750:gap-[50px] mq750:pt-[58px] mq750:pb-[58px] mq750:box-border">
+    <section className="self-stretch bg-secondary-light-10 overflow-hidden flex flex-col items-center justify-start py-[90px] px-5 box-border gap-[50px] max-w-full text-left text-54-custom text-secondary-dark-20 font-familymain mq750:gap-[50px] mq750:pt-[58px] mq750:pb-[58px] mq750:box-border">
       <Row1
         heading="See What Clients Are Raving About"
         image="/image-2@2x.png"

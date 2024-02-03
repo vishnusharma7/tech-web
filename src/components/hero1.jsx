@@ -46,14 +46,14 @@ const Hero1 = () => {
     };
   }, [counter1, counter2, counter3, counter4, counter5]);
   return (
-    <section className="self-stretch bg-primary-20 overflow-hidden flex flex-col items-center justify-center py-[100px] px-5 box-border max-w-full text-center text-41xl text-secondary-dark-20 font-paragraphs-para-18px-semibold mq750:pt-[42px] mq750:pb-[42px] mq750:box-border mq1250:gap-[60px] mq1250:pt-[65px] mq1250:pb-[65px] mq1250:box-border">
+    <section className="self-stretch bg-primary-20 overflow-hidden flex flex-col items-center justify-center py-[100px] px-5 box-border max-w-full text-center text-60-custom text-secondary-dark-20 font-custom-bold mq750:pt-[42px] mq750:pb-[42px] mq750:box-border mq1250:gap-[60px] mq1250:pt-[65px] mq1250:pb-[65px] mq1250:box-border">
       <div className="w-[1140px] rounded-11xl flex flex-col items-center justify-center gap-[50px] max-w-full mq750:gap-[50px]">
         
          <div
-      className="w-[850px] flex flex-col items-center justify-center gap-[25px] min-w-[360px] max-w-full text-center text-41xl text-secondary-dark-20 font-paragraphs-para-18px-semibold"
+      className="w-[850px] flex flex-col items-center justify-center gap-[25px] min-w-[360px] max-w-full text-center text-60-custom text-secondary-dark-20 font-custom-bold"
       
     >
-      <h1 className="m-0 self-stretch  relative text-inherit font-bold font-sub-headings-sub-heading-26px-semibold inline-block mq450:text-17xl mq750:text-29xl" data-aos="fade-up">
+      <h1 className="m-0 self-stretch  relative text-inherit font-bold font-familymain inline-block mq450:text-36-custom mq750:text-48-custom" data-aos="fade-up">
       Our Expertise: Navigating the Marketing Landscape
       </h1>
       <div className="self-stretch relative text-lg leading-[27px] font-medium text-secondary-dark-40" data-aos="fade-up" data-aos-delay="100">
@@ -119,44 +119,44 @@ const Hero1 = () => {
             src="/stripe.svg"
           />
         </div>
-        <div className="self-stretch flex flex-row flex-wrap items-center justify-start py-0 pr-0.5 pl-0 gap-[22px] text-29xl font-sub-headings-sub-heading-26px-semibold">
+        <div className="self-stretch flex flex-row flex-wrap items-center justify-start py-0 pr-0.5 pl-0 gap-[22px] text-48-custom font-familymain">
           <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]" data-aos="fade-up" data-aos-delay="100">
-            <div className="self-stretch h-[58px] relative font-semibold text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-10xl mq750:text-19xl">
+            <div className="self-stretch h-[58px] relative font-semibold text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-29-custom mq750:text-38-custom">
               {counter1}+
             </div>
-            <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-transparent !bg-clip-text [background:linear-gradient(96.6deg,_#2c0058,_#06000c_66.67%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
+            <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-transparent !bg-clip-text [background:linear-gradient(96.6deg,_#2c0058,_#06000c_66.67%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
               Expert Members
             </div>
           </div>
           <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]" data-aos="fade-up" data-aos-delay="200"> 
-            <div className="self-stretch h-[58px] relative font-semibold text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-10xl mq750:text-19xl">
+            <div className="self-stretch h-[58px] relative font-semibold text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-29-custom mq750:text-38-custom">
             {counter2}+
             </div>
-            <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-transparent !bg-clip-text [background:linear-gradient(96.6deg,_#2c0058,_#06000c_66.67%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
+            <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-transparent !bg-clip-text [background:linear-gradient(96.6deg,_#2c0058,_#06000c_66.67%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
               Marketing Tactics
             </div>
           </div>
           <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]" data-aos="fade-up" data-aos-delay="300">
-            <div className="self-stretch h-[58px] relative font-semibold text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-10xl mq750:text-19xl">
+            <div className="self-stretch h-[58px] relative font-semibold text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-29-custom mq750:text-38-custom">
             {counter3}+
             </div>
-            <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-transparent !bg-clip-text [background:linear-gradient(96.6deg,_#2c0058,_#06000c_66.67%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
+            <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-transparent !bg-clip-text [background:linear-gradient(96.6deg,_#2c0058,_#06000c_66.67%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
               Industry Experience
             </div>
           </div>
           <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]" data-aos="fade-up" data-aos-delay="400">
-            <div className="self-stretch h-[58px] relative font-semibold text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-10xl mq750:text-19xl">
+            <div className="self-stretch h-[58px] relative font-semibold text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-29-custom mq750:text-38-custom">
             {counter4}%
             </div>
-            <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-transparent !bg-clip-text [background:linear-gradient(96.6deg,_#2c0058,_#06000c_66.67%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
+            <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-transparent !bg-clip-text [background:linear-gradient(96.6deg,_#2c0058,_#06000c_66.67%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
               Client Satisfaction
             </div>
           </div>
           <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[160px]" data-aos="fade-up" data-aos-delay="500">
-            <div className="self-stretch h-[58px] relative font-semibold text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-10xl mq750:text-19xl">
+            <div className="self-stretch h-[58px] relative font-semibold text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-29-custom mq750:text-38-custom">
             {counter5}+
             </div>
-            <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-transparent !bg-clip-text [background:linear-gradient(96.6deg,_#2c0058,_#06000c_66.67%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
+            <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-transparent !bg-clip-text [background:linear-gradient(96.6deg,_#2c0058,_#06000c_66.67%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
               Global Companies
             </div>
           </div>

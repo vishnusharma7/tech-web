@@ -33,10 +33,10 @@ const Services = () => {
   };
 
   return (
-    <section className="self-stretch bg-secondary-light-10 overflow-hidden flex flex-row items-center justify-center py-[10px] px-5 box-border max-w-full text-left text-xl text-secondary-dark-20 font-sub-headings-sub-heading-26px-semibold mq750:pt-[42px] mq750:pb-[42px] mq750:box-border mq1050:pt-[65px] mq1050:pb-[65px] mq1050:box-border" data-aos="fade-up">
+    <section className="self-stretch bg-secondary-light-10 overflow-hidden flex flex-row items-center justify-center py-[10px] px-5 box-border max-w-full text-left text-xl text-secondary-dark-20 font-familymain mq750:pt-[42px] mq750:pb-[42px] mq750:box-border mq1050:pt-[65px] mq1050:pb-[65px] mq1050:box-border" data-aos="fade-up">
       <div className="w-[1240px] flex flex-col items-center justify-start gap-[50px] max-w-full mq750:gap-[50px]">
-        <div className="w-[632px] flex flex-col items-start justify-start gap-[15px] min-w-[360px] max-w-full text-center text-35xl text-secondary-dark-20 font-paragraphs-para-18px-semibold">
-          <h1 className="m-0 self-stretch  relative text-inherit font-bold font-sub-headings-sub-heading-26px-semibold inline-block mq750:text-24xl mq450:text-13xl">
+        <div className="w-[632px] flex flex-col items-start justify-start gap-[15px] min-w-[360px] max-w-full text-center text-54-custom text-secondary-dark-20 font-custom-bold">
+          <h1 className="m-0 self-stretch  relative text-inherit font-bold font-familymain inline-block mq750:text-43-custom mq450:text-32-custom">
             Offering End-to-End Marketing Solution
           </h1>
           <div className="self-stretch relative text-lg leading-[27px] font-medium text-secondary-dark-40">
@@ -72,26 +72,26 @@ const Services = () => {
                     src="/ads.svg"
                   />
                 </div>
-                <div className="relative text-xl leading-[30px] font-semibold font-sub-headings-sub-heading-26px-semibold text-secondary-dark-20 text-left mq450:text-base mq450:leading-[24px]">
+                <div className="relative text-xl leading-[30px] font-semibold font-familymain text-secondary-dark-20 text-left mq450:text-base mq450:leading-[24px]">
                   {tab.title}
                 </div>
               </button>
             ))}
           </div>
-          <div className="self-stretch rounded-xl bg-secondary-light-10 box-border overflow-hidden flex flex-row flex-wrap items-center justify-center py-0 pr-px pl-0 gap-[29px] max-w-full text-11xl border-[1px] border-solid border-secondary-light-80">
+          <div className="self-stretch rounded-xl bg-secondary-light-10 box-border overflow-hidden flex flex-row flex-wrap items-center justify-center py-0 pr-px pl-0 gap-[29px] max-w-full text-30-custom border-[1px] border-solid border-secondary-light-80">
             <div className="flex-[0.8584] rounded-3xs flex flex-col items-start justify-center py-5 pr-20 pl-10 box-border gap-[10px] min-w-[360px] max-w-full mq750:pr-10 mq750:box-border">
               {tabData.map((tab, index) => (
                 <div key={index} className={`${activeTab === tab.title ? 'block' : 'hidden'}`}>
                   <div className="self-stretch flex flex-col items-start justify-center gap-[20px] min-w-[360px]">
-                    <h2 className="m-0 self-stretch h-[72px] relative text-inherit font-semibold font-inherit inline-block mq450:text-lg mq750:text-5xl">
+                    <h2 className="m-0 self-stretch h-[72px] relative text-inherit font-semibold font-inherit inline-block mq450:text-lg mq750:text-24-custom">
                       {tab.title}
                     </h2>
-                    <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-secondary-dark-40">
+                    <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-dark-40">
                       {tab.content}
                     </div>
 
                     <button className="cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80  hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100 ">
-                      <div className="relative text-base leading-[25px] font-semibold font-paragraphs-para-18px-semibold text-primary-dark-80 text-left">
+                      <div className="relative text-base leading-[25px] font-semibold font-custom-bold text-primary-dark-80 text-left">
                         Get Started Now
                       </div>
                       <img
@@ -101,7 +101,7 @@ const Services = () => {
                       />
                     </button>
                   </div>
-                  <div className="self-stretch flex flex-row flex-wrap items-center justify-start py-2.5 px-0 box-border gap-[10px] min-h-[80px] text-base text-secondary-dark-50 font-paragraphs-para-18px-semibold">
+                  <div className="self-stretch flex flex-row flex-wrap items-center justify-start py-2.5 px-0 box-border gap-[10px] min-h-[80px] text-base text-secondary-dark-50 font-custom-bold">
                     <div className="flex flex-row items-center justify-start gap-[4px]">
                       <img
                         className="h-3.5 w-3.5 relative"
@@ -136,7 +136,7 @@ const Services = () => {
                 </div>
               ))}
             </div>
-            <div className="flex-1 flex flex-row items-end justify-start py-[21px] px-5 box-border bg-[url('/public/column-right@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[335px] min-h-[450px] max-w-full text-base-8 text-secondary-light-10">
+            <div className="flex-1 flex flex-row items-end justify-start py-[21px] px-5 box-border bg-[url('/public/column-right@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[335px] min-h-[450px] max-w-full text-16.8-custom text-secondary-light-10">
               <div className="w-[300px] rounded-2xl-6 bg-gray-400 [backdrop-filter:blur(24px)] overflow-hidden shrink-0 flex flex-row items-center justify-center pt-[27px] px-[26px] pb-[26px] box-border">
                 <div className="flex-1 flex flex-row items-start justify-start py-0 px-px gap-[34px] mq450:flex-wrap">
                   <div className="flex-1 flex flex-col items-start justify-start gap-[21px] min-w-[84px]">

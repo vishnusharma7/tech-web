@@ -2,10 +2,10 @@ import Card from "./card";
 
 const Testimonial = () => {
   return (
-    <section className="self-stretch bg-primary-20 overflow-hidden flex flex-row items-center justify-center py-[120px] px-5 box-border max-w-full text-center text-35xl text-secondary-dark-20 font-paragraphs-para-18px-semibold mq1050:pt-[51px] mq1050:pb-[51px] mq1050:box-border mq1250:pt-[78px] mq1250:pb-[78px] mq1250:box-border mq450:pt-[33px] mq450:pb-[33px] mq450:box-border">
+    <section className="self-stretch bg-primary-20 overflow-hidden flex flex-row items-center justify-center py-[120px] px-5 box-border max-w-full text-center text-54-custom text-secondary-dark-20 font-custom-bold mq1050:pt-[51px] mq1050:pb-[51px] mq1050:box-border mq1250:pt-[78px] mq1250:pb-[78px] mq1250:box-border mq450:pt-[33px] mq450:pb-[33px] mq450:box-border">
       <div className="w-[1240px] flex flex-col items-center justify-start gap-[50px] max-w-full mq750:gap-[50px]">
 
-        <div className="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full text-left text-23xl text-secondary-dark-30 font-sub-headings-sub-heading-26px-semibold">
+        <div className="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full text-left text-42-custom text-secondary-dark-30 font-familymain">
           <div className="self-stretch flex flex-row items-start justify-start gap-[30px] max-w-full mq1050:flex-wrap">
             <img
               className="h-[555px] flex-1 relative rounded-xl max-w-full overflow-hidden object-cover min-w-[393px] min-h-[555px] mq1050:flex-1 mq750:min-w-full"
@@ -14,17 +14,17 @@ const Testimonial = () => {
               src="/image@2x.png"
             />
             <div className="flex-[0.8975] rounded-6xl bg-secondary-light-10 shadow-[4px_4px_30px_rgba(0,_0,_0,_0.05)] box-border flex flex-col items-center justify-start p-[30px] gap-[20px] min-w-[393px] max-w-full border-[1px] border-solid border-secondary-light-70 mq1050:flex-1 mq750:pt-5 mq750:pb-5 mq750:box-border mq750:min-w-full">
-              <h1 className="m-0 self-stretch h-[250px] relative text-inherit font-semibold font-inherit inline-block mq750:text-15xl mq450:text-6xl">
+              <h1 className="m-0 self-stretch h-[250px] relative text-inherit font-semibold font-inherit inline-block mq750:text-34-custom mq450:text-25-custom">
                 "Outstanding service! Our business has seen a significant boost
                 in online visibility since partnering with them."
               </h1>
-              <div className="self-stretch flex flex-col items-start justify-start py-0 px-[9px] gap-[10px] text-3xl text-secondary-dark-40 font-paragraphs-para-18px-semibold">
+              <div className="self-stretch flex flex-col items-start justify-start py-0 px-[9px] gap-[10px] text-22-custom text-secondary-dark-40 font-custom-bold">
                 <img
                   className="w-[75px] h-[75px] relative rounded-[50%] object-cover"
                   alt=""
                   src="/image-1@2x.png"
                 />
-                <h3 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-sub-headings-sub-heading-26px-semibold mq450:text-lg mq450:leading-[29px]">
+                <h3 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-familymain mq450:text-lg mq450:leading-[29px]">
                   Steven Franklin
                 </h3>
                 <div className="self-stretch relative text-lg leading-[27px] font-semibold text-secondary-dark-50">
