@@ -83,6 +83,7 @@ const Statistics = () => {
           <div className="flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[120px]" data-aos="fade-up" data-aos-delay="100">
             <div className="self-stretch h-[58px] relative font-semibold inline-block mq450:text-10xl mq750:text-19xl">
             {counter1}+
+            
             </div>
             <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-secondary-dark-40">
               Expert Entrepreneurs
