@@ -396,7 +396,7 @@ const Content = ({
             </div>
           </div>
           <button
-            className="cursor-pointer py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100"
+            className="cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100"
             style={btn1Style}
           >
             <div
@@ -406,7 +406,7 @@ const Content = ({
               Get Started Now
             </div>
             <img
-              className="h-6 w-6 relative overflow-hidden shrink-0"
+              className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
               alt=""
               src={btnIcons}
             />
@@ -467,7 +467,7 @@ const Content = ({
             </div>
           </div>
           <button
-            className="cursor-pointer py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100"
+            className="cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100"
             style={bTNStyle}
           >
             <div
@@ -477,7 +477,7 @@ const Content = ({
               Get Started Now
             </div>
             <img
-              className="h-6 w-6 relative overflow-hidden shrink-0"
+              className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
               alt=""
               src={btnIcons1}
             />

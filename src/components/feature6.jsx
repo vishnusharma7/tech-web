@@ -122,12 +122,12 @@ const Feature6 = () => {
               </div>
             </div>
           </div>
-          <button className="cursor-pointer py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-secondary-light-30 hover:bg-gainsboro-400 hover:box-border hover:border-[2px] hover:border-solid hover:border-gainsboro-200">
+          <button className=" group cursor-pointer py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-secondary-light-30 hover:bg-primary-80 hover:box-border hover:border-[2px] hover:border-solid hover:border-primary-80">
             <div className="relative text-base leading-[25px] font-semibold font-paragraphs-para-18px-semibold text-secondary-light-30 text-left">
               Get Started Now
             </div>
             <img
-              className="h-6 w-6 relative overflow-hidden shrink-0"
+              className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
               alt=""
               src="/btn-icons-4.svg"
             />

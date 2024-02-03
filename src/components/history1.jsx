@@ -10,7 +10,7 @@ const History1 = () => {
             It's our commitment to innovation, data-driven strategies, and a
             customer-centric approach.
           </div>
-          <button className="cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:bg-primary-80 hover:box-border hover:border-[2px] hover:border-solid hover:border-primary-80">
+          <button className="cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:box-border hover:border-[2px] hover:border-solid ">
             <div className="relative text-base leading-[25px] font-semibold font-paragraphs-para-18px-semibold text-primary-dark-80 text-left">
               Get Started Now
             </div>
