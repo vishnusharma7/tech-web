@@ -28,7 +28,7 @@ const Feature5 = () => {
             <div className="flex-1 rounded-medium-text h-[480px] flex flex-col items-end justify-end p-[30px] box-border bg-[url('/public/image1@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px]" data-aos="fade-right">
               <div className="relative rounded-[14.24px] bg-gray-200 [backdrop-filter:blur(25.45px)] w-[280px] h-[205.6px] overflow-hidden shrink-0">
                 <div className="absolute top-[25.3px] left-[25.3px] w-[229.4px] flex flex-row items-start justify-start gap-[9.49px]">
-                  <div className="flex-1 relative tracking-[-0.03em] leading-[18.98px] font-semibold">
+                  <div className="flex-1 relative tracking-[-0.03em] leading-[18.98px] font-semibold text-secondary-light-80">
                     Total Views
                   </div>
                   <div className="shrink-0 flex flex-row items-center justify-start py-[1.581921100616455px] px-0 gap-[6.33px]">
@@ -178,14 +178,14 @@ const Feature5 = () => {
           </div>
           <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px] text-base text-secondary-light-30 font-paragraphs-para-16px-semibold">
             <div className="flex-1 flex flex-col items-start justify-center gap-[20px] min-w-[360px]" data-aos="fade-right">
-              <div className="self-stretch relative   text-24xl mq450:text-13xl mq750:text-24xl font-semibold text-secondary-light-10">
+              <div className="self-stretch relative   text-24xl mq450:text-13xl mq750:text-24xl font-semibold text-primary-dark-80">
                 Driving Real Business Growth and Building Stronger Brands
               </div>
               <div className="self-stretch relative text-xl leading-[30px] font-medium">
                 We're more than just a marketing firm; we're your dedicated
                 partners in success.
               </div>
-              <div className="self-stretch flex flex-col items-start justify-start gap-[8px] text-secondary-light-40">
+              <div className="self-stretch flex flex-col items-start justify-start gap-[8px] text-primary-dark-80">
                 <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
                   <img
                     className="relative w-3.5 h-3.5 object-cover"
