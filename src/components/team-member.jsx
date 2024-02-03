@@ -13,7 +13,7 @@ const TeamMember = ({ image }) => {
           <h3 className="m-0 self-stretch relative text-inherit leading-[30px] font-semibold font-inherit mq450:text-lgi mq450:leading-[24px]">
             James David
           </h3>
-          <div className="self-stretch relative text-sm leading-[20px] font-medium font-paragraphs-para-18px-semibold">{`With over a decade of experience in digital marketing, He leads the agency with his visionary strategies and sharp insights. `}</div>
+          <div className="self-stretch relative text-sm leading-[20px] font-medium font-paragraphs-para-18px-semibold">With over a decade of experience in digital marketing, He leads the agency with his visionary strategies and sharp insights.</div>
         </div>
         <div className="self-stretch flex flex-col items-start justify-center gap-[10px]">
           <div className="self-stretch relative leading-[20px] font-medium">

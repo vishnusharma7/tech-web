@@ -1,4 +1,3 @@
-import CTA3 from "./c-t-a3";
 import Card from "./card";
 
 const Testimonial = () => {

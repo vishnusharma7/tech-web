@@ -1,15 +1,30 @@
-import CTA2 from "./c-t-a2";
 
 const Contact = () => {
   return (
     <section className="self-stretch overflow-hidden flex flex-col items-center justify-center py-[100px] px-5 box-border max-w-full text-center text-7xl text-secondary-dark-20 font-sub-headings-sub-heading-26px-semibold mq1050:pt-[42px] mq1050:pb-[42px] mq1050:box-border mq1250:pt-[65px] mq1250:pb-[65px] mq1250:box-border mq450:pt-[27px] mq450:pb-[27px] mq450:box-border">
       <div className="w-[1240px] flex flex-col items-center justify-center gap-[60px] max-w-full mq750:gap-[60px]">
-        <CTA2
-          heading="Get in Touch with Our Expert Marketing Team"
-          para="Our experienced team is passionate about helping your business thrive in the digital landscape. Drive your marketing efforts to new heights."
-          paraWidth="1000px"
-          paraGap="15px"
-        />
+        <div
+          className="w-[850px] flex flex-col items-center justify-center gap-[25px] min-w-[360px] max-w-full text-center text-41xl text-secondary-dark-20 font-paragraphs-para-18px-semibold" data-aos="fade-right" data-aos-duration="700"
+
+        >
+          <h1 className="m-0 self-stretch  relative text-inherit font-bold font-sub-headings-sub-heading-26px-semibold inline-block mq450:text-17xl mq750:text-29xl">
+            Get in Touch with Our Expert Marketing Team
+          </h1>
+          <div className="self-stretch relative text-lg leading-[27px] font-medium text-secondary-dark-40">
+            Our experienced team is passionate about helping your business thrive in the digital landscape. Drive your marketing efforts to new heights.
+          </div>
+          <div className="w-[225px] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hidden flex-row items-center justify-center py-[15px] px-[30px] box-border gap-[10px] min-w-[140px] whitespace-nowrap text-left text-base text-secondary-light-10">
+            <b className="h-7 flex-1 relative leading-[28px] inline-block">
+              Get Started Now
+            </b>
+            <img
+              className="h-6 w-6 relative overflow-hidden shrink-0"
+              alt=""
+              src="/btn-icons.svg"
+            />
+          </div>
+        </div>
+
         <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[40px] max-w-full mq750:gap-[40px]">
 
           <div className="flex-1 rounded-xl bg-secondary-light-10 shadow-[5px_5px_30px_rgba(0,_0,_0,_0.05)] box-border overflow-hidden flex flex-col items-center justify-center py-[30px] px-[29px] gap-[20px] min-w-[280px] max-w-full text-center text-7xl text-secondary-dark-20 font-sub-headings-sub-heading-26px-semibold border-[1px] border-solid border-secondary-light-80" data-aos="fade-up">

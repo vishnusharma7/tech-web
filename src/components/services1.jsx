@@ -1,5 +1,7 @@
-import Feature4 from "./feature4";
-import Feature3 from "./feature3";
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable react/no-unescaped-entities */
+
 import React, { useState } from "react";
 
 const Services1 = () => {

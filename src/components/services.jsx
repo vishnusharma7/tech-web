@@ -1,5 +1,5 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
-import CTA1 from "./c-t-a1";
 
 const Services = () => {
   const tabData = [
@@ -33,22 +33,36 @@ const Services = () => {
   };
 
   return (
-    <section className="self-stretch bg-secondary-light-10 overflow-hidden flex flex-row items-center justify-center py-[100px] px-5 box-border max-w-full text-left text-xl text-secondary-dark-20 font-sub-headings-sub-heading-26px-semibold mq750:pt-[42px] mq750:pb-[42px] mq750:box-border mq1050:pt-[65px] mq1050:pb-[65px] mq1050:box-border" data-aos="fade-up">
+    <section className="self-stretch bg-secondary-light-10 overflow-hidden flex flex-row items-center justify-center py-[10px] px-5 box-border max-w-full text-left text-xl text-secondary-dark-20 font-sub-headings-sub-heading-26px-semibold mq750:pt-[42px] mq750:pb-[42px] mq750:box-border mq1050:pt-[65px] mq1050:pb-[65px] mq1050:box-border" data-aos="fade-up">
       <div className="w-[1240px] flex flex-col items-center justify-start gap-[50px] max-w-full mq750:gap-[50px]">
-        <CTA1
-          heading="Offering End-to-End Marketing Solution"
-          para="A range of marketing services, including SEO, social media management, content marketing, email campaigns, and more."
-          propWidth="632px"
-          propBackground="linear-gradient(140.99deg, #aace88, #211e3b 76.04%, #211e3b 84.38%, #211e3b)"
-        />
+        <div className="w-[632px] flex flex-col items-start justify-start gap-[15px] min-w-[360px] max-w-full text-center text-35xl text-secondary-dark-20 font-paragraphs-para-18px-semibold">
+          <h1 className="m-0 self-stretch  relative text-inherit font-bold font-sub-headings-sub-heading-26px-semibold inline-block mq750:text-24xl mq450:text-13xl">
+            Offering End-to-End Marketing Solution
+          </h1>
+          <div className="self-stretch relative text-lg leading-[27px] font-medium text-secondary-dark-40">
+            A range of marketing services, including SEO, social media management, content marketing, email campaigns, and more.
+          </div>
+          <div
+            className="w-[225px] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hidden flex-row items-center justify-center py-[15px] px-[30px] box-border gap-[10px] min-w-[140px] whitespace-nowrap text-left text-base text-secondary-light-10"
+          >
+            <b className="h-7 flex-1 relative leading-[28px] inline-block">
+              Get Started Now
+            </b>
+            <img
+              className="h-6 w-6 relative overflow-hidden shrink-0"
+              alt=""
+              src="/btn-icons.svg"
+            />
+          </div>
+        </div>
+
         <div className="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
           <div className="self-stretch flex flex-row flex-wrap items-start justify-center gap-[10px]">
             {tabData.map((tab, index) => (
               <button
                 key={index}
-                className={`cursor-pointer py-5 pr-[21px] pl-[19px] bg-secondary-light-10 rounded-xl  box-border flex flex-row items-start justify-start gap-[14px] min-w-[150px]  border-secondary-light-70 ${
-                  activeTab === tab.title ? 'border-[1px] border-solid border-secondary-light-70 shadow-[6px_6px_30px_rgba(0,_0,_0,_0.05)] active' : ''
-                }`}
+                className={`cursor-pointer py-5 pr-[21px] pl-[19px] bg-secondary-light-10 rounded-xl  box-border flex flex-row items-start justify-start gap-[14px] min-w-[150px]  border-secondary-light-70 ${activeTab === tab.title ? 'border-[1px] border-solid border-secondary-light-70 shadow-[6px_6px_30px_rgba(0,_0,_0,_0.05)] active' : ''
+                  }`}
                 onClick={() => handleTabClick(tab.title)}
               >
                 <div className="rounded-md bg-primary-80 overflow-hidden flex flex-row items-center justify-center py-1 px-[5px]">
@@ -75,17 +89,17 @@ const Services = () => {
                     <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-secondary-dark-40">
                       {tab.content}
                     </div>
-                   
+
                     <button className="cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80  hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100 ">
-                    <div className="relative text-base leading-[25px] font-semibold font-paragraphs-para-18px-semibold text-primary-dark-80 text-left">
-                      Get Started Now
-                    </div>
-                    <img
-                      className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
-                      alt=""
-                      src="/btn-icons-6.svg"
-                    />
-                  </button>
+                      <div className="relative text-base leading-[25px] font-semibold font-paragraphs-para-18px-semibold text-primary-dark-80 text-left">
+                        Get Started Now
+                      </div>
+                      <img
+                        className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
+                        alt=""
+                        src="/btn-icons-6.svg"
+                      />
+                    </button>
                   </div>
                   <div className="self-stretch flex flex-row flex-wrap items-center justify-start py-2.5 px-0 box-border gap-[10px] min-h-[80px] text-base text-secondary-dark-50 font-paragraphs-para-18px-semibold">
                     <div className="flex flex-row items-center justify-start gap-[4px]">

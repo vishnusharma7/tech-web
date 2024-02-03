@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import ColumnLeft from "./column-left";
 
 const Project = () => {

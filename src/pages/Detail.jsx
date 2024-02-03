@@ -1,7 +1,7 @@
 import React from 'react'
-import Feature5 from "../components/feature5";
+import Feature2 from "../components/feature2";
 import Services1 from "../components/services1";
-import Testimonial1 from "../components/testimonial1";
+
 import CTA3 from "../components/c-t-a3";
 import Sliders from '../components/sliders';
 
@@ -30,7 +30,7 @@ const Detail = () => {
           </button>
         </div>
       </section>
-      <Feature5 />
+      <Feature2 />
       <Services1 />
       <Sliders />
       <CTA3 />
