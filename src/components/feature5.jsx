@@ -3,26 +3,6 @@ const Feature5 = () => {
   return (
     <div className="self-stretch bg-secondary-light-20  overflow-hidden flex flex-row items-center justify-center py-[120px] px-5 box-border max-w-full text-center text-35xl text-secondary-dark-20 font-paragraphs-para-18px-semibold mq750:pt-[51px] mq750:pb-[51px] mq750:box-border mq1250:pt-[78px] mq1250:pb-[78px] mq1250:box-border">
       <div className="w-[1240px] flex flex-row items-center justify-center gap-[80px] max-w-full mq450:gap-[80px] mq750:gap-[80px]">
-        <div className="w-[700px] hidden flex-col items-center justify-center py-5 px-0 box-border gap-[15px] min-w-[360px] max-w-full">
-          <b className="self-stretch h-[130px] relative inline-block font-sub-headings-sub-heading-26px-semibold mq450:text-13xl mq750:text-24xl">
-            Experience the Power of Effective Marketing
-          </b>
-          <div className="self-stretch h-[54px] relative text-lg leading-[27px] font-medium text-secondary-dark-40 inline-block">
-            Together, we'll transform your ideas into tangible, measurable
-            results, driving real growth and helping you build a stronger, more
-            successful brand.
-          </div>
-          <div className="w-[225px] rounded-26xl-7 [background:linear-gradient(140.99deg,_#4743ff,_#8712e3)] flex flex-row items-center justify-center py-[15px] px-[30px] box-border gap-[10px] min-w-[140px] whitespace-nowrap text-left text-base text-secondary-light-10">
-            <b className="h-7 flex-1 relative leading-[28px] inline-block">
-              Get Started Now
-            </b>
-            <img
-              className=" h-6 w-6 relative overflow-hidden shrink-0"
-              alt=""
-              src="/btn-icons.svg"
-            />
-          </div>
-        </div>
         <div className="self-stretch flex flex-col   items-center justify-start gap-[60px] text-left text-base-3 font-h4-desktop-h4-bold">
           <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px]">
             <div className="flex-1 rounded-medium-text h-[480px] flex flex-col items-end justify-end p-[30px] box-border bg-[url('/public/image1@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px]" data-aos="fade-right">

@@ -5,10 +5,7 @@ const Testimonial = () => {
   return (
     <section className="self-stretch bg-primary-20 overflow-hidden flex flex-row items-center justify-center py-[120px] px-5 box-border max-w-full text-center text-35xl text-secondary-dark-20 font-paragraphs-para-18px-semibold mq1050:pt-[51px] mq1050:pb-[51px] mq1050:box-border mq1250:pt-[78px] mq1250:pb-[78px] mq1250:box-border mq450:pt-[33px] mq450:pb-[33px] mq450:box-border">
       <div className="w-[1240px] flex flex-col items-center justify-start gap-[50px] max-w-full mq750:gap-[50px]">
-        <CTA3
-          heading="Read Success Stories from Our Ever-Growing 800+ Client Family"
-          para="That's the essence of our approach. We're more than just a service provider; we're a team of passionate professionals who are committed to helping you unlock your brand's full potential."
-        />
+       
         <div className="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full text-left text-23xl text-secondary-dark-30 font-sub-headings-sub-heading-26px-semibold">
           <div className="self-stretch flex flex-row items-start justify-start gap-[30px] max-w-full mq1050:flex-wrap">
             <img
