@@ -32,15 +32,7 @@ const Testimonial = () => {
                 </div>
                 <div className="self-stretch relative text-sm [text-decoration:underline] leading-[25px] font-semibold text-secondary-dark-60">{`View Customer Story >`}</div>
               </div>
-              <div className="self-stretch flex flex-row items-start justify-start py-0 px-[9px]">
-                <div className="flex flex-row items-start justify-start gap-[8px]">
-                  <div className="h-3 w-3 relative rounded-[50%] bg-primary-80" />
-                  <div className="h-3 w-3 relative rounded-[50%] bg-primary-40" />
-                  <div className="h-3 w-3 relative rounded-[50%] bg-primary-40" />
-                  <div className="h-3 w-3 relative rounded-[50%] bg-primary-40" />
-                  <div className="h-3 w-3 relative rounded-[50%] bg-primary-40" />
-                </div>
-              </div>
+              <span></span>
             </div>
           </div>
           <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[20px] max-w-full text-xl text-primary-dark-80">
