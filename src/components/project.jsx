@@ -10,7 +10,7 @@ const Project = () => {
             Projects
           </h1>
           <div className="self-stretch relative text-lg leading-[27px] font-medium text-secondary-dark-40">
-            Our project page is a testament to the successes we've achieved
+            Our  project page is a testament to the successes we've achieved
             alongside our valued clients, and we invite you to explore the range
             of industries we've worked with and the outcomes we've generated.
           </div>
