@@ -1,8 +1,8 @@
 const Feature6 = () => {
   return (
     <section className="self-stretch [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] overflow-hidden flex flex-row items-end justify-center min-h-[560px] max-w-full text-left text-mini-4 text-secondary-light-10 font-sub-headings-sub-heading-26px-semibold">
-      <div className="w-[1280px] flex flex-row flex-wrap items-center justify-center py-0 px-5 box-border gap-[70px] max-w-full mq450:gap-[70px] mq750:gap-[70px]">
-        <div className="flex-[0.8974] rounded-t-6xl rounded-b-none flex flex-row items-end justify-end p-[30px] box-border bg-[url('/public/image7@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] min-h-[480px] max-w-full">
+      <div className="w-[1280px] flex flex-row flex-wrap items-center justify-center py-5 px-5 box-border gap-[70px] max-w-full mq450:gap-[70px] mq750:gap-[70px]">
+        <div className="flex-[0.8974] rounded-t-6xl rounded-b-none flex flex-row items-end justify-end p-[30px] box-border bg-[url('/public/image1@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] min-h-[480px] max-w-full">
           <div className="w-[300px] rounded-[15.25px] bg-gray-400 [backdrop-filter:blur(24px)] flex flex-col items-center justify-start pt-7 px-[27px] pb-[27px] box-border gap-[20px]">
             <div className="self-stretch flex flex-row items-center justify-start gap-[20px] mq450:flex-wrap">
               <div className="flex-1 flex flex-row items-center justify-center min-w-[120px]">

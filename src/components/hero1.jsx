@@ -53,7 +53,7 @@ const Hero1 = () => {
       className="w-[850px] flex flex-col items-center justify-center gap-[25px] min-w-[360px] max-w-full text-center text-41xl text-secondary-dark-20 font-paragraphs-para-18px-semibold"
       
     >
-      <h1 className="m-0 self-stretch h-36 relative text-inherit font-bold font-sub-headings-sub-heading-26px-semibold inline-block mq450:text-17xl mq750:text-29xl" data-aos="fade-up">
+      <h1 className="m-0 self-stretch  relative text-inherit font-bold font-sub-headings-sub-heading-26px-semibold inline-block mq450:text-17xl mq750:text-29xl" data-aos="fade-up">
       Our Expertise: Navigating the Marketing Landscape
       </h1>
       <div className="self-stretch relative text-lg leading-[27px] font-medium text-secondary-dark-40" data-aos="fade-up" data-aos-delay="100">

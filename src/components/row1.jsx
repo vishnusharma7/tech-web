@@ -24,11 +24,11 @@ const Row1 = ({
 
   return (
     <div
-      className="w-[1240px] flex flex-row flex-wrap items-start justify-center gap-[70px] max-w-full text-left text-35xl text-secondary-dark-20 font-sub-headings-sub-heading-26px-semibold mq450:gap-[70px] mq750:gap-[70px]"
+      className="w-[1240px] flex flex-row flex-wrap items-start justify-center  max-w-full text-left text-35xl text-secondary-dark-20 font-sub-headings-sub-heading-26px-semibold mq450:gap-[70px] mq750:gap-[70px]"
       style={row2Style}
     >
       <div className="flex-1 flex flex-col items-start justify-center gap-[15px] min-w-[360px] max-w-full">
-        <h1 className="m-0 self-stretch h-[130px] relative text-inherit font-bold font-inherit inline-block mq450:text-13xl mq750:text-24xl">
+        <h1 className="m-0 self-stretch  relative text-inherit font-bold font-inherit inline-block mq450:text-13xl mq750:text-24xl">
           {heading}
         </h1>
         <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-secondary-dark-40">

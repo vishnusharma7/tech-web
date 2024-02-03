@@ -161,7 +161,7 @@ const Feature5 = () => {
               <div className="self-stretch relative   text-24xl mq450:text-13xl mq750:text-24xl font-semibold text-primary-dark-80">
                 Driving Real Business Growth and Building Stronger Brands
               </div>
-              <div className="self-stretch relative text-xl leading-[30px] font-medium">
+              <div className="self-stretch relative text-xl leading-[30px] font-medium text-primary-dark-80">
                 We're more than just a marketing firm; we're your dedicated
                 partners in success.
               </div>

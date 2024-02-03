@@ -3,7 +3,7 @@ const Team1 = () => {
     <section className="self-stretch flex flex-col items-center justify-center max-w-full text-center text-41xl text-secondary-light-10 font-sub-headings-sub-heading-26px-semibold">
       <div className="self-stretch [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] overflow-hidden flex flex-col items-center justify-center py-[100px] px-5 box-border min-h-[567px] max-w-full mq450:pt-[65px] mq450:pb-[65px] mq450:box-border">
         <div className="w-[840px] flex flex-col items-center justify-center gap-[15px] min-w-[360px] max-w-full" data-aos="fade-up" >
-          <h1 className="m-0 self-stretch h-36 relative text-inherit font-bold font-inherit inline-block mq450:text-17xl mq750:text-29xl">
+          <h1 className="m-0 self-stretch  relative text-inherit font-bold font-inherit inline-block mq450:text-17xl mq750:text-29xl">
             The Brilliant Minds Driving Our Marketing Agency's Success
           </h1>
     

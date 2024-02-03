@@ -5,7 +5,7 @@ const Project = () => {
     <section className="self-stretch [background:linear-gradient(180deg,_#fbf8ff,_#fff)] overflow-hidden flex flex-col items-center justify-start py-[100px] px-5 box-border max-w-full text-left text-41xl text-secondary-dark-20 font-paragraphs-para-18px-semibold mq1250:pt-[42px] mq1250:pb-[42px] mq1250:box-border mq750:pt-[27px] mq750:pb-[27px] mq750:box-border">
       <div className="w-[1240px] flex flex-col items-start justify-start gap-[60px] max-w-full mq750:gap-[60px]">
         <div className="self-stretch flex flex-col items-start justify-center gap-[15px] min-w-[360px]">
-          <h1 className="m-0 self-stretch h-36 relative text-inherit font-bold font-sub-headings-sub-heading-26px-semibold inline-block mq750:text-29xl mq450:text-17xl">
+          <h1 className="m-0 self-stretch  relative text-inherit font-bold font-sub-headings-sub-heading-26px-semibold inline-block mq750:text-29xl mq450:text-17xl">
             Delivering Exceptional Results: A Showcase of Our Varied Marketing
             Projects
           </h1>
