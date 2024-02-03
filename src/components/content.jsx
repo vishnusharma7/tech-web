@@ -358,7 +358,7 @@ const Content = ({
                 className="h-3.5 w-3.5 relative"
                 loading="eager"
                 alt=""
-                src={star}
+                src="c-t-a-buttons.svg"
               />
               <div
                 className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]"
@@ -366,7 +366,7 @@ const Content = ({
               >{`Tailor marketing strategies to meet the specific needs `}</div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
-              <img className="h-3.5 w-3.5 relative" alt="" src={star1} />
+              <img className="h-3.5 w-3.5 relative" alt="" src="c-t-a-buttons.svg" />
               <div
                 className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]"
                 style={starItem1Style}
@@ -375,7 +375,7 @@ const Content = ({
               </div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
-              <img className="h-3.5 w-3.5 relative" alt="" src={star2} />
+              <img className="h-3.5 w-3.5 relative" alt="" src="c-t-a-buttons.svg" />
               <div
                 className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]"
                 style={featureTextStarStyle}
@@ -386,7 +386,7 @@ const Content = ({
               </div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
-              <img className="h-3.5 w-3.5 relative" alt="" src={star3} />
+              <img className="h-3.5 w-3.5 relative" alt="" src="c-t-a-buttons.svg" />
               <div
                 className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]"
                 style={frameEmptyStyle}
@@ -430,14 +430,14 @@ const Content = ({
           </div>
           <div className="self-stretch flex flex-col items-start justify-start gap-[8px] max-w-full text-base text-secondary-dark-50">
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
-              <img className="h-3.5 w-3.5 relative" alt="" src={star4} />
+              <img className="h-3.5 w-3.5 relative" alt="" src="c-t-a-buttons.svg" />
               <div
                 className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]"
                 style={row1Style}
               >{`Tailor marketing strategies to meet the specific needs `}</div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
-              <img className="h-3.5 w-3.5 relative" alt="" src={star5} />
+              <img className="h-3.5 w-3.5 relative" alt="" src="c-t-a-buttons.svg" />
               <div
                 className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]"
                 style={rectangleStyle}
@@ -446,7 +446,7 @@ const Content = ({
               </div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
-              <img className="h-3.5 w-3.5 relative" alt="" src={star6} />
+              <img className="h-3.5 w-3.5 relative" alt="" src="c-t-a-buttons.svg" />
               <div
                 className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]"
                 style={btn2Style}
@@ -457,7 +457,7 @@ const Content = ({
               </div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
-              <img className="h-3.5 w-3.5 relative" alt="" src={star7} />
+              <img className="h-3.5 w-3.5 relative" alt="" src="c-t-a-buttons.svg" />
               <div
                 className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]"
                 style={tabContentStyle}

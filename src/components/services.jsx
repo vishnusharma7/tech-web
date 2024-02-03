@@ -75,10 +75,17 @@ const Services = () => {
                     <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-secondary-dark-40">
                       {tab.content}
                     </div>
-                    <button className="cursor-pointer py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100">
-                      <div className="relative text-base leading-[25px] font-semibold font-paragraphs-para-18px-semibold text-primary-dark-80 text-left">Get Started Now</div>
-                      <img className="h-6 w-6 relative overflow-hidden shrink-0" alt="" src="/btn-icons-2.svg" />
-                    </button>
+                   
+                    <button className="cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80  hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100 ">
+                    <div className="relative text-base leading-[25px] font-semibold font-paragraphs-para-18px-semibold text-primary-dark-80 text-left">
+                      Get Started Now
+                    </div>
+                    <img
+                      className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
+                      alt=""
+                      src="/btn-icons-6.svg"
+                    />
+                  </button>
                   </div>
                   <div className="self-stretch flex flex-row flex-wrap items-center justify-start py-2.5 px-0 box-border gap-[10px] min-h-[80px] text-base text-secondary-dark-50 font-paragraphs-para-18px-semibold">
                     <div className="flex flex-row items-center justify-start gap-[4px]">

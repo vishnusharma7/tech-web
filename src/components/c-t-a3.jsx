@@ -12,19 +12,19 @@ const CTA3 = () => {
             </div>
             <div className="self-stretch flex flex-row flex-wrap items-center justify-start py-0 pr-6 pl-0 gap-[10px] text-base">
               <div className="flex-1 flex flex-row items-center justify-start gap-[4px] min-w-[86px]">
-                <img className="h-3.5 w-3.5 relative" alt="" src="/star-32.svg" />
+                <img className="h-3.5 w-3.5 relative" alt="" src="/c-t-a-buttons.svg" />
                 <div className="relative leading-[25px] font-medium">
                   Enhanced Online Visibility
                 </div>
               </div>
               <div className="flex flex-row items-center justify-start gap-[4px]">
-                <img className="h-3.5 w-3.5 relative" alt="" src="/star-32.svg" />
+                <img className="h-3.5 w-3.5 relative" alt="" src="/c-t-a-buttons.svg" />
                 <div className="relative leading-[25px] font-medium">
                   Customized Strategies
                 </div>
               </div>
               <div className="flex flex-row items-center justify-start gap-[4px]">
-                <img className="h-3.5 w-3.5 relative" alt="" src="/star-32.svg" />
+                <img className="h-3.5 w-3.5 relative" alt="" src="/c-t-a-buttons.svg" />
                 <div className="relative leading-[25px] font-medium">
                   Improved Branding
                 </div>

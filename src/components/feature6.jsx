@@ -98,18 +98,18 @@ const Feature6 = () => {
                 className="h-3.5 w-3.5 relative"
                 loading="eager"
                 alt=""
-                src="/star-32.svg"
+                src="/c-t-a-buttons.svg"
               />
               <div className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]">{`Tailor marketing strategies to meet the specific needs `}</div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
-              <img className="h-3.5 w-3.5 relative" alt="" src="/star-32.svg" />
+              <img className="h-3.5 w-3.5 relative" alt="" src="/c-t-a-buttons.svg" />
               <div className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]">
                 Offer website design, development, and optimization services
               </div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
-              <img className="h-3.5 w-3.5 relative" alt="" src="/star-32.svg" />
+              <img className="h-3.5 w-3.5 relative" alt="" src="/c-t-a-buttons.svg" />
               <div className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]">
                 {" "}
                 Generate high-quality content, such as blog posts, articles,
@@ -117,7 +117,7 @@ const Feature6 = () => {
               </div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
-              <img className="h-3.5 w-3.5 relative" alt="" src="/star-32.svg" />
+              <img className="h-3.5 w-3.5 relative" alt="" src="/c-t-a-buttons.svg" />
               <div className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]">
                 anage and grow social media profiles across various platforms
               </div>

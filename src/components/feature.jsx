@@ -130,7 +130,7 @@ const Feature = () => {
                   <img
                     className="relative w-3.5 h-3.5 object-cover"
                     alt=""
-                    src="/stars.svg"
+                    src="/c-t-a-buttons.svg"
                   />
                   <div className="flex-1 relative leading-[25px] font-medium">{`Tailor marketing strategies to meet the specific needs `}</div>
                 </div>
@@ -138,7 +138,7 @@ const Feature = () => {
                   <img
                     className="relative w-3.5 h-3.5 object-cover"
                     alt=""
-                    src="/stars.svg"
+                    src="/c-t-a-buttons.svg"
                   />
                   <div className="flex-1 relative leading-[25px] font-medium">
                     Offer website design, development, and optimization services
@@ -148,7 +148,7 @@ const Feature = () => {
                   <img
                     className="relative w-3.5 h-3.5 object-cover"
                     alt=""
-                    src="/stars.svg"
+                    src="/c-t-a-buttons.svg"
                   />
                   <div className="flex-1 relative leading-[25px] font-medium">
                     {" "}
@@ -160,7 +160,7 @@ const Feature = () => {
                   <img
                     className="relative w-3.5 h-3.5 object-cover"
                     alt=""
-                    src="/stars.svg"
+                    src="/c-t-a-buttons.svg"
                   />
                   <div className="flex-1 relative leading-[25px] font-medium">
                     Manage and grow social media profiles across various
@@ -194,7 +194,7 @@ const Feature = () => {
                   <img
                     className="relative w-3.5 h-3.5 object-cover"
                     alt=""
-                    src="/stars.svg"
+                    src="/c-t-a-buttons.svg"
                   />
                   <div className="flex-1 relative leading-[25px] font-medium">{`Tailor marketing strategies to meet the specific needs `}</div>
                 </div>
@@ -202,7 +202,7 @@ const Feature = () => {
                   <img
                     className="relative w-3.5 h-3.5 object-cover"
                     alt=""
-                    src="/stars.svg"
+                    src="/c-t-a-buttons.svg"
                   />
                   <div className="flex-1 relative leading-[25px] font-medium">
                     Offer website design, development, and optimization services
@@ -212,7 +212,7 @@ const Feature = () => {
                   <img
                     className="relative w-3.5 h-3.5 object-cover"
                     alt=""
-                    src="/stars.svg"
+                    src="/c-t-a-buttons.svg"
                   />
                   <div className="flex-1 relative leading-[25px] font-medium">
                     {" "}
@@ -224,7 +224,7 @@ const Feature = () => {
                   <img
                     className="relative w-3.5 h-3.5 object-cover"
                     alt=""
-                    src="/stars.svg"
+                    src="/c-t-a-buttons.svg"
                   />
                   <div className="flex-1 relative leading-[25px] font-medium">
                     Manage and grow social media profiles across various
