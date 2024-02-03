@@ -83,7 +83,8 @@ const Feature6 = () => {
             </div>
           </div>
         </div>
-        <div className="flex-1 flex flex-col items-start justify-center py-5 px-0 box-border gap-[20px] min-w-[360px] max-w-full text-23xl font-paragraphs-para-18px-semibold">
+        <div className="flex-1 flex flex-col items-start justify-center py-5 px-0 box-border gap-[20px] min-w-[360px] max-w-full text-23xl font-paragraphs-para-18px-semibold"  data-aos="fade-left"
+              data-aos-duration="700">
           <h1 className="m-0 self-stretch h-[100px] relative text-inherit font-semibold font-sub-headings-sub-heading-26px-semibold inline-block mq450:text-6xl mq750:text-15xl">
             Partner with Us for Strategic Marketing Excellence
           </h1>
@@ -97,18 +98,18 @@ const Feature6 = () => {
                 className="h-3.5 w-3.5 relative"
                 loading="eager"
                 alt=""
-                src="/star-32.svg"
+                src="/c-t-a-buttons.svg"
               />
               <div className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]">{`Tailor marketing strategies to meet the specific needs `}</div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
-              <img className="h-3.5 w-3.5 relative" alt="" src="/star-32.svg" />
+              <img className="h-3.5 w-3.5 relative" alt="" src="/c-t-a-buttons.svg" />
               <div className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]">
                 Offer website design, development, and optimization services
               </div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
-              <img className="h-3.5 w-3.5 relative" alt="" src="/star-32.svg" />
+              <img className="h-3.5 w-3.5 relative" alt="" src="/c-t-a-buttons.svg" />
               <div className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]">
                 {" "}
                 Generate high-quality content, such as blog posts, articles,
@@ -116,18 +117,18 @@ const Feature6 = () => {
               </div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
-              <img className="h-3.5 w-3.5 relative" alt="" src="/star-32.svg" />
+              <img className="h-3.5 w-3.5 relative" alt="" src="/c-t-a-buttons.svg" />
               <div className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]">
                 anage and grow social media profiles across various platforms
               </div>
             </div>
           </div>
-          <button className="cursor-pointer py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-secondary-light-30 hover:bg-gainsboro-400 hover:box-border hover:border-[2px] hover:border-solid hover:border-gainsboro-200">
+          <button className=" group cursor-pointer py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-secondary-light-30 hover:bg-primary-80 hover:box-border hover:border-[2px] hover:border-solid hover:border-primary-80">
             <div className="relative text-base leading-[25px] font-semibold font-paragraphs-para-18px-semibold text-secondary-light-30 text-left">
               Get Started Now
             </div>
             <img
-              className="h-6 w-6 relative overflow-hidden shrink-0"
+              className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
               alt=""
               src="/btn-icons-4.svg"
             />

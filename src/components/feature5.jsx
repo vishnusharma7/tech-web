@@ -18,7 +18,7 @@ const Feature5 = () => {
               Get Started Now
             </b>
             <img
-              className="h-6 w-6 relative overflow-hidden shrink-0"
+              className=" h-6 w-6 relative overflow-hidden shrink-0"
               alt=""
               src="/btn-icons.svg"
             />

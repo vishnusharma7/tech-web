@@ -30,10 +30,11 @@ const Home = () => {
             <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[20px_40px] max-w-full">
               <div className="w-[434px] flex flex-col items-start justify-center min-w-[360px] max-w-full">
                 <div className="self-stretch h-[129px] relative font-semibold inline-block mq450:text-3xl mq750:text-10xl">
-                  Over 95% Of Our Clients Report High Satisfaction With Our two kjl
+                  Over 95% Of Our Clients Report High Satisfaction With Our 
                   Services
                 </div>
               </div>
+
               <div className="flex-1 flex flex-row flex-wrap items-center justify-start min-w-[335px] max-w-full text-center text-29xl">
                 <div className="h-[91px] flex-1 rounded-3xs overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[200px]">
                   <div className="self-stretch flex-1 relative font-semibold mq450:text-10xl mq750:text-19xl">

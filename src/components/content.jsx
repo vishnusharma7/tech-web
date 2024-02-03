@@ -358,7 +358,7 @@ const Content = ({
                 className="h-3.5 w-3.5 relative"
                 loading="eager"
                 alt=""
-                src={star}
+                src="c-t-a-buttons.svg"
               />
               <div
                 className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]"
@@ -366,7 +366,7 @@ const Content = ({
               >{`Tailor marketing strategies to meet the specific needs `}</div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
-              <img className="h-3.5 w-3.5 relative" alt="" src={star1} />
+              <img className="h-3.5 w-3.5 relative" alt="" src="c-t-a-buttons.svg" />
               <div
                 className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]"
                 style={starItem1Style}
@@ -375,7 +375,7 @@ const Content = ({
               </div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
-              <img className="h-3.5 w-3.5 relative" alt="" src={star2} />
+              <img className="h-3.5 w-3.5 relative" alt="" src="c-t-a-buttons.svg" />
               <div
                 className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]"
                 style={featureTextStarStyle}
@@ -386,7 +386,7 @@ const Content = ({
               </div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
-              <img className="h-3.5 w-3.5 relative" alt="" src={star3} />
+              <img className="h-3.5 w-3.5 relative" alt="" src="c-t-a-buttons.svg" />
               <div
                 className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]"
                 style={frameEmptyStyle}
@@ -396,7 +396,7 @@ const Content = ({
             </div>
           </div>
           <button
-            className="cursor-pointer py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100"
+            className="cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100"
             style={btn1Style}
           >
             <div
@@ -406,7 +406,7 @@ const Content = ({
               Get Started Now
             </div>
             <img
-              className="h-6 w-6 relative overflow-hidden shrink-0"
+              className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
               alt=""
               src={btnIcons}
             />
@@ -430,14 +430,14 @@ const Content = ({
           </div>
           <div className="self-stretch flex flex-col items-start justify-start gap-[8px] max-w-full text-base text-secondary-dark-50">
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
-              <img className="h-3.5 w-3.5 relative" alt="" src={star4} />
+              <img className="h-3.5 w-3.5 relative" alt="" src="c-t-a-buttons.svg" />
               <div
                 className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]"
                 style={row1Style}
               >{`Tailor marketing strategies to meet the specific needs `}</div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
-              <img className="h-3.5 w-3.5 relative" alt="" src={star5} />
+              <img className="h-3.5 w-3.5 relative" alt="" src="c-t-a-buttons.svg" />
               <div
                 className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]"
                 style={rectangleStyle}
@@ -446,7 +446,7 @@ const Content = ({
               </div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
-              <img className="h-3.5 w-3.5 relative" alt="" src={star6} />
+              <img className="h-3.5 w-3.5 relative" alt="" src="c-t-a-buttons.svg" />
               <div
                 className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]"
                 style={btn2Style}
@@ -457,7 +457,7 @@ const Content = ({
               </div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
-              <img className="h-3.5 w-3.5 relative" alt="" src={star7} />
+              <img className="h-3.5 w-3.5 relative" alt="" src="c-t-a-buttons.svg" />
               <div
                 className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]"
                 style={tabContentStyle}
@@ -467,7 +467,7 @@ const Content = ({
             </div>
           </div>
           <button
-            className="cursor-pointer py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100"
+            className="cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100"
             style={bTNStyle}
           >
             <div
@@ -477,7 +477,7 @@ const Content = ({
               Get Started Now
             </div>
             <img
-              className="h-6 w-6 relative overflow-hidden shrink-0"
+              className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
               alt=""
               src={btnIcons1}
             />

@@ -124,12 +124,13 @@ const Feature = () => {
                 Provide a wide array of digital marketing services, including
                 SEO, content marketing, social media.
               </div>
+            
               <div className="self-stretch flex flex-col items-start justify-start gap-[8px] text-secondary-light-40">
                 <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
                   <img
                     className="relative w-3.5 h-3.5 object-cover"
                     alt=""
-                    src="/stars.svg"
+                    src="/c-t-a-buttons.svg"
                   />
                   <div className="flex-1 relative leading-[25px] font-medium">{`Tailor marketing strategies to meet the specific needs `}</div>
                 </div>
@@ -137,7 +138,7 @@ const Feature = () => {
                   <img
                     className="relative w-3.5 h-3.5 object-cover"
                     alt=""
-                    src="/stars.svg"
+                    src="/c-t-a-buttons.svg"
                   />
                   <div className="flex-1 relative leading-[25px] font-medium">
                     Offer website design, development, and optimization services
@@ -147,7 +148,7 @@ const Feature = () => {
                   <img
                     className="relative w-3.5 h-3.5 object-cover"
                     alt=""
-                    src="/stars.svg"
+                    src="/c-t-a-buttons.svg"
                   />
                   <div className="flex-1 relative leading-[25px] font-medium">
                     {" "}
@@ -159,7 +160,7 @@ const Feature = () => {
                   <img
                     className="relative w-3.5 h-3.5 object-cover"
                     alt=""
-                    src="/stars.svg"
+                    src="/c-t-a-buttons.svg"
                   />
                   <div className="flex-1 relative leading-[25px] font-medium">
                     Manage and grow social media profiles across various
@@ -167,17 +168,16 @@ const Feature = () => {
                   </div>
                 </div>
               </div>
-              <button className="group transition ease-in-out duration-300 cursor-pointer py-[15px] px-7 bg-[transparent] rounded-26xl-7 box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-secondary-light-10 text-secondary-light-10  hover:bg-primary-80 hover:box-border hover:border-[2px] hover:border-solid hover:border-primary-80">
-                <div className="relative text-base leading-[25px] font-semibold font-paragraphs-para-18px-semibold text-secondary-light-10 text-left">
-                  Get Started Now
-                </div>
-                <img
-                  className="h-6 w-6 relative overflow-hidden shrink-0 transition-transform duration-300 ease-in-out transform group-hover:translate-x-1
-              "
-                  alt=""
-                  src="/btn-icons.svg"
-                />
-              </button>
+              <button className="cursor-pointer group border-[2px] border-solid border-secondary-light-10 py-[15px] px-[30px] bg-[transparent] rounded-26xl-7 hover:bg-primary-80 hover:border-primary-80 flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap" data-aos="fade-right" data-aos-duration="200">
+          <b className="  relative text-base leading-[28px] font-paragraphs-para-18px-semibold text-secondary-light-10 text-left">
+            Get Started Now
+          </b>
+          <img
+            className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
+            alt=""
+            src="/btn-icons.svg"
+          />
+        </button>
             </div>
           </div>
           <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px] text-base text-secondary-light-30 font-paragraphs-para-16px-semibold">
@@ -194,7 +194,7 @@ const Feature = () => {
                   <img
                     className="relative w-3.5 h-3.5 object-cover"
                     alt=""
-                    src="/stars.svg"
+                    src="/c-t-a-buttons.svg"
                   />
                   <div className="flex-1 relative leading-[25px] font-medium">{`Tailor marketing strategies to meet the specific needs `}</div>
                 </div>
@@ -202,7 +202,7 @@ const Feature = () => {
                   <img
                     className="relative w-3.5 h-3.5 object-cover"
                     alt=""
-                    src="/stars.svg"
+                    src="/c-t-a-buttons.svg"
                   />
                   <div className="flex-1 relative leading-[25px] font-medium">
                     Offer website design, development, and optimization services
@@ -212,7 +212,7 @@ const Feature = () => {
                   <img
                     className="relative w-3.5 h-3.5 object-cover"
                     alt=""
-                    src="/stars.svg"
+                    src="/c-t-a-buttons.svg"
                   />
                   <div className="flex-1 relative leading-[25px] font-medium">
                     {" "}
@@ -224,7 +224,7 @@ const Feature = () => {
                   <img
                     className="relative w-3.5 h-3.5 object-cover"
                     alt=""
-                    src="/stars.svg"
+                    src="/c-t-a-buttons.svg"
                   />
                   <div className="flex-1 relative leading-[25px] font-medium">
                     Manage and grow social media profiles across various

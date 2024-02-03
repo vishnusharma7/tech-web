@@ -56,42 +56,42 @@ const Footer = () => {
                   Quick Links
                 </h2>
                 <div className="flex flex-col items-start justify-start gap-[6px] text-base text-secondary-light-70 font-paragraphs-para-18px-semibold">
-                  <div className="flex flex-row items-center justify-start gap-[4px]">
+                  <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
                       Home
                     </div>
                     <img
-                      className="h-5 w-5 relative overflow-hidden shrink-0"
+                      className="transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
                       alt=""
                       src="/icon-3.svg"
                     />
                   </div>
-                  <div className="flex flex-row items-center justify-start gap-[4px]">
+                  <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
                       About
                     </div>
                     <img
-                      className="h-5 w-5 relative overflow-hidden shrink-0"
+                      className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
                       alt=""
                       src="/icon-3.svg"
                     />
                   </div>
-                  <div className="flex flex-row items-center justify-start gap-[4px]">
+                  <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
                       Services
                     </div>
                     <img
-                      className="h-5 w-5 relative overflow-hidden shrink-0"
+                      className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
                       alt=""
                       src="/icon-3.svg"
                     />
                   </div>
-                  <div className="flex flex-row items-center justify-start gap-[4px]">
+                  <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
                       Contact
                     </div>
                     <img
-                      className="h-5 w-5 relative overflow-hidden shrink-0"
+                      className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
                       alt=""
                       src="/icon-3.svg"
                     />
@@ -105,40 +105,40 @@ const Footer = () => {
                   Services
                 </h2>
                 <div className="flex flex-col items-start justify-start gap-[6px] text-base text-secondary-light-70 font-paragraphs-para-18px-semibold">
-                  <div className="flex flex-row items-center justify-start gap-[4px]">
+                  <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
                       Digital Marketing
                     </div>
                     <img
-                      className="h-5 w-5 relative overflow-hidden shrink-0"
+                      className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
                       alt=""
                       src="/icon-3.svg"
                     />
                   </div>
-                  <div className="flex flex-row items-center justify-start gap-[4px]">
+                  <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
                       Social Adverstisement
                     </div>
                     <img
-                      className="h-5 w-5 relative overflow-hidden shrink-0"
+                      className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
                       alt=""
                       src="/icon-3.svg"
                     />
                   </div>
-                  <div className="flex flex-row items-center justify-start gap-[4px]">
+                  <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
                       Content Marketing
                     </div>
                     <img
-                      className="h-5 w-5 relative overflow-hidden shrink-0"
+                      className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
                       alt=""
                       src="/icon-3.svg"
                     />
                   </div>
-                  <div className="flex flex-row items-center justify-start gap-[4px]">
+                  <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">{`Design & Branding `}</div>
                     <img
-                      className="h-5 w-5 relative overflow-hidden shrink-0"
+                      className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
                       alt=""
                       src="/icon-3.svg"
                     />
@@ -152,42 +152,42 @@ const Footer = () => {
                   Contact Info
                 </h2>
                 <div className="flex flex-col items-start justify-start gap-[6px] text-base text-secondary-light-70 font-paragraphs-para-18px-semibold">
-                  <div className="flex flex-row items-center justify-start gap-[4px]">
+                  <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
                       Email Us
                     </div>
                     <img
-                      className="h-5 w-5 relative overflow-hidden shrink-0"
+                      className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
                       alt=""
                       src="/icon-3.svg"
                     />
                   </div>
-                  <div className="flex flex-row items-center justify-start gap-[4px]">
+                  <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
                       Request A Call
                     </div>
                     <img
-                      className="h-5 w-5 relative overflow-hidden shrink-0"
+                      className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
                       alt=""
                       src="/icon-3.svg"
                     />
                   </div>
-                  <div className="flex flex-row items-center justify-start gap-[4px]">
+                  <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
                       Chat with Expert
                     </div>
                     <img
-                      className="h-5 w-5 relative overflow-hidden shrink-0"
+                      className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
                       alt=""
                       src="/icon-3.svg"
                     />
                   </div>
-                  <div className="flex flex-row items-center justify-start gap-[4px]">
+                  <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
                       Submit Request
                     </div>
                     <img
-                      className="h-5 w-5 relative overflow-hidden shrink-0"
+                      className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
                       alt=""
                       src="/icon-3.svg"
                     />
