@@ -8,7 +8,7 @@ const Card = ({ clientImages, clientName, propHeight }) => {
   }, [propHeight]);
 
   return (
-    <div className="flex-1 rounded-xl bg-secondary-light-10 shadow-[5px_5px_30px_rgba(0,_0,_0,_0.08)] overflow-hidden flex flex-col items-start justify-center p-6 box-border gap-[10px] min-w-[350px] max-w-full text-left text-xl text-primary-dark-80 font-sub-headings-sub-heading-26px-semibold">
+    <div className="flex-1 rounded-xl bg-secondary-light-10 shadow-[5px_5px_30px_rgba(0,_0,_0,_0.08)] overflow-hidden flex flex-col items-start justify-center p-6 box-border gap-[10px] min-w-[350px] max-w-full text-left text-xl text-primary-dark-80 font-sub-headings-sub-heading-26px-semibold" data-aos="fade-up">
       <div className="w-20 h-20 relative flex items-center justify-center">
         <img
           className="w-full h-full object-contain absolute left-[4px] top-[4px] [transform:scale(1.5)]"

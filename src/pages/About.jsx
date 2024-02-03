@@ -9,7 +9,7 @@ import Newsletter from "../components/newsletter";
 const About = () => {
   return (
     <>
-       <Hero1 />
+      <Hero1 />
       <History1 />
       <Team1 />
       <Feature2 />
