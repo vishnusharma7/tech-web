@@ -1,5 +1,4 @@
 import CTA2 from "./c-t-a2";
-import ContactInfo from "./contact-info";
 
 const Contact = () => {
   return (
