@@ -10,12 +10,12 @@ const Hero2 = () => {
           strategies are designed to amplify your individuality and propel your
           success.
         </div>
-        <button className="cursor-pointer [border:none] py-[15px] px-[30px] bg-[transparent] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap" data-aos="fade-right" data-aos-duration="200">
-          <b className="relative text-base leading-[28px] font-paragraphs-para-18px-semibold text-secondary-light-10 text-left">
+        <button className="cursor-pointer group [border:none] py-[15px] px-[30px] bg-[transparent] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap" data-aos="fade-right" data-aos-duration="200">
+          <b className="  relative text-base leading-[28px] font-paragraphs-para-18px-semibold text-secondary-light-10 text-left">
             Get Started Now
           </b>
           <img
-            className="h-6 w-6 relative overflow-hidden shrink-0"
+            className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
             alt=""
             src="/btn-icons.svg"
           />

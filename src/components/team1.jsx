@@ -38,14 +38,14 @@ const Team1 = () => {
                 Follow Me:
               </div>
               <div className="self-stretch flex flex-row items-center justify-start gap-[8px] mq450:flex-wrap">
-                <div className=" hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[29.9px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+                <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[29.9px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[17.9px] relative"
                     alt=""
                     src="/group-4.svg"
                   />
                 </div>
-                <div className="hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+                <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
                     loading="eager"
@@ -53,7 +53,7 @@ const Team1 = () => {
                     src="/linkedin.svg"
                   />
                 </div>
-                <div className="hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+                <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
                     loading="eager"
@@ -88,21 +88,21 @@ const Team1 = () => {
                 Follow Me:
               </div>
               <div className="self-stretch flex flex-row items-center justify-start gap-[8px] mq450:flex-wrap">
-                <div className="hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[29.9px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+                <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[29.9px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[17.9px] relative"
                     alt=""
                     src="/group-4.svg"
                   />
                 </div>
-                <div className="hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+                <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
                     alt=""
                     src="/linkedin.svg"
                   />
                 </div>
-                <div className="hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+                <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
                     alt=""
@@ -136,21 +136,21 @@ const Team1 = () => {
                 Follow Me:
               </div>
               <div className="self-stretch flex flex-row items-center justify-start gap-[8px] mq450:flex-wrap">
-                <div className="hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[29.9px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+                <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[29.9px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[17.9px] relative"
                     alt=""
                     src="/group-4.svg"
                   />
                 </div>
-                <div className="hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+                <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
                     alt=""
                     src="/linkedin.svg"
                   />
                 </div>
-                <div className="hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+                <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
                     alt=""
@@ -184,7 +184,7 @@ const Team1 = () => {
                 Follow Me:
               </div>
               <div className="self-stretch flex flex-row items-center justify-start gap-[8px] mq450:flex-wrap">
-                <div className="hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[29.9px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+                <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[29.9px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[17.9px] relative"
                     alt=""
@@ -193,12 +193,12 @@ const Team1 = () => {
                 </div>
                 <div className="hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
-                    className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
+                    className=" cursor-pointer w-[18px] h-[18px] relative overflow-hidden shrink-0"
                     alt=""
                     src="/linkedin.svg"
                   />
                 </div>
-                <div className="hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+                <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
                     alt=""
@@ -232,21 +232,21 @@ const Team1 = () => {
                 Follow Me:
               </div>
               <div className="self-stretch flex flex-row items-center justify-start gap-[8px] mq450:flex-wrap">
-                <div className="hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[29.9px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+                <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[29.9px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[17.9px] relative"
                     alt=""
                     src="/group-4.svg"
                   />
                 </div>
-                <div className="hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+                <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
                     alt=""
                     src="/linkedin.svg"
                   />
                 </div>
-                <div className="hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+                <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
                     alt=""
@@ -280,21 +280,21 @@ const Team1 = () => {
                 Follow Me:
               </div>
               <div className="self-stretch flex flex-row items-center justify-start gap-[8px] mq450:flex-wrap">
-                <div className="hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[29.9px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+                <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[29.9px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[17.9px] relative"
                     alt=""
                     src="/group-4.svg"
                   />
                 </div>
-                <div className="hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+                <div className="cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
                     alt=""
                     src="/linkedin.svg"
                   />
                 </div>
-                <div className="hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+                <div className="cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
                     alt=""
