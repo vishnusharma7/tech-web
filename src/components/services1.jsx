@@ -31,6 +31,7 @@ const Services1 = () => {
         <button className="cursor-pointer group [border:none] py-[15px] px-[30px] bg-[transparent] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-start box-border gap-[10px] min-w-[140px] whitespace-nowrap">
           <b className="relative text-base leading-[28px] font-paragraphs-para-18px-semibold text-secondary-light-10 text-left">
             Get Started Now
+            
           </b>
           <img
             className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
@@ -165,7 +166,7 @@ const Services1 = () => {
                     Marketing Campaign
                   </div>
                   <p className="text-[14px] text-[#333] font-medium font-h4-desktop-h4-bold max-w-[80%] ">
-                    Initial client meeting to discuss project objectives, script
+                    Initial client meetings to discuss project objectives, script
                     requirements.
                   </p>
                 </div>
@@ -181,6 +182,7 @@ const Services1 = () => {
     </section>
    
      
+
     </section>
   );
 };
