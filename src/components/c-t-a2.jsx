@@ -10,7 +10,7 @@ const CTA2 = ({ heading, para, paraWidth, paraGap }) => {
 
   return (
     <div
-      className="w-[850px] flex flex-col items-center justify-center gap-[25px] min-w-[360px] max-w-full text-center text-41xl text-secondary-dark-20 font-paragraphs-para-18px-semibold"
+      className="w-[850px] flex flex-col items-center justify-center gap-[25px] min-w-[360px] max-w-full text-center text-41xl text-secondary-dark-20 font-paragraphs-para-18px-semibold" data-aos="fade-right" data-aos-duration="700"
       style={cTA2Style}
     >
       <h1 className="m-0 self-stretch h-36 relative text-inherit font-bold font-sub-headings-sub-heading-26px-semibold inline-block mq450:text-17xl mq750:text-29xl">
