@@ -40,7 +40,7 @@ const ColumnLeft = ({
           style={cTAStyle}
         />
         <div className="self-stretch flex flex-col items-start justify-center gap-[16px]">
-          <div className="rounded-31xl bg-primary-40 flex flex-row items-center justify-center py-[3px] px-[17px] text-center text-sm">
+          <div className="rounded-31xl cursor-pointer bg-primary-401 flex flex-row items-center justify-center py-[3px] px-[17px] text-center text-sm">
             <b className="relative leading-[24px]">Marketing</b>
           </div>
           <h2 className="m-0 self-stretch relative text-7xl leading-[36px] font-semibold font-sub-headings-sub-heading-26px-semibold text-secondary-dark-20 mq450:text-2xl mq450:leading-[29px]">
@@ -51,7 +51,23 @@ const ColumnLeft = ({
             requirements, and preferred voice characteristics. This phase
             includes script development, translation if necessary.
           </div>
-          <div className="self-stretch relative [text-decoration:underline] leading-[25px] font-semibold text-secondary-dark-60">{`View Case Study >`}</div>
+          <div className="group flex items-center gap-2 relative [text-decoration:underline] leading-[25px] font-semibold text-secondary-dark-60 hover:text-primary-80   transition-all duration-300 cursor-pointer ">
+                    View Case Study
+                    <svg
+                      className="transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 "
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="bi bi-arrow-right-short"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
+                      />
+                    </svg>
+                  </div>
         </div>
       </div>
       <div className="self-stretch flex flex-col items-start justify-center gap-[30px]">
@@ -62,7 +78,7 @@ const ColumnLeft = ({
           style={aboutAgencyIconStyle}
         />
         <div className="self-stretch flex flex-col items-start justify-center gap-[16px]">
-          <div className="rounded-31xl bg-primary-40 flex flex-row items-center justify-center py-[3px] px-[17px] text-center text-sm">
+          <div className="rounded-31xl cursor-pointer bg-primary-401 flex flex-row items-center justify-center py-[3px] px-[17px] text-center text-sm">
             <b className="relative leading-[24px]">Marketing</b>
           </div>
           <h2 className="m-0 self-stretch relative text-7xl leading-[36px] font-semibold font-sub-headings-sub-heading-26px-semibold text-secondary-dark-20 mq450:text-2xl mq450:leading-[29px]">
@@ -73,7 +89,24 @@ const ColumnLeft = ({
             requirements, and preferred voice characteristics. This phase
             includes script development, translation if necessary.
           </div>
-          <div className="self-stretch relative [text-decoration:underline] leading-[25px] font-semibold text-secondary-dark-60">{`View Case Study >`}</div>
+          {/* <div className="self-stretch relative [text-decoration:underline] leading-[25px] font-semibold text-secondary-dark-60">{`View Case Study >`}</div> */}
+          <div className="group flex items-center gap-2 relative [text-decoration:underline] leading-[25px] font-semibold text-secondary-dark-60 hover:text-primary-80   cursor-pointer ">
+                    View Case Study
+                    <svg
+                      className="transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 "
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="bi bi-arrow-right-short"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
+                      />
+                    </svg>
+                  </div>
         </div>
       </div>
       <div className="self-stretch flex flex-col items-start justify-center gap-[30px]">
@@ -84,7 +117,7 @@ const ColumnLeft = ({
           style={reviewContentIconStyle}
         />
         <div className="self-stretch flex flex-col items-start justify-center gap-[16px]">
-          <div className="rounded-31xl bg-primary-40 flex flex-row items-center justify-center py-[3px] px-[17px] text-center text-sm">
+          <div className="rounded-31xl cursor-pointer bg-primary-401 flex flex-row items-center justify-center py-[3px] px-[17px] text-center text-sm">
             <b className="relative leading-[24px]">Marketing</b>
           </div>
           <h2 className="m-0 self-stretch relative text-7xl leading-[36px] font-semibold font-sub-headings-sub-heading-26px-semibold text-secondary-dark-20 mq450:text-2xl mq450:leading-[29px]">
@@ -95,7 +128,24 @@ const ColumnLeft = ({
             requirements, and preferred voice characteristics. This phase
             includes script development, translation if necessary.
           </div>
-          <div className="self-stretch relative [text-decoration:underline] leading-[25px] font-semibold text-secondary-dark-60">{`View Case Study >`}</div>
+          {/* <div className=" cursor-pointer hover:bg-primary-80 self-stretch relative [text-decoration:underline] leading-[25px] font-semibold text-secondary-dark-60">{`View Case Study `}</div> */}
+          <div className="group flex items-center gap-2 relative [text-decoration:underline] leading-[25px] font-semibold text-secondary-dark-60 hover:text-primary-80   transition-all duration-300 cursor-pointer ">
+                    View Case Study
+                    <svg
+                      className="transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 "
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="bi bi-arrow-right-short"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
+                      />
+                    </svg>
+                  </div>
         </div>
       </div>
     </div>

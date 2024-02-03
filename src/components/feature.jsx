@@ -124,6 +124,7 @@ const Feature = () => {
                 Provide a wide array of digital marketing services, including
                 SEO, content marketing, social media.
               </div>
+            
               <div className="self-stretch flex flex-col items-start justify-start gap-[8px] text-secondary-light-40">
                 <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
                   <img
@@ -167,7 +168,7 @@ const Feature = () => {
                   </div>
                 </div>
               </div>
-              <button className="cursor-pointer group [border:none] py-[15px] px-[30px] bg-[transparent] rounded-26xl-7 [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap" data-aos="fade-right" data-aos-duration="200">
+              <button className="cursor-pointer group border-[2px] border-solid border-secondary-light-10 py-[15px] px-[30px] bg-[transparent] rounded-26xl-7 hover:bg-primary-80 hover:border-primary-80 flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap" data-aos="fade-right" data-aos-duration="200">
           <b className="  relative text-base leading-[28px] font-paragraphs-para-18px-semibold text-secondary-light-10 text-left">
             Get Started Now
           </b>

@@ -83,7 +83,8 @@ const Feature6 = () => {
             </div>
           </div>
         </div>
-        <div className="flex-1 flex flex-col items-start justify-center py-5 px-0 box-border gap-[20px] min-w-[360px] max-w-full text-23xl font-paragraphs-para-18px-semibold">
+        <div className="flex-1 flex flex-col items-start justify-center py-5 px-0 box-border gap-[20px] min-w-[360px] max-w-full text-23xl font-paragraphs-para-18px-semibold"  data-aos="fade-left"
+              data-aos-duration="700">
           <h1 className="m-0 self-stretch h-[100px] relative text-inherit font-semibold font-sub-headings-sub-heading-26px-semibold inline-block mq450:text-6xl mq750:text-15xl">
             Partner with Us for Strategic Marketing Excellence
           </h1>
