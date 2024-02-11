@@ -1,17 +1,14 @@
-import React from "react";
-
-import { useState } from "react";
-
-import { Link } from "react-router-dom";
+/* eslint-disable no-undef */
+import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
 import { Fragment } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { Menu, Transition } from "@headlessui/react";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 const Header = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-
+  const location = useLocation();
   function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
   }
@@ -20,6 +17,7 @@ const Header = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
   const isMobile = useMediaQuery({ maxWidth: 1000 }); 
+
   return (
     <>
       <header className="self-stretch bg-primary-dark-80 box-border flex flex-col items-center justify-center py-[20px] lg:py-[30px] px-5 top-[0] z-[99] sticky max-w-full text-left text-41.5-custom text-secondary-light-30 font-familymain border-b-[2px] border-solid border-mediumblue">
@@ -29,7 +27,7 @@ const Header = () => {
             className="flex flex-row items-center justify-start gap-[9.22px] no-underline"
           >
             <img
-              className=" relative lg:max-w-[40%] max-w-[60%] "
+              className=" relative lg:max-w-[40%] max-w-[50%] "
               loading="eager"
               alt=""
               src="/main-logo.png"
@@ -39,19 +37,19 @@ const Header = () => {
             <div className="flex-1 flex flex-row items-center justify-end gap-[30px] max-w-full mq1250:hidden">
               <Link
                 to="/"
-                className="flex flex-row items-center justify-center text-secondary-light-10 no-underline"
+                className={`flex flex-row items-center justify-center text-secondary-light-10 no-underline ${location.pathname === '/' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}
               >
-                <div className="relative leading-[27px] font-medium">Home</div>
+                <div className="relative leading-[27px] font-medium border-primary-80">Home</div>
               </Link>
               <Link
                 to="/about"
-                className="flex flex-row items-center justify-center text-secondary-light-10 no-underline"
+                className={`flex flex-row items-center justify-center text-secondary-light-10 no-underline ${location.pathname === '/about' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}
               >
                 <div className="relative leading-[27px] font-medium">About</div>
               </Link>
               <Link
                 to="/service"
-                className="flex flex-row items-center justify-center text-secondary-light-10 no-underline gap-[6px]"
+                className={`flex flex-row items-center justify-center text-secondary-light-10 no-underline gap-[6px] ${location.pathname === '/service' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}
               >
                 <div className="relative leading-[27px] font-medium">
                   Services
@@ -59,7 +57,7 @@ const Header = () => {
               </Link>
               <Link
                 to="/detail"
-                className="flex flex-row items-center justify-center text-secondary-light-10 no-underline"
+                className={`flex flex-row items-center justify-center text-secondary-light-10 no-underline ${location.pathname === '/detail' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}
               >
                 <div className="relative leading-[27px] font-medium">
                   Detail
@@ -67,7 +65,7 @@ const Header = () => {
               </Link>
               <Link
                 to="/case-study"
-                className="flex flex-row items-center justify-center text-secondary-light-10 no-underline gap-[6px]"
+                className={`flex flex-row items-center justify-center text-secondary-light-10 no-underline gap-[6px] ${location.pathname === '/case-study' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}
               >
                 <div className="relative leading-[27px] font-medium">
                   Case Study

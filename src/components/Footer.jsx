@@ -2,6 +2,8 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+  const endYear = currentYear.toString().slice(2); 
   return (
     <>
        <footer className="self-stretch bg-primary-dark-80 overflow-hidden flex flex-col items-center justify-center pt-[100px] px-0 pb-0 box-border gap-[100px] max-w-full text-left text-60.2-custom text-secondary-light-10 font-familymain mq450:gap-[100px] mq750:gap-[100px] mq750:pt-[65px] mq750:box-border">
@@ -198,18 +200,18 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="self-stretch bg-secondary-dark-20 box-border flex flex-row flex-wrap items-center justify-center py-[30px] px-5 max-w-full text-left text-lg text-secondary-light-30 font-custom-bold border-t-[1px] border-solid border-secondary-dark-60">
+      <div className="self-stretch bg-secondary-dark-20 box-border mq450:text-16.8-custom mq750:text-16-custom flex flex-row flex-wrap items-center justify-center py-[30px] px-5 max-w-full text-left text-lg text-secondary-light-30 font-custom-bold border-t-[1px] border-solid border-secondary-dark-60">
       <div
-        className="w-[914px] relative leading-[27px] font-medium inline-block shrink-0 max-w-full"
+        className="w-[914px] relative leading-[27px] mq1050:text-center font-medium inline-block shrink-0 max-w-full"
        
       >
-        Copyright 2020-23 - All Right Reserved
+        Copyright 2020-{endYear} - All Right Reserved
       </div>
       <div className="flex flex-row items-start justify-start gap-[20px]">
         <div className="relative leading-[27px] font-medium">
           Privacy Policy
         </div>
-        <div className="relative leading-[27px] font-medium">{`Terms & Conditions`}</div>
+        <div className="relative leading-[27px] font-medium">Terms & Conditions</div>
       </div>
     </div>
     </footer>

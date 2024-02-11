@@ -15,16 +15,17 @@ const Feature = () => {
             results, driving real growth and helping you build a stronger, more
             successful brand.
           </div>
-          <button className="cursor-pointer [border:none] py-[15px] pr-[29px] pl-[30px] bg-[transparent] rounded-45.7-custom-border [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-start box-border gap-[11px] min-w-[140px] whitespace-nowrap">
-            <b className="relative text-base leading-[28px] font-custom-bold text-secondary-light-10 text-left">
-              Get Started Now
-            </b>
-            <img
-              className="h-6 w-6 relative overflow-hidden shrink-0"
-              alt=""
-              src="/btn-icons.svg"
-            />
-          </button>
+          <button className="group transition-bg [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hover:border-primary-80 transition-transform duration-300 ease-in-out transform cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] ">
+                      <div className=" relative text-base leading-[25px] font-semibold font-custom-bold text-secondary-light-10 text-left">
+
+                        Get Started Now
+                      </div>
+                      <img
+                        className="transition-transform duration-300 ease-in-out transform group-hover:text-secondary-light-10 group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
+                        alt=""
+                        src="/btn-icons.svg"
+                      />
+                    </button>
         </div>
         <div className="self-stretch flex flex-col items-center justify-start gap-[60px] text-left text-16.3-custom font-h4-desktop-h4-bold">
           <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px]">
@@ -167,16 +168,17 @@ const Feature = () => {
                   </div>
                 </div>
               </div>
-              <button className="cursor-pointer group border-[2px] border-solid border-secondary-light-10 py-[15px] px-[30px] bg-[transparent] rounded-45.7-custom-border hover:bg-primary-80 hover:border-primary-80 flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap" data-aos="fade-right" data-aos-duration="200">
-                <b className="  relative text-base leading-[28px] font-custom-bold text-secondary-light-10 text-left">
-                  Get Started Now
-                </b>
-                <img
-                  className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
-                  alt=""
-                  src="/btn-icons.svg"
-                />
-              </button>
+              <button className="group transition-bg [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hover:border-primary-80 transition-transform duration-300 ease-in-out transform cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] ">
+                      <div className=" relative text-base leading-[25px] font-semibold font-custom-bold text-secondary-light-10 text-left">
+
+                        Get Started Now
+                      </div>
+                      <img
+                        className="transition-transform duration-300 ease-in-out transform group-hover:text-secondary-light-10 group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
+                        alt=""
+                        src="/btn-icons.svg"
+                      />
+                    </button>
             </div>
           </div>
           <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px] text-base text-secondary-light-30 font-paragraphs-para-16px-semibold">
@@ -230,16 +232,17 @@ const Feature = () => {
                     platforms
                   </div>
                 </div>
-                <button className="group transition ease-in-out duration-300 cursor-pointer py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-secondary-light-10 text-secondary-light-10  hover:bg-primary-80 hover:box-border hover:border-[2px] hover:border-solid hover:border-primary-80">
-                  <div className="relative text-base leading-[25px] font-semibold font-custom-bold text-secondary-light-10 text-left">
-                    Get Started Now
-                  </div>
-                  <img
-                    className="h-6 w-6 relative overflow-hidden shrink-0 transition-transform duration-300 ease-in-out transform group-hover:translate-x-1"
-                    alt=""
-                    src="/btn-icons.svg"
-                  />
-                </button>
+                <button className="group transition-bg [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hover:border-primary-80 transition-transform duration-300 ease-in-out transform cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] ">
+                      <div className=" relative text-base leading-[25px] font-semibold font-custom-bold text-secondary-light-10 text-left">
+
+                        Get Started Now
+                      </div>
+                      <img
+                        className="transition-transform duration-300 ease-in-out transform group-hover:text-secondary-light-10 group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
+                        alt=""
+                        src="/btn-icons.svg"
+                      />
+                    </button>
               </div>
 
 

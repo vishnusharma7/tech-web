@@ -70,7 +70,7 @@ const FAQ = () => {
                 key={index}
                 className="flex-1 flex flex-col items-start justify-start gap-[20px] min-w-full"
               >
-                <div className="self-stretch rounded-mini bg-secondary-light-10 shadow-[5px_5px_20px_rgba(0,_0,_0,_0.05)] flex flex-col items-start justify-center py-[1.2rem] px-[1.5rem] lg:py-[35px] lg:px-10 gap-[10px] border-[1px] border-solid border-secondary-light-70">
+                <div className="self-stretch rounded-mini bg-secondary-light-10 shadow-[5px_5px_20px_rgba(0,_0,_0,_0.05)] flex flex-col items-start justify-center py-[1.5rem] px-[1.5rem] lg:py-[35px] lg:px-10 gap-[10px] border-[1px] border-solid border-secondary-light-70">
                   <div
                     className="self-stretch flex flex-row items-baseline justify-center gap-[31px] cursor-pointer"
                     onClick={() => toggleAccordion(index)}
@@ -87,7 +87,7 @@ const FAQ = () => {
                     />
                   </div>
                   <div
-                    className={`self-stretch relative text-[16px] lg:leading-[30px]  text-secondary-dark-40`}
+                    className={`self-stretch relative  lg:leading-[30px] font-custom-bold text-[1.2rem]  text-secondary-dark-60`}
                     style={{
                       maxHeight: openIndex === index ? "500px" : "0", // Adjust the max-height value as needed
                       overflow: "hidden",

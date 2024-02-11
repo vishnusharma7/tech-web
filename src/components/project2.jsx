@@ -24,11 +24,22 @@ const Project2 = () => {
                   healthcare industry through content marketing and influencer
                   partnerships.
                 </div>
-                <button className="cursor-pointer py-[5px] px-4 bg-[transparent] w-[154px] rounded-45.7-custom-border box-border flex flex-row items-center justify-center border-[2px] border-solid border-secondary-light-50 hover:bg-lightgray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-lightgray-100">
+                {/* <button className="cursor-pointer py-[5px] px-4 bg-[transparent] w-[154px] rounded-45.7-custom-border box-border flex flex-row items-center justify-center border-[2px] border-solid border-secondary-light-50 hover:bg-lightgray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-lightgray-100">
                   <div className="relative text-sm leading-[24px] font-semibold font-custom-bold text-secondary-light-50 text-left">
                     View Case Study
                   </div>
-                </button>
+                </button> */}
+                <button className="group transition-bg [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hover:border-primary-80 transition-transform duration-300 ease-in-out transform cursor-pointer group py-[5px] px-4 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] ">
+                      <div className=" relative text-sm leading-[24px]  font-custom-bold text-secondary-light-10 text-left">
+
+                      View Case Study
+                      </div>
+                      <img
+                        className="transition-transform duration-300 ease-in-out transform  group-hover:text-secondary-light-10 group-hover:translate-x-1 h-4 w-4 relative overflow-hidden shrink-0"
+                        alt=""
+                        src="/btn-icons.svg"
+                      />
+                    </button>
               </div>
             </div>
           </div>
@@ -42,11 +53,17 @@ const Project2 = () => {
                   Transforming EcoEats' social media presence with a focus on
                   eco-friendly practices and sustainable living.
                 </div>
-                <button className="cursor-pointer py-[5px] px-4 bg-[transparent] w-[154px] rounded-45.7-custom-border box-border flex flex-row items-center justify-center border-[2px] border-solid border-secondary-light-50 hover:bg-lightgray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-lightgray-100">
-                  <div className="relative text-sm leading-[24px] font-semibold font-custom-bold text-secondary-light-50 text-left">
-                    View Case Study
-                  </div>
-                </button>
+                <button className="group transition-bg [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hover:border-primary-80 transition-transform duration-300 ease-in-out transform cursor-pointer group py-[5px] px-4 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] ">
+                      <div className=" relative text-sm leading-[24px]  font-custom-bold text-secondary-light-10 text-left">
+
+                      View Case Study
+                      </div>
+                      <img
+                        className="transition-transform duration-300 ease-in-out transform  group-hover:text-secondary-light-10 group-hover:translate-x-1 h-4 w-4 relative overflow-hidden shrink-0"
+                        alt=""
+                        src="/btn-icons.svg"
+                      />
+                    </button>
               </div>
             </div>
             <div className="flex-1 rounded-30-custom-border overflow-hidden flex flex-col items-center justify-start bg-[url('/public/hero@3x.jpg')] bg-cover bg-no-repeat bg-[top] min-w-[280px] min-h-[486px] max-w-full" data-aos="fade-left" data-aos-delay="100">
@@ -58,11 +75,17 @@ const Project2 = () => {
                   Developing a virtual exhibition experience to showcase the
                   gallery's art collection to a global audience.
                 </div>
-                <button className="cursor-pointer py-[5px] px-4 bg-[transparent] w-[154px] rounded-45.7-custom-border box-border flex flex-row items-center justify-center border-[2px] border-solid border-secondary-light-50 hover:bg-lightgray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-lightgray-100">
-                  <div className="relative text-sm leading-[24px] font-semibold font-custom-bold text-secondary-light-50 text-left">
-                    View Case Study
-                  </div>
-                </button>
+                <button className="group transition-bg [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hover:border-primary-80 transition-transform duration-300 ease-in-out transform cursor-pointer group py-[5px] px-4 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] ">
+                      <div className=" relative text-sm leading-[24px]  font-custom-bold text-secondary-light-10 text-left">
+
+                      View Case Study
+                      </div>
+                      <img
+                        className="transition-transform duration-300 ease-in-out transform  group-hover:text-secondary-light-10 group-hover:translate-x-1 h-4 w-4 relative overflow-hidden shrink-0"
+                        alt=""
+                        src="/btn-icons.svg"
+                      />
+                    </button>
               </div>
             </div>
           </div>
@@ -76,11 +99,17 @@ const Project2 = () => {
                   Promoting FoodieFusion Catering's services through event
                   marketing, showcasing their culinary expertise.
                 </div>
-                <button className="cursor-pointer py-[5px] px-4 bg-[transparent] w-[154px] rounded-45.7-custom-border box-border flex flex-row items-center justify-center border-[2px] border-solid border-secondary-light-50 hover:bg-lightgray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-lightgray-100">
-                  <div className="relative text-sm leading-[24px] font-semibold font-custom-bold text-secondary-light-50 text-left">
-                    View Case Study
-                  </div>
-                </button>
+                <button className="group transition-bg [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hover:border-primary-80 transition-transform duration-300 ease-in-out transform cursor-pointer group py-[5px] px-4 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] ">
+                      <div className=" relative text-sm leading-[24px]  font-custom-bold text-secondary-light-10 text-left">
+
+                      View Case Study
+                      </div>
+                      <img
+                        className="transition-transform duration-300 ease-in-out transform  group-hover:text-secondary-light-10 group-hover:translate-x-1 h-4 w-4 relative overflow-hidden shrink-0"
+                        alt=""
+                        src="/btn-icons.svg"
+                      />
+                    </button>
               </div>
             </div>
             <div className="h-[511px] flex-1 rounded-30-custom-border overflow-hidden flex flex-col items-center justify-start bg-[url('/public/hero@3x.jpg')] bg-cover bg-no-repeat bg-[top] min-w-[280px] max-w-full" data-aos="fade-up" data-aos-delay="200">
@@ -92,11 +121,17 @@ const Project2 = () => {
                   Expanding SwiftStyle's e-commerce platform and implementing an
                   omnichannel marketing strategy.
                 </div>
-                <button className="cursor-pointer py-[5px] px-4 bg-[transparent] w-[154px] rounded-45.7-custom-border box-border flex flex-row items-center justify-center border-[2px] border-solid border-secondary-light-50 hover:bg-lightgray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-lightgray-100">
-                  <div className="relative text-sm leading-[24px] font-semibold font-custom-bold text-secondary-light-50 text-left">
-                    View Case Study
-                  </div>
-                </button>
+                <button className="group transition-bg [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hover:border-primary-80 transition-transform duration-300 ease-in-out transform cursor-pointer group py-[5px] px-4 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] ">
+                      <div className=" relative text-sm leading-[24px]  font-custom-bold text-secondary-light-10 text-left">
+
+                      View Case Study
+                      </div>
+                      <img
+                        className="transition-transform duration-300 ease-in-out transform  group-hover:text-secondary-light-10 group-hover:translate-x-1 h-4 w-4 relative overflow-hidden shrink-0"
+                        alt=""
+                        src="/btn-icons.svg"
+                      />
+                    </button>
               </div>
             </div>
             <div className="h-[511px] flex-1 rounded-30-custom-border overflow-hidden flex flex-col items-center justify-start bg-[url('/public/hero@3x.jpg')] bg-cover bg-no-repeat bg-[top] min-w-[280px] max-w-full" data-aos="fade-up" data-aos-delay="300">
@@ -108,11 +143,17 @@ const Project2 = () => {
                   A local business, had an outdated website. We transformed
                   their online presence with a modern.
                 </div>
-                <button className="cursor-pointer py-[5px] px-4 bg-[transparent] w-[154px] rounded-45.7-custom-border box-border flex flex-row items-center justify-center border-[2px] border-solid border-secondary-light-50 hover:bg-lightgray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-lightgray-100">
-                  <div className="relative text-sm leading-[24px] font-semibold font-custom-bold text-secondary-light-50 text-left">
-                    View Case Study
-                  </div>
-                </button>
+                <button className="group transition-bg [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hover:border-primary-80 transition-transform duration-300 ease-in-out transform cursor-pointer group py-[5px] px-4 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] ">
+                      <div className=" relative text-sm leading-[24px]  font-custom-bold text-secondary-light-10 text-left">
+
+                      View Case Study
+                      </div>
+                      <img
+                        className="transition-transform duration-300 ease-in-out transform  group-hover:text-secondary-light-10 group-hover:translate-x-1 h-4 w-4 relative overflow-hidden shrink-0"
+                        alt=""
+                        src="/btn-icons.svg"
+                      />
+                    </button>
               </div>
             </div>
           </div>

@@ -64,9 +64,9 @@ const Hero = () => {
         data-aos-duration="700"
       >
         <img
-          className="relative w-full   lg:w-[536.5px]   object-cover"
+          className="relative mq1050:w-full   w-[531px]   lg:w-[536.5px]   object-cover"
           alt=""
-          src="/hero-image.svg"
+          src="/hero-imag-main-2x.png"
         />
       </div>
     </div>

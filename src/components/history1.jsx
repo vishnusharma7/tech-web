@@ -10,16 +10,17 @@ const History1 = () => {
             It's our commitment to innovation, data-driven strategies, and a
             customer-centric approach.
           </div>
-          <button className="cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:box-border hover:border-[2px] hover:border-solid ">
-            <div className="relative text-base leading-[25px] font-semibold font-custom-bold text-primary-dark-80 text-left">
-              Get Started Now
-            </div>
-            <img
-              className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
-              alt=""
-              src="/btn-icons-6.svg"
-            />
-          </button>
+          <button className="group transition-bg [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hover:border-primary-80 transition-transform duration-300 ease-in-out transform cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] ">
+                      <div className=" relative text-base leading-[25px] font-semibold font-custom-bold text-secondary-light-10 text-left">
+
+                        Get Started Now
+                      </div>
+                      <img
+                        className="transition-transform duration-300 ease-in-out transform group-hover:text-secondary-light-10 group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
+                        alt=""
+                        src="/btn-icons.svg"
+                      />
+                    </button>
           <img
             className="self-stretch h-[794px] relative rounded-50-custom-border max-w-full overflow-hidden shrink-0 object-cover"
             alt=""

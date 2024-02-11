@@ -144,16 +144,7 @@ const Feature2 = () => {
                   </div>
                 </div>
               </div>
-              <button className="cursor-pointer group border-[2px] border-solid border-secondary-light-10 py-[15px] px-[30px] bg-[transparent] rounded-45.7-custom-border hover:bg-primary-80 hover:border-primary-80 flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap" data-aos="fade-right" data-aos-duration="200">
-                <b className="  relative text-base leading-[28px] font-custom-bold text-secondary-light-10 text-left">
-                  Get Started Now
-                </b>
-                <img
-                  className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
-                  alt=""
-                  src="/btn-icons.svg"
-                />
-              </button>
+             
             </div>
           </div>
           <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px] text-base text-secondary-light-30 font-paragraphs-para-16px-semibold">
@@ -207,16 +198,7 @@ const Feature2 = () => {
                     platforms
                   </div>
                 </div>
-                <button className="group transition ease-in-out duration-300 cursor-pointer py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-secondary-light-10 text-secondary-light-10  hover:bg-primary-80 hover:box-border hover:border-[2px] hover:border-solid hover:border-primary-80">
-                  <div className="relative text-base leading-[25px] font-semibold font-custom-bold text-secondary-light-10 text-left">
-                    Get Started Now
-                  </div>
-                  <img
-                    className="h-6 w-6 relative overflow-hidden shrink-0 transition-transform duration-300 ease-in-out transform group-hover:translate-x-1"
-                    alt=""
-                    src="/btn-icons.svg"
-                  />
-                </button>
+              
               </div>
 
 

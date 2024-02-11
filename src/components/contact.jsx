@@ -39,18 +39,17 @@ const Contact = () => {
             <div className="self-stretch flex flex-col items-start justify-center gap-[15px] text-lg text-secondary-dark-40">
               <div className="self-stretch flex flex-col items-start justify-center gap-[6px]">
                 <div className="self-stretch relative leading-[25px] font-semibold">
-                  Singapore:
+                INDIA:
                 </div>
                 <div className="self-stretch relative leading-[27px] font-medium font-custom-bold">
-                  123 Orchard Road, Business Tower
-                </div>
+                1207/343 & 1207/1/343/1, 9 th MAIN, 7 th SECTOR , HSR LAYOUT, BANGALORE, KARNATAKA 560102                </div>
               </div>
               <div className="self-stretch flex flex-col items-start justify-center gap-[6px]">
                 <div className="self-stretch relative leading-[25px] font-semibold">
-                  Canada:
+                {/* BANGALORE: */}
                 </div>
                 <div className="self-stretch relative leading-[27px] font-medium font-custom-bold">
-                  456 Maple Street Suite, Toronto
+                {/* KARNATAKA 560102 */}
                 </div>
               </div>
             </div>
@@ -59,26 +58,29 @@ const Contact = () => {
             <img
               className="w-[50px] h-[50px] relative overflow-hidden shrink-0"
               alt=""
-              src="/icon-31.svg"
+              src="/emails.svg"
             />
             <h3 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
-              Visit Us
+              Email Us
             </h3>
             <div className="self-stretch flex flex-col items-start justify-center gap-[15px] text-lg text-secondary-dark-40">
               <div className="self-stretch flex flex-col items-start justify-center gap-[6px]">
                 <div className="self-stretch relative leading-[25px] font-semibold">
-                  Singapore:
+                  {/* Singapore: */}
+                 Contact No:
                 </div>
                 <div className="self-stretch relative leading-[27px] font-medium font-custom-bold">
-                  123 Orchard Road, Business Tower
+                  {/* 123 Orchard Road, Business Tower */}
+                  +91 70431 12253, +91 70431 12252
                 </div>
               </div>
-              <div className="self-stretch flex flex-col items-start justify-center gap-[6px]">
+              <div className=" self-stretch flex flex-col items-start justify-center gap-[6px]">
                 <div className="self-stretch relative leading-[25px] font-semibold">
-                  Canada:
+                Email id:
                 </div>
                 <div className="self-stretch relative leading-[27px] font-medium font-custom-bold">
-                  456 Maple Street Suite, Toronto
+                  {/* 456 Maple Street Suite, Toronto */}
+                  info@techcreare.com
                 </div>
               </div>
             </div>
@@ -87,26 +89,26 @@ const Contact = () => {
             <img
               className="w-[50px] h-[50px] relative overflow-hidden shrink-0"
               alt=""
-              src="/icon-31.svg"
+              src="/contacts.svg"
             />
             <h3 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
-              Visit Us
+              Contact Us
             </h3>
             <div className="self-stretch flex flex-col items-start justify-center gap-[15px] text-lg text-secondary-dark-40">
               <div className="self-stretch flex flex-col items-start justify-center gap-[6px]">
                 <div className="self-stretch relative leading-[25px] font-semibold">
-                  Singapore:
+               
                 </div>
                 <div className="self-stretch relative leading-[27px] font-medium font-custom-bold">
-                  123 Orchard Road, Business Tower
+                Fill up the form and our Team will get back to you as soon as possible.
                 </div>
               </div>
               <div className="self-stretch flex flex-col items-start justify-center gap-[6px]">
                 <div className="self-stretch relative leading-[25px] font-semibold">
-                  Canada:
+                  INDIA:
                 </div>
                 <div className="self-stretch relative leading-[27px] font-medium font-custom-bold">
-                  456 Maple Street Suite, Toronto
+                BANGALORE
                 </div>
               </div>
             </div>

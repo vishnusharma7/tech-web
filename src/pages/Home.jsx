@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 
 import Hero from "../components/hero";
@@ -14,6 +14,9 @@ import CTA3 from "../components/c-t-a3";
 import Sliders from "../components/sliders";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
        <Hero />

@@ -8,16 +8,17 @@ const Process = () => {
           <h1 className="m-0 self-stretch h-[100px] relative text-inherit font-bold font-inherit inline-block mq450:text-25-custom mq750:text-34-custom">
             Our Simple Workflow To Start Your Dream Voice Over Project
           </h1>
-          <button className=" group cursor-pointer py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] border-[2px] border-solid border-primary-dark-80 hover:bg-darkslategray-200 hover:box-border hover:border-[2px] hover:border-solid hover:border-darkslategray-100">
-            <div className="relative text-base leading-[25px] font-semibold font-custom-bold text-primary-dark-80 text-left">
-              Get Started Now
-            </div>
-            <img
-              className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
-              alt=""
-              src="/btn-icons-6.svg"
-            />
-          </button>
+          <button className="group transition-bg [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hover:border-primary-80 transition-transform duration-300 ease-in-out transform cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] ">
+                      <div className=" relative text-base leading-[25px] font-semibold font-custom-bold text-secondary-light-10 text-left">
+
+                        Get Started Now
+                      </div>
+                      <img
+                        className="transition-transform duration-300 ease-in-out transform group-hover:text-secondary-light-10 group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
+                        alt=""
+                        src="/btn-icons.svg"
+                      />
+                    </button>
         </div>
         <div className="self-stretch flex flex-col items-center justify-start gap-[30px] max-w-full text-left text-24-custom font-custom-bold">
           <TopSection

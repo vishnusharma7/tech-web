@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Feature2 from "../components/feature2";
 import Services1 from "../components/services1";
 
@@ -6,6 +6,9 @@ import CTA3 from "../components/c-t-a3";
 import Sliders from '../components/sliders';
 
 const Detail = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
      <section className="self-stretch [background:linear-gradient(96.6deg,_#2c0058,_#06000c_66.67%)] box-border overflow-hidden flex flex-col items-center justify-center py-[100px] pr-[420px] pl-5 max-w-full text-left text-54-custom text-secondary-light-10 font-familymain border-b-[6px] border-solid border-mediumblue mq450:pr-5 mq450:box-border mq750:pt-[65px] mq750:pr-[105px] mq750:pb-[65px] mq750:box-border mq1250:pr-[210px] mq1250:box-border">
