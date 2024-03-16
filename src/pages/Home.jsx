@@ -69,7 +69,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <Team />
+      {/* <Team /> */}
       <FAQ />
       <CTA3 />  
 

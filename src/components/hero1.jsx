@@ -84,7 +84,6 @@ const Hero1 = () => {
     };
   }, [inView, counter1, counter2, counter3, counter4, counter5]);
 
-
   return (
     <section
       className="self-stretch bg-primary-20 overflow-hidden flex flex-col items-center justify-center py-[100px] px-5 box-border max-w-full text-center text-60-custom text-secondary-dark-20 font-custom-bold mq750:pt-[42px] mq750:pb-[42px] mq750:box-border mq1250:gap-[60px] mq1250:pt-[65px] mq1250:pb-[65px] mq1250:box-border"

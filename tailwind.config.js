@@ -21,6 +21,7 @@ export default {
         "secondary-dark-40": "#333",
         "secondary-dark-30": "#222",
         "secondary-light-40": "#f4f4f4",
+        "btn-color":"#121f06",
         mediumblue: "#AACE88",
         gainsboro: {
           "100": "#e6e6e6",

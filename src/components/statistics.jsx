@@ -43,19 +43,19 @@ const Statistics = () => {
 
     if (isInView) {
       interval1 = setInterval(() => {
-        if (counter1 < 55) {
+        if (counter1 < 20) {
           setCounter1(prevCounter => prevCounter + 1);
         }
       }, 50);
   
       interval2 = setInterval(() => {
-        if (counter2 < 30) {
+        if (counter2 < 15) {
           setCounter2(prevCounter => prevCounter + 1);
         }
       }, 50);
   
       interval3 = setInterval(() => {
-        if (counter3 < 15) {
+        if (counter3 < 10) {
           setCounter3(prevCounter => prevCounter + 1);
         }
       }, 50);
@@ -84,7 +84,7 @@ const Statistics = () => {
                 {counter1}+
               </div>
               <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-dark-40">
-                Expert Entrepreneurs
+                Company Expert
               </div>
             </div>
             <div className="flex-1 rounded-10-custom-border overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[80px]" data-aos="fade-up" data-aos-delay="200"> 
@@ -92,7 +92,7 @@ const Statistics = () => {
                 {counter2}+
               </div>
               <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-dark-40">
-                Distinct Accents
+               Industry Experience
               </div>
             </div>
             <div className="flex-1 rounded-10-custom-border overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[80px]" data-aos="fade-up" data-aos-delay="300">
@@ -100,7 +100,7 @@ const Statistics = () => {
                 {counter3}+
               </div>
               <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-dark-40">
-                Industry Experience
+                Delivered Projects
               </div>
             </div>
           </div>

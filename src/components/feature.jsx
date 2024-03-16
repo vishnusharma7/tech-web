@@ -1,31 +1,33 @@
-
+import { Link } from "react-router-dom";
 const Feature = () => {
   return (
     <section className="self-stretch [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] overflow-hidden flex flex-row items-center justify-center py-[120px] px-5 box-border max-w-full text-center text-54-custom text-secondary-light-10 font-familymain mq450:pt-[33px] mq450:pb-[33px] mq450:box-border mq1050:pt-[51px] mq1050:pb-[51px] mq1050:box-border mq1250:pt-[78px] mq1250:pb-[78px] mq1250:box-border">
       <div className="w-[1240px] flex flex-col items-center justify-start gap-[80px] max-w-full mq450:gap-[80px] mq750:gap-[80px]">
         <div
-          className="w-[700px] flex flex-col items-center justify-start gap-[15px] min-w-[360px] max-w-full"
+          className="w-[900px] flex flex-col items-center justify-start gap-[15px] min-w-[360px] max-w-full"
           data-aos="fade-up"
         >
-          <h1 className="m-0 self-stretch h-[130px] relative text-inherit font-bold font-inherit inline-block mq450:text-32-custom mq750:text-43-custom">
-            Experience the Power of Effective Marketing
+          <h1 className="m-0 self-stretch h-[130px] relative text-[50px] font-bold font-inherit inline-block mq450:text-32-custom mq750:text-43-custom">
+            Unleash the Potential of Your Business with Cutting-Edge Software Solutions
           </h1>
           <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-light-40">
             Together, we'll transform your ideas into tangible, measurable
             results, driving real growth and helping you build a stronger, more
             successful brand.
           </div>
-          <button className="group transition-bg [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hover:border-primary-80 transition-transform duration-300 ease-in-out transform cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] ">
-                      <div className=" relative text-base leading-[25px] font-semibold font-custom-bold text-secondary-light-10 text-left">
+          <Link to="/contact" className="no-underline">
+            <button className="group transition-bg [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hover:border-primary-80 transition-transform duration-300 ease-in-out transform cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] ">
+              <div className=" relative text-base leading-[25px] font-semibold font-custom-bold text-secondary-light-10 text-left">
 
-                        Get Started Now
-                      </div>
-                      <img
-                        className="transition-transform duration-300 ease-in-out transform group-hover:text-secondary-light-10 group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
-                        alt=""
-                        src="/btn-icons.svg"
-                      />
-                    </button>
+                Get Started Now
+              </div>
+              <img
+                className="transition-transform duration-300 ease-in-out transform group-hover:text-secondary-light-10 group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
+                alt=""
+                src="/btn-icons.svg"
+              />
+            </button>
+          </Link>
         </div>
         <div className="self-stretch flex flex-col items-center justify-start gap-[60px] text-left text-16.3-custom font-h4-desktop-h4-bold">
           <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px]">
@@ -118,11 +120,10 @@ const Feature = () => {
               data-aos-duration="700"
             >
               <div className="self-stretch relative   text-43-custom mq450:text-32-custom mq750:text-43-custom font-semibold text-secondary-light-10">
-                Partner with Us for Strategic Marketing Excellence
+                Partner with Us for Next-Generation Software Solutions
               </div>
               <div className="self-stretch relative text-xl leading-[30px] font-medium">
-                Provide a wide array of digital marketing services, including
-                SEO, content marketing, social media.
+                A comprehensive suite of software development services, encompassing Web & Mobile applications, E-commerce solutions, Healthcare and Insurance software, as well as Digital Marketing services.
               </div>
 
               <div className="self-stretch flex flex-col items-start justify-start gap-[8px] text-secondary-light-40">
@@ -152,8 +153,7 @@ const Feature = () => {
                   />
                   <div className="flex-1 relative leading-[25px] font-medium">
                     {" "}
-                    Generate high-quality content, such as blog posts, articles,
-                    videos
+                    Mobile application & Web application development
                   </div>
                 </div>
                 <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
@@ -163,22 +163,23 @@ const Feature = () => {
                     src="/c-t-a-buttons.svg"
                   />
                   <div className="flex-1 relative leading-[25px] font-medium">
-                    Manage and grow social media profiles across various
-                    platforms
+                  Real Time data analysis and repoting
                   </div>
                 </div>
               </div>
-              <button className="group transition-bg [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hover:border-primary-80 transition-transform duration-300 ease-in-out transform cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] ">
-                      <div className=" relative text-base leading-[25px] font-semibold font-custom-bold text-secondary-light-10 text-left">
+              <Link to="/contact" className="no-underline">
+                <button className="group transition-bg [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hover:border-primary-80 transition-transform duration-300 ease-in-out transform cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] ">
+                  <div className=" relative text-base leading-[25px] font-semibold font-custom-bold text-secondary-light-10 text-left">
 
-                        Get Started Now
-                      </div>
-                      <img
-                        className="transition-transform duration-300 ease-in-out transform group-hover:text-secondary-light-10 group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
-                        alt=""
-                        src="/btn-icons.svg"
-                      />
-                    </button>
+                    Get Started Now
+                  </div>
+                  <img
+                    className="transition-transform duration-300 ease-in-out transform group-hover:text-secondary-light-10 group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
+                    alt=""
+                    src="/btn-icons.svg"
+                  />
+                </button>
+              </Link>
             </div>
           </div>
           <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px] text-base text-secondary-light-30 font-paragraphs-para-16px-semibold">
@@ -232,17 +233,19 @@ const Feature = () => {
                     platforms
                   </div>
                 </div>
-                <button className="group transition-bg [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hover:border-primary-80 transition-transform duration-300 ease-in-out transform cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] ">
-                      <div className=" relative text-base leading-[25px] font-semibold font-custom-bold text-secondary-light-10 text-left">
+                <Link to="/contact" className="no-underline">
+                  <button className="group transition-bg [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hover:border-primary-80 transition-transform duration-300 ease-in-out transform cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] ">
+                    <div className=" relative text-base leading-[25px] font-semibold font-custom-bold text-secondary-light-10 text-left">
 
-                        Get Started Now
-                      </div>
-                      <img
-                        className="transition-transform duration-300 ease-in-out transform group-hover:text-secondary-light-10 group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
-                        alt=""
-                        src="/btn-icons.svg"
-                      />
-                    </button>
+                      Get Started Now
+                    </div>
+                    <img
+                      className="transition-transform duration-300 ease-in-out transform group-hover:text-secondary-light-10 group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
+                      alt=""
+                      src="/btn-icons.svg"
+                    />
+                  </button>
+                </Link>
               </div>
 
 

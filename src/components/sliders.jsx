@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React, { useEffect, useState } from "react";
+
 function Sliders() {
   const settings = {
     
@@ -47,56 +48,164 @@ function Sliders() {
 
         <Slider
         {...settings}
-        className="self-stretch flex flex-row items-center justify-between py-[20px] gap-[20px]    "
+        className="self-stretch flex flex-row techSlider items-center justify-between py-[20px] gap-[20px]    "
       >
         <div>
           <img
-            className="relative w-[150px] h-[36.7px] overflow-hidden shrink-0 object-cover"
+            className="relative w-[100px] h-[100px] overflow-hidden shrink-0 object-cover"
             loading="eager"
             alt=""
-            src="/pinterest@2x.png"
+            src="\assets\technology\DotNET-core.svg"
           />
         </div>
         <div>
           <img
-            className="relative w-[150px] h-[36.7px] overflow-hidden shrink-0 object-cover"
+            className="relative w-[100px] h-[100px] overflow-hidden shrink-0 object-cover"
             loading="eager"
             alt=""
-            src="/pinterest@2x.png"
-          />
-        </div>
-
-        <div>
-          <img
-            className="relative w-[150px] h-[45.7px] overflow-hidden shrink-0 object-cover"
-            loading="eager"
-            alt=""
-            src="/spotify.svg"
-          />
-        </div>
-        <div>
-          <img
-            className="h-[36.7px] w-[150px] relative overflow-hidden shrink-0 object-cover"
-            loading="eager"
-            alt=""
-            src="/pinterest@2x.png"
+            src="\assets\technology\Adobe-XD.svg"
           />
         </div>
 
         <div>
           <img
-            className="relative w-[150px] h-[45.7px] overflow-hidden shrink-0 object-cover"
+            className="relative w-[100px] h-[100px] overflow-hidden shrink-0 object-cover"
             loading="eager"
             alt=""
-            src="/spotify.svg"
+            src="\assets\technology\Android.svg"
           />
         </div>
         <div>
           <img
-           className="relative w-[150px] h-[45.7px] overflow-hidden shrink-0 object-cover"
+            className="h-[100px] w-[100px] relative overflow-hidden shrink-0 object-cover"
             loading="eager"
             alt=""
-            src="/airbnb.svg"
+            src="\assets\technology\AngularJS.svg"
+          />
+        </div>
+
+        <div>
+          <img
+            className="relative w-[100px] h-[100px] overflow-hidden shrink-0 object-cover"
+            loading="eager"
+            alt=""
+            src="\assets\technology\AWS.svg"
+          />
+        </div>
+        <div>
+          <img
+           className="relative w-[100px] h-[100px] overflow-hidden shrink-0 object-cover"
+            loading="eager"
+            alt=""
+            src="\assets\technology\Azure.svg"
+          />
+        </div>
+        <div>
+          <img
+            className="relative w-[100px] h-[100px] overflow-hidden shrink-0 object-cover"
+            loading="eager"
+            alt=""
+            src="\assets\technology\BitBucket.svg"
+          />
+        </div>
+        <div>
+          <img
+            className="relative w-[100px] h-[100px] overflow-hidden shrink-0 object-cover"
+            loading="eager"
+            alt=""
+            src="\assets\technology\CSharp.svg"
+          />
+        </div>
+
+        <div>
+          <img
+            className="relative w-[100px] h-[100px] overflow-hidden shrink-0 object-cover"
+            loading="eager"
+            alt=""
+            src="\assets\technology\CSS3.svg"
+          />
+        </div>
+        <div>
+          <img
+            className="h-[100px] w-[100px] relative overflow-hidden shrink-0 object-cover"
+            loading="eager"
+            alt=""
+            src="\assets\technology\GitHub.svg"
+          />
+        </div>
+
+        <div>
+          <img
+            className="relative w-[100px] h-[100px] overflow-hidden shrink-0 object-cover"
+            loading="eager"
+            alt=""
+            src="\assets\technology\HTML5.svg"
+          />
+        </div>
+        <div>
+          <img
+           className="relative w-[100px] h-[100px] overflow-hidden shrink-0 object-cover"
+            loading="eager"
+            alt=""
+            src="\assets\technology\JavaScript.svg"
+          />
+        </div>
+        <div>
+          <img
+            className="relative w-[100px] h-[100px] overflow-hidden shrink-0 object-cover"
+            loading="eager"
+            alt=""
+            src="\assets\technology\Laravel.svg"
+          />
+        </div>
+        <div>
+          <img
+            className="relative w-[100px] h-[100px] overflow-hidden shrink-0 object-cover"
+            loading="eager"
+            alt=""
+            src="\assets\technology\MySQL.svg"
+          />
+        </div>
+
+        <div>
+          <img
+            className="relative w-[100px] h-[100px] overflow-hidden shrink-0 object-cover"
+            loading="eager"
+            alt=""
+            src="\assets\technology\PHP.svg"
+          />
+        </div>
+        <div>
+          <img
+            className="h-[100px] w-[100px] relative overflow-hidden shrink-0 object-cover"
+            loading="eager"
+            alt=""
+            src="\assets\technology\Sass.svg"
+          />
+        </div>
+
+        <div>
+          <img
+            className="relative w-[100px] h-[100px] overflow-hidden shrink-0 object-cover"
+            loading="eager"
+            alt=""
+            src="\assets\technology\SQL-Developer.svg"
+          />
+        </div>
+        <div>
+          <img
+           className="relative w-[100px] h-[100px] overflow-hidden shrink-0 object-cover"
+            loading="eager"
+            alt=""
+            src="\assets\technology\Tailwind-CSS.svg"
+          />
+        </div>
+        <div>
+          <img
+           className="relative w-[100px] h-[100px] overflow-hidden shrink-0 object-cover"
+            loading="eager"
+            alt=""
+            src="\assets\technology\Vue.js.svg"
           />
         </div>
       </Slider>

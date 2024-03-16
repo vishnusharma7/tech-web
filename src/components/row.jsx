@@ -61,16 +61,16 @@ const Row = () => {
           reviewText="The results have been nothing short of remarkable. Our online presence has significantly improved, and our sales have seen a steady increase since we partnered with them."
           clientName1="Mason Martinez"
           reviewText1="Always find myself eagerly awaiting their next episode. It's clear that they put a lot of effort into every aspect of their podcasts"
-          clientName2="Isabella Thompson"
-          reviewText2="The results have been nothing short of remarkable. Our online presence has significantly improved, and our sales have seen a steady increase since we partnered with them."
+          // clientName2="Isabella Thompson"
+          // reviewText2="The results have been nothing short of remarkable. Our online presence has significantly improved, and our sales have seen a steady increase since we partnered with them."
         />
         <Column
           clientName="Sophia Williams"
           reviewText="I've been consistently impressed with their dedication to excellence. Their team goes above and beyond to support their creators, providing top-tier production resources and guidance."
           clientName1="Amelia Turner"
           reviewText1="I've been consistently impressed with their dedication to excellence. Their team goes above and beyond to support their creators, providing top-tier production resources and guidance."
-          clientName2="Ava Davis"
-          reviewText2="Their transparent reporting and analytics have allowed us to track the impact of our campaigns effectively."
+          // clientName2="Ava Davis"
+          // reviewText2="Their transparent reporting and analytics have allowed us to track the impact of our campaigns effectively."
           propHeight="unset"
           propHeight1="unset"
         />
@@ -79,8 +79,8 @@ const Row = () => {
           reviewText="Their transparent reporting and analytics have allowed us to track the impact of our campaigns effectively."
           clientName1="Benjamin Evans"
           reviewText1="Their transparent reporting and analytics have allowed us to track the impact of our campaigns effectively."
-          clientName2="Logan Wilson"
-          reviewText2="The company's commitment to technical excellence and their passion for storytelling shine through in every episode we produce together. It's been a fantastic experience collaborating with SparkCast."
+          // clientName2="Logan Wilson"
+          // reviewText2="The company's commitment to technical excellence and their passion for storytelling shine through in every episode we produce together. It's been a fantastic experience collaborating with SparkCast."
           propHeight="unset"
           propHeight1="unset"
         />

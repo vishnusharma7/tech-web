@@ -151,11 +151,10 @@ function Servicedetail() {
               data-aos-duration="700"
             >
               <div className="self-stretch relative text-small-heading lg:text-23xl font-semibold font-h4-desktop-h4-bold text-black">
-                Partner with Us for Strategic Marketing Excellence
+                Partner with Us for Next-Generation Software Solutions
               </div>
               <div className="self-stretch relative text-xl leading-[30px] font-medium">
-                Provide a wide array of digital marketing services, including
-                SEO, content marketing, social media.
+                A comprehensive suite of software development services, encompassing Web & Mobile applications, E-commerce solutions, Healthcare and Insurance software, as well as Digital Marketing services.
               </div>
               <div className="self-stretch flex flex-col items-start justify-start gap-[8px] text-black">
                 <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">

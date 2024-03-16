@@ -86,7 +86,7 @@ const Feature3 = () => {
         <div className="flex-1 flex flex-col items-start justify-center py-5 px-0 box-border gap-[20px] min-w-[360px] max-w-full text-42-custom font-custom-bold"  data-aos="fade-left"
               data-aos-duration="700">
           <h1 className="m-0 self-stretch h-[100px] relative text-inherit font-semibold font-familymain inline-block mq450:text-25-custom mq750:text-34-custom">
-            Partner with Us for Strategic Marketing Excellence
+            Partner with Us for Next-Generation Software Solutions
           </h1>
           <div className="self-stretch h-[60px] relative text-xl leading-[30px] font-medium text-secondary-light-30 inline-block mq450:text-base mq450:leading-[24px]">
             Provide a wide array of digital marketing services, including SEO,

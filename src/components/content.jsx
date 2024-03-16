@@ -343,7 +343,7 @@ const Content = ({
             className="m-0 self-stretch h-[100px] relative text-inherit font-semibold font-familymain inline-block mq450:text-25-custom mq750:text-34-custom"
             style={heading1Style}
           >
-            Partner with Us for Strategic Marketing Excellence
+            Partner with Us for Next-Generation Software Solutions
           </h1>
           <div
             className="self-stretch h-[60px] relative text-xl leading-[30px] font-medium text-secondary-dark-30 inline-block mq450:text-base mq450:leading-[24px]"

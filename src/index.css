@@ -12,3 +12,5 @@ body {
 ::after {
   border-width: 0;
 }
+.techSlider .slick-slide img{filter: grayscale(1);}
+.techSlider .slick-slide img:hover{filter: grayscale(0);}
