@@ -87,7 +87,7 @@ const Services = () => {
             ))}
           </div>
           <div className="self-stretch rounded-xl bg-secondary-light-10 box-border overflow-hidden flex flex-row flex-wrap items-center justify-center py-0 pr-px pl-0 gap-[29px] max-w-full text-30-custom border-[1px] border-solid border-secondary-light-80">
-            <div className="flex-[0.8584] rounded-10-custom-border flex flex-col items-start justify-center py-5 pr-20 pl-10 box-border gap-[10px] min-w-[360px] max-w-full mq750:pr-10 mq750:box-border">
+            <div className="flex-[0.8584] rounded-10-custom-border flex flex-col items-start justify-center py-5 pr-5 pl-10 box-border gap-[10px] min-w-[360px] max-w-full mq750:pr-10 mq750:box-border">
               {tabData.map((tab, index) => (
                 <div key={index} className={`${activeTab === tab.title ? 'block' : 'hidden'}`}>
                   <div className="self-stretch flex flex-col items-start justify-center gap-[20px] min-w-[360px]">
