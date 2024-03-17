@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="flex-1 flex flex-col items-start justify-center gap-[20px] min-w-[335px] max-w-full"  data-aos="fade-right"
             data-aos-duration="700">
         <div className="self-stretch flex flex-col items-start justify-center gap-[15px] min-w-[360px]">
-          <h1 className="m-0 self-stretch  relative text-inherit font-bold font-inherit  mq450:text-36-custom mq750:text-48-custom">
+          <h1 className="m-0 self-stretch  relative text-[48px] font-bold   mq450:text-36-custom mq750:text-48-custom">
           Leading App and Agile Software Development company
           </h1>
           <div className="self-stretch  relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-light-40 inline-block">
@@ -29,7 +29,7 @@ const Hero = () => {
           </button>
           </Link>
         </div>
-        <div className="self-stretch flex flex-row flex-wrap items-center justify-start py-2.5 pr-[22px] pl-0 gap-[10px] text-base text-secondary-light-40 font-custom-bold">
+        {/* <div className="self-stretch flex flex-row flex-wrap items-center justify-start py-2.5 pr-[22px] pl-0 gap-[10px] text-base text-secondary-light-40 font-custom-bold">
           <div className="flex  flex-row items-center justify-start  gap-[4px] ">
             <img
               className="h-3.5 w-3.5 relative"
@@ -60,7 +60,7 @@ const Hero = () => {
             Versatile Engagement Structures
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <div
         className="flex justify-center  "
