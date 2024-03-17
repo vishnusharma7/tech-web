@@ -182,7 +182,7 @@ const Feature = () => {
               </Link>
             </div>
           </div>
-          <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px] text-base text-secondary-light-30 font-paragraphs-para-16px-semibold">
+          {/* <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px] text-base text-secondary-light-30 font-paragraphs-para-16px-semibold">
             <div className="flex-1 flex flex-col items-start justify-center gap-[20px] min-w-[360px]" data-aos="fade-right">
               <div className="self-stretch relative   text-43-custom mq450:text-32-custom mq750:text-43-custom font-semibold text-secondary-light-10">
                 Driving Real Business Growth and Building Stronger Brands
@@ -287,7 +287,7 @@ const Feature = () => {
                 <div className="absolute top-[206.2px] left-[22.6px] rounded-[24.72px] bg-primary-80 w-[55.1px] h-[8.5px]" />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

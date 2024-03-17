@@ -55,12 +55,12 @@ const Footer = () => {
             <div className="h-48 flex-1 flex flex-col items-start justify-start min-w-[200px]">
               <div className="self-stretch flex flex-col items-start justify-start gap-[10px]">
                 <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
-                  Quick Links
+                 Services
                 </h2>
                 <div className="flex flex-col items-start justify-start gap-[6px] text-base text-secondary-light-70 font-custom-bold">
                   <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
-                      Home
+                    Product Engineering
                     </div>
                     <img
                       className="transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
@@ -70,7 +70,7 @@ const Footer = () => {
                   </div>
                   <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
-                      About
+                    E-Commerce Application
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
@@ -80,7 +80,7 @@ const Footer = () => {
                   </div>
                   <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
-                      Services
+                    Web Application Development
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
@@ -90,7 +90,17 @@ const Footer = () => {
                   </div>
                   <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
-                      Contact
+                    Dedicated Development Center
+                    </div>
+                    <img
+                      className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
+                      alt=""
+                      src="/icon-3.svg"
+                    />
+                  </div>
+                  <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
+                    <div className="relative leading-[25px] font-medium">
+                    Quality Assurance
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
@@ -104,12 +114,12 @@ const Footer = () => {
             <div className="h-48 flex-1 flex flex-col items-start justify-start min-w-[200px]">
               <div className="self-stretch flex flex-col items-start justify-start gap-[10px]">
                 <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
-                  Services
+                 Technologies
                 </h2>
                 <div className="flex flex-col items-start justify-start gap-[6px] text-base text-secondary-light-70 font-custom-bold">
                   <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
-                      Digital Marketing
+                    Asp.Net
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
@@ -119,7 +129,7 @@ const Footer = () => {
                   </div>
                   <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
-                      Social Adverstisement
+                    Asp.Net Core
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
@@ -129,7 +139,7 @@ const Footer = () => {
                   </div>
                   <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
-                      Content Marketing
+                    Vue JS
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
@@ -138,7 +148,37 @@ const Footer = () => {
                     />
                   </div>
                   <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
-                    <div className="relative leading-[25px] font-medium">{`Design & Branding `}</div>
+                    <div className="relative leading-[25px] font-medium">React JS</div>
+                    <img
+                      className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
+                      alt=""
+                      src="/icon-3.svg"
+                    />
+                  </div>
+                  <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
+                    <div className="relative leading-[25px] font-medium">
+                   PHP Laravel
+                    </div>
+                    <img
+                      className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
+                      alt=""
+                      src="/icon-3.svg"
+                    />
+                  </div>
+                  <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
+                    <div className="relative leading-[25px] font-medium">
+                  Angular
+                    </div>
+                    <img
+                      className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
+                      alt=""
+                      src="/icon-3.svg"
+                    />
+                  </div>
+                  <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
+                    <div className="relative leading-[25px] font-medium">
+                    Node
+                    </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
                       alt=""
@@ -151,12 +191,12 @@ const Footer = () => {
             <div className="h-48 flex-1 flex flex-col items-start justify-start min-w-[200px]">
               <div className="self-stretch flex flex-col items-start justify-start gap-[10px]">
                 <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
-                  Contact Info
+                  About
                 </h2>
                 <div className="flex flex-col items-start justify-start gap-[6px] text-base text-secondary-light-70 font-custom-bold">
                   <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
-                      Email Us
+                    About Company
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
@@ -166,7 +206,7 @@ const Footer = () => {
                   </div>
                   <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
-                      Request A Call
+                    Blogs
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
@@ -176,7 +216,7 @@ const Footer = () => {
                   </div>
                   <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
-                      Chat with Expert
+                    Career
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
@@ -186,7 +226,7 @@ const Footer = () => {
                   </div>
                   <div className=" cursor-pointer group flex flex-row items-center justify-start gap-[4px]">
                     <div className="relative leading-[25px] font-medium">
-                      Submit Request
+                    Culture & Events
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"

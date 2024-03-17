@@ -21,7 +21,7 @@ const Home = () => {
     <>
        <Hero />
      <Statistics />
-     <Sliders />
+     {/* <Sliders /> */}
       <Services />
       <Feature1 />
       <Feature />
@@ -71,6 +71,7 @@ const Home = () => {
       </section>
       {/* <Team /> */}
       <FAQ />
+      <Sliders />
       <CTA3 />  
 
      
