@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 
 import Hero from "../components/hero";
-import newsection1 from "../components/newsection1";
+import Newsection1 from "../components/newsection1";
 import Statistics from "../components/statistics";
 import Services from "../components/services";
 import Feature1 from "../components/feature1";
@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <>
        <Hero />
-       <newsection1 />
+       <Newsection1 />
      <Statistics />
      {/* <Sliders /> */}
       <Services />
