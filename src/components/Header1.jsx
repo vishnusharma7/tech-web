@@ -4,22 +4,24 @@ import { Link } from "react-router-dom";
 
 const Header1 = () => {
   return (
-    <div className="flex mq450:hidden  justify-center gap-5 ">
-      <Link to={"/about"}  className={`flex flex-row items-center justify-center text-secondary-light-10 no-underline ${location.pathname === '/about' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}>
-      <FlyoutLink href="#" >
+    <div className="flex mq450:hidden items-center justify-center gap-5 ">
+      <Link to={"/"}  className={`flex flex-row items-center justify-center text-secondary-light-10 no-underline ${location.pathname === '/' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}>
+      <FlyoutLink  >
      Home
       </FlyoutLink>
       </Link>
-      <FlyoutLink href="#" FlyoutContent={PricingContent1}>
-        About
+      <Link to={"/about"}  className={`flex flex-row items-center justify-center text-secondary-light-10 no-underline ${location.pathname === '/about' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}>
+      <FlyoutLink  FlyoutContent={PricingContent}>
+About
       </FlyoutLink>
-      <FlyoutLink href="#" FlyoutContent={PricingContent} >
+      </Link>
+      <FlyoutLink FlyoutContent={PricingContent1} >
         Pricing
       </FlyoutLink>
-      <FlyoutLink href="#" FlyoutContent={PricingContent}>
+      <FlyoutLink  FlyoutContent={PricingContent}>
         Pricing
       </FlyoutLink>
-      <FlyoutLink href="#" FlyoutContent={PricingContent}>
+      <FlyoutLink  FlyoutContent={PricingContent}>
         Pricing
       </FlyoutLink>
       <Link to="/contact" className="no-underline">
@@ -55,7 +57,7 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
           style={{
             transform: showFlyout ? "scaleX(1)" : "scaleX(0)",
           }}
-          className="absolute -bottom-2 -left-2 -right-2 h-1 origin-left scale-x-0 rounded-full bg-indigo-300 transition-transform duration-300 ease-out"
+          className="absolute -bottom-2 -left-2 -right-2 h-1 origin-left scale-x-0 rounded-full bg-primary-80 transition-transform duration-300  ease-out"
         />
       </a>
       <AnimatePresence>

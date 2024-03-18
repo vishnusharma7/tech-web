@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="self-stretch bg-primary-dark-80 box-border flex flex-col items-center justify-center py-[20px] lg:py-[30px] px-5 top-[0] z-[99] sticky max-w-full text-left text-41.5-custom text-secondary-light-30 font-familymain border-b-[2px] border-solid border-mediumblue">
+      <header className="self-stretch bg-primary-dark-80 box-border flex flex-col items-center justify-center py-[20px] lg:py-[30px] px-5 top-[0] z-[99] sticky max-w-full text-left text-21-custom  text-secondary-light-30 font-familymain border-b-[2px] border-solid border-mediumblue">
         <div className="w-[1240px]  flex flex-row items-center justify-between gap-[0px] [row-gap:20px] max-w-full">
           <Link
             to="/"
