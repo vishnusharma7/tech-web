@@ -5,7 +5,7 @@ import React from 'react';
 function Servicesmain() {
   return (
     <section className="text-secondary-light-10 [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)]  body-font">
-      <div className="  container font-familymain py-24 mx-auto">
+      <div className=" justify-center items-center container font-familymain py-24 mx-auto">
         <div className="text-center mb-20">
           <h1 className=" m-0 self-stretch relative text-[48px] font-bold   mq450:text-36-custom mq750:text-48-custom  mb-4">How may we assit you today</h1>
           <p className="self-stretch  relative text-lg leading-[30px] font-medium font-custom-bold  mq1250:w-3/4 mx-auto text-gray-500s">Services we offer</p>
@@ -21,11 +21,13 @@ function Servicesmain() {
             <div className="flex-grow">
               <h2 className="text-secondary-light-10 text-lg title-font font-medium mb-3">Product Engineering</h2>
               <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
-              <a className=" cursor-pointer mt-3 text-primary-80 inline-flex items-center">Learn More
+             
+              <a href="/service" className=" cursor-pointer mt-3 text-primary-80 inline-flex items-center">Learn More
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
               </a>
+              
             </div>
           </div>
           <div className="p-4 mq1250:w-1/3 flex flex-col text-center items-center min-w-[320px] ">
@@ -35,7 +37,7 @@ function Servicesmain() {
             <div className="flex-grow">
               <h2 className="text-secondary-light-10 text-lg title-font font-medium mb-3">E-Commerce App</h2>
               <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
-              <a className=" cursor-pointer mt-3 text-primary-80 inline-flex items-center">Learn More
+              <a href="/service" className=" cursor-pointer mt-3 text-primary-80 inline-flex items-center">Learn More
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
@@ -49,7 +51,7 @@ function Servicesmain() {
             <div className="flex-grow">
               <h2 className="text-secondary-light-10 text-lg title-font font-medium mb-3">Dedicated Development Center</h2>
               <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
-              <a className="cursor-pointer mt-3 text-primary-80 inline-flex items-center">Learn More
+              <a href="/service" className="cursor-pointer mt-3 text-primary-80 inline-flex items-center">Learn More
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
