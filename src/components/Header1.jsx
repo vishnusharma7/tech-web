@@ -172,7 +172,7 @@ const PricingContent2 = () => {
 };
 const PricingContent3 = () => {
   return (
-    <div className="w-fit bg-white p-6 shadow-xl">
+    <div className="w-64 bg-white p-6 shadow-xl">
       <div className="  mb-3 space-y-3">
         <div className="flex flex-col">
         <h3 className="font-semibold">Technologies </h3>
