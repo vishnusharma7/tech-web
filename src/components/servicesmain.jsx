@@ -5,7 +5,7 @@ import React from 'react';
 function Servicesmain() {
   return (
     <section className="text-secondary-light-10 [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)]  body-font">
-      <div className=" justify-center items-center container font-familymain py-24 mx-auto">
+      <div className="  container font-familymain py-24 mx-auto">
         <div className="text-center mb-20">
           <h1 className=" m-0 self-stretch relative text-[48px] font-bold   mq450:text-36-custom mq750:text-48-custom  mb-4">How may we assit you today</h1>
           <p className="self-stretch  relative text-lg leading-[30px] font-medium font-custom-bold  mq1250:w-3/4 mx-auto text-gray-500s">Services we offer</p>
@@ -13,8 +13,8 @@ function Servicesmain() {
             <div className="w-16 h-1 rounded-full bg-primary-80 inline-flex"></div>
           </div>
         </div>
-        <div className="  mx-auto flex mq1250:flex-wrap ">
-          <div className="p-4 mq1250:w-1/3 flex flex-col text-center items-center min-w-[320px]">
+        <div className=" justify-center mx-auto flex mq1250:flex-wrap ">
+          <div className="group hover:translate-y-1 cursor-pointer p-4 mq1250:w-1/3 flex flex-col text-center items-center min-w-[320px]">
             <div className="w-20 h-20 inline-flex items-center justify-center  mb-5 flex-shrink-0">
              <img className="w-32 h-32 " src="icon-01-service.png" alt="" />
             </div>
@@ -30,7 +30,7 @@ function Servicesmain() {
               
             </div>
           </div>
-          <div className="p-4 mq1250:w-1/3 flex flex-col text-center items-center min-w-[320px] ">
+          <div className=" group hover:translate-y-1 cursor-pointer p-4 mq1250:w-1/3 flex flex-col text-center items-center min-w-[320px] ">
             <div className="w-20 h-20 inline-flex items-center justify-center  mb-5 flex-shrink-0">
               <img className= "w-32 h-32" src="icon-02-service.png" alt="" />
             </div>
@@ -44,7 +44,7 @@ function Servicesmain() {
               </a>
             </div>
           </div>
-          <div className="p-4 mq1250:w-1/3 flex flex-col text-center items-center min-w-[320px] ">
+          <div className="group hover:translate-y-1 cursor-pointer p-4 mq1250:w-1/3 flex flex-col text-center items-center min-w-[320px] ">
             <div className="w-20 h-20 inline-flex items-center justify-center  mb-5 flex-shrink-0">
               <img className="w-32 h-32" src="icon-03-service.png" alt="" />
             </div>
