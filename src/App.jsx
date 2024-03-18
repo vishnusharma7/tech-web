@@ -9,11 +9,13 @@ import Detail from './pages/Detail';
 import Casestudy from './pages/Casestudy';
 import Service from './pages/Service';
 import ContactUs from './pages/Contact-us';
+import Header1 from './components/Header1';
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className="flex flex-col min-h-screen">
+    
         <Header />
         <div className="flex-1">
           <Routes>

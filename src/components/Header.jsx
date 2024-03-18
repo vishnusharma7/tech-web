@@ -6,6 +6,8 @@ import { useMediaQuery } from "react-responsive";
 import { Fragment } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { Menu, Transition } from "@headlessui/react";
+import Navbardropdowns from "./navbardropdowns";
+import Header1 from "./Header1";
 
 
 const Header = () => {
@@ -35,63 +37,8 @@ const Header = () => {
               src="/main-logo.png"
             />
           </Link>
-          <div className="w-[1038.1px] flex flex-row items-center justify-end gap-[30px] max-w-full text-lg font-custom-bold mq1250:w-[198px]">
-            <div className="flex-1 flex flex-row items-center justify-end gap-[30px] max-w-full mq1250:hidden">
-              <Link
-                to="/"
-                className={`flex flex-row items-center justify-center text-secondary-light-10 no-underline ${location.pathname === '/' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}
-              >
-                <div className="relative leading-[27px] font-medium border-primary-80">Home</div>
-              </Link>
-              <Link
-                to="/about"
-                className={`flex flex-row items-center justify-center text-secondary-light-10 no-underline ${location.pathname === '/about' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}
-              >
-                <div className="relative leading-[27px] font-medium">About</div>
-              </Link>
-              <Link
-                to="/service"
-                className={`flex flex-row items-center justify-center text-secondary-light-10 no-underline gap-[6px] ${location.pathname === '/service' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}
-              >
-                <div className="relative leading-[27px] font-medium">
-                  Services
-                </div>
-              </Link>
-              
-              <Link
-                to="/detail"
-                className={`flex flex-row items-center justify-center text-secondary-light-10 no-underline ${location.pathname === '/detail' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}
-              >
-                <div className="relative leading-[27px] font-medium">
-                  Detail
-                </div>
-              </Link>
-              <Link
-                to="/case-study"
-                className={`flex flex-row items-center justify-center text-secondary-light-10 no-underline gap-[6px] ${location.pathname === '/case-study' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}
-              >
-                <div className="relative leading-[27px] font-medium">
-                  Case Study
-                </div>
-              </Link>
-              <Link to="/contact" className="no-underline">
-                <button className=" cursor-pointer group [border:none] py-2.5 px-6 bg-[transparent] rounded-45.7-custom-border [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-center box-border gap-[6px] min-w-[140px] whitespace-nowrap">
-                  <img
-                    className="h-4 w-4 relative overflow-hidden shrink-0"
-                    alt=""
-                    src="/icon-2.svg"
-                  />
-                  <div className="transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative text-sm leading-[24px] font-semibold font-custom-bold text-secondary-light-10 text-left no-underline">
-                    Contact Sales
-                  </div>
-                </button>
-              </Link>
-              
-             
-
-            </div>
-          </div>
-
+          
+        <Header1 />
           <Menu as="div" className="relative  text-left">
             <div>
             {isMobile && (

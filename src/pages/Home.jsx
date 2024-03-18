@@ -13,6 +13,7 @@ import Team from "../components/team";
 import FAQ from "../components/f-a-q";
 import CTA3 from "../components/c-t-a3";
 import Sliders from "../components/sliders";
+import Servicesmain from "../components/servicesmain";
 
 const Home = () => {
   useEffect(() => {
@@ -72,7 +73,9 @@ const Home = () => {
         </div>
       </section>
       {/* <Team /> */}
+      <Servicesmain />
       <FAQ />
+      
       <Sliders />
       <CTA3 />  
 
