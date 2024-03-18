@@ -15,15 +15,21 @@ const Header1 = () => {
 About
       </FlyoutLink>
       </Link>
+      <Link to={"/service"}  className={`flex flex-row items-center justify-center text-secondary-light-10 no-underline ${location.pathname === '/service' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}>
       <FlyoutLink FlyoutContent={PricingContent1} >
-        Pricing
+        Services
       </FlyoutLink>
-      <FlyoutLink  FlyoutContent={PricingContent}>
-        Pricing
+      </Link>
+      <Link to={"/detail"}  className={`flex flex-row items-center justify-center text-secondary-light-10 no-underline ${location.pathname === '/detail' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}>
+      <FlyoutLink  FlyoutContent={PricingContent2}>
+        Technologies
       </FlyoutLink>
-      <FlyoutLink  FlyoutContent={PricingContent}>
-        Pricing
+      </Link>
+      <Link to={"/contact"}  className={`flex flex-row items-center justify-center text-secondary-light-10 no-underline ${location.pathname === '/contact' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}>
+      <FlyoutLink  FlyoutContent={PricingContent3}>
+       Contact
       </FlyoutLink>
+      </Link>
       <Link to="/contact" className="no-underline">
           <button className=" cursor-pointer group [border:none] py-2.5 px-6 bg-[transparent] rounded-45.7-custom-border [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-center box-border gap-[6px] min-w-[140px] whitespace-nowrap">
             <img
@@ -82,8 +88,24 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
 
 const PricingContent = () => {
   return (
-    <div className="w-64 bg-white p-6 shadow-xl text-[16px]">
-      kfhkhwfjwufehkuewfuifgw
+    
+    <div className="w-64  bg-white p-6 shadow-xl ">
+       <div className="mb-3 space-y-3">
+      <h3 className="font-semibold">About Us</h3>
+    
+    <a href="#" className="block text-black text-sm no-underline hover:text-primary-80">
+          About Company
+        </a>
+        <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
+         Blogs
+        </a>
+        <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
+         Career
+        </a>
+        <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
+        Culture & Events
+        </a>
+        </div>
     </div>
   );
 };
@@ -91,29 +113,76 @@ const PricingContent1 = () => {
   return (
     <div className="w-64 bg-white p-6 shadow-xl">
       <div className="mb-3 space-y-3">
-        <h3 className="font-semibold">For Individuals jsfjhwfjechsbvjsw</h3>
-        <a href="#" className="block text-sm hover:underline">
-          Introduction jfbwjvfhwfvhwevfiuwehvfhwevfhwekvb
+        <h3 className="font-semibold">Services we provide</h3>
+        <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
+          Product Engineering
         </a>
-        <a href="#" className="block text-sm hover:underline">
-          Pay as you go
+        <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
+       E-Commerce Application
         </a>
-      </div>
-      <div className="mb-6 space-y-3">
-        <h3 className="font-semibold">For Companies</h3>
-        <a href="#" className="block text-sm hover:underline">
-          Startups
+     
+        <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
+        Web Application Development
         </a>
-        <a href="#" className="block text-sm hover:underline">
-          SMBs
+        <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
+        Dedicated Development Center
         </a>
-        <a href="#" className="block text-sm hover:underline">
-          Enterprise
+        <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
+        Quality Assurance
         </a>
       </div>
-      <button className="w-full rounded-lg border-2 border-neutral-950 px-4 py-2 font-semibold transition-colors hover:bg-neutral-950 hover:text-white">
-        Contact sales
-      </button>
+      </div>
+  );
+};
+const PricingContent2 = () => {
+  return (
+    <div className="w-64 bg-white p-6 shadow-xl">
+      <div className="mb-3 space-y-3">
+        <h3 className="font-semibold">For Individuals </h3>
+        <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
+        Ticket Booking Solution
+
+        </a>
+        <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
+        Reward Loyalty Program
+        </a>
+        <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
+        Help Desk Smart City CRM
+        </a>
+        <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
+        Stock Tracker Web App
+        </a>
+        <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
+        Multivendor ECommerce Portal
+        </a>
+      </div>
+      
+    </div>
+  );
+};
+const PricingContent3 = () => {
+  return (
+    <div className="w-64 bg-white p-6 shadow-xl">
+      <div className="mb-3 space-y-3">
+        <h3 className="font-semibold">For Individuals </h3>
+        <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
+     Angular
+
+        </a>
+        <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
+       Node
+        </a>
+        <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
+        PHP Laravel
+        </a>
+        <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
+       Vue JS
+        </a>
+        <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
+       React JS
+        </a>
+      </div>
+      
     </div>
   );
 };

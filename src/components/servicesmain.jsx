@@ -4,26 +4,24 @@ import React from 'react';
 
 function Servicesmain() {
   return (
-    <section className="text-gray-600 body-font">
-      <div className="container  py-24 mx-auto">
+    <section className="text-secondary-light-10 [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)]  body-font">
+      <div className="  container font-familymain py-24 mx-auto">
         <div className="text-center mb-20">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Raw Denim Heirloom Man Braid</h1>
-          <p className="text-base leading-relaxed  mq1250:w-3/4 mx-auto text-gray-500s">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.</p>
+          <h1 className=" m-0 self-stretch relative text-[48px] font-bold   mq450:text-36-custom mq750:text-48-custom  mb-4">How may we assit you today</h1>
+          <p className="self-stretch  relative text-lg leading-[30px] font-medium font-custom-bold  mq1250:w-3/4 mx-auto text-gray-500s">Services we offer</p>
           <div className="flex mt-6 justify-center">
-            <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+            <div className="w-16 h-1 rounded-full bg-primary-80 inline-flex"></div>
           </div>
         </div>
         <div className="  mx-auto flex mq1250:flex-wrap ">
           <div className="p-4 mq1250:w-1/3 flex flex-col text-center items-center min-w-[320px]">
-            <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10" viewBox="0 0 24 24">
-                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-              </svg>
+            <div className="w-20 h-20 inline-flex items-center justify-center  mb-5 flex-shrink-0">
+             <img className="w-32 h-32 " src="icon-01-service.png" alt="" />
             </div>
             <div className="flex-grow">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
+              <h2 className="text-secondary-light-10 text-lg title-font font-medium mb-3">Product Engineering</h2>
               <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
-              <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
+              <a className=" cursor-pointer mt-3 text-primary-80 inline-flex items-center">Learn More
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
@@ -31,34 +29,27 @@ function Servicesmain() {
             </div>
           </div>
           <div className="p-4 mq1250:w-1/3 flex flex-col text-center items-center min-w-[320px] ">
-            <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10" viewBox="0 0 24 24">
-                <circle cx="6" cy="6" r="3"></circle>
-                <circle cx="6" cy="18" r="3"></circle>
-                <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-              </svg>
+            <div className="w-20 h-20 inline-flex items-center justify-center  mb-5 flex-shrink-0">
+              <img className= "w-32 h-32" src="icon-02-service.png" alt="" />
             </div>
             <div className="flex-grow">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-3">The Catalyzer</h2>
+              <h2 className="text-secondary-light-10 text-lg title-font font-medium mb-3">E-Commerce App</h2>
               <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
-              <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
+              <a className=" cursor-pointer mt-3 text-primary-80 inline-flex items-center">Learn More
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
               </a>
             </div>
           </div>
-          <div className="p-4 mq1250:w-1/3 flex flex-col text-center items-center min-w-[320px]">
-            <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10" viewBox="0 0 24 24">
-                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                <circle cx="12" cy="7" r="4"></circle>
-              </svg>
+          <div className="p-4 mq1250:w-1/3 flex flex-col text-center items-center min-w-[320px] ">
+            <div className="w-20 h-20 inline-flex items-center justify-center  mb-5 flex-shrink-0">
+              <img className="w-32 h-32" src="icon-03-service.png" alt="" />
             </div>
             <div className="flex-grow">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Neptune</h2>
+              <h2 className="text-secondary-light-10 text-lg title-font font-medium mb-3">Dedicated Development Center</h2>
               <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
-              <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
+              <a className="cursor-pointer mt-3 text-primary-80 inline-flex items-center">Learn More
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
