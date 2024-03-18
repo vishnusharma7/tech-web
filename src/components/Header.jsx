@@ -31,7 +31,7 @@ const Header = () => {
             className="flex flex-row items-center justify-start gap-[9.22px] no-underline"
           >
             <img
-              className=" relative lg:max-w-[40%] max-w-[50%] "
+              className=" relative lg:max-w-[40%] max-w-[40%] "
               loading="eager"
               alt=""
               src="/main-logo.png"
