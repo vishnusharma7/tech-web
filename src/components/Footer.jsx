@@ -51,8 +51,8 @@ const Footer = () => {
               dedication to your success.
             </div>
           </div>
-          <div className="self-stretch flex flex-row flex-wrap items-start justify-start py-0 pr-0.5 pl-0 gap-[10px] text-26-custom">
-            <div className="h-48 flex-1 flex flex-col items-start justify-start min-w-[200px]">
+          <div className="self-stretch flex flex-row flex-wrap items-start justify-start py-0 pr-0.5 pl-0 gap-[20px] text-26-custom">
+            <div className=" flex-1 flex flex-col items-start justify-start min-w-[200px]">
               <div className="self-stretch flex flex-col items-start justify-start gap-[10px]">
                 <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
                  Services
@@ -111,7 +111,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="h-48 flex-1 flex flex-col items-start justify-start min-w-[200px]">
+            <div className=" flex-1 flex flex-col items-start justify-start min-w-[200px]">
               <div className="self-stretch flex flex-col items-start justify-start gap-[10px]">
                 <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
                  Technologies
