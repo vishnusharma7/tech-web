@@ -22,12 +22,12 @@ About
       </Link>
       <Link to={"/detail"}  className={`flex flex-row items-center justify-center text-secondary-light-10 no-underline ${location.pathname === '/detail' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}>
       <FlyoutLink  FlyoutContent={PricingContent2}>
-        Technologies
+        Our work
       </FlyoutLink>
       </Link>
       <Link to={"/contact"}  className={`flex flex-row items-center justify-center text-secondary-light-10 no-underline ${location.pathname === '/contact' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}>
       <FlyoutLink  FlyoutContent={PricingContent3}>
-       Contact
+      Technologies
       </FlyoutLink>
       </Link>
       <Link to="/contact" className="no-underline">
@@ -91,8 +91,10 @@ const PricingContent = () => {
     
     <div className="w-64  bg-white p-6 shadow-xl ">
        <div className="mb-3 space-y-3">
+        <div className="flex flex-col">
       <h3 className="font-semibold">About Us</h3>
-    
+      <p className="text-[12px]">To discuss your business needs or for those looking career growth opportunities. Our holistic business life-cycle put people first.</p>
+      </div>
     <a href="#" className="block text-black text-sm no-underline hover:text-primary-80">
           About Company
         </a>
@@ -113,7 +115,10 @@ const PricingContent1 = () => {
   return (
     <div className="w-64 bg-white p-6 shadow-xl">
       <div className="mb-3 space-y-3">
-        <h3 className="font-semibold">Services we provide</h3>
+        <div className="flex flex-col">
+        <h3 className="font-semibold">Services</h3>
+  <p className="text-[12px]">Our experience and skillful engineering team achieve our client’s business goal with technology & profound services, TECH CREARE, carry a full-scale eco-systems from Ideas to product release and post-development.</p>
+        </div>
         <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
           Product Engineering
         </a>
@@ -136,9 +141,13 @@ const PricingContent1 = () => {
 };
 const PricingContent2 = () => {
   return (
-    <div className="w-64 bg-white p-6 shadow-xl">
-      <div className="mb-3 space-y-3">
-        <h3 className="font-semibold">For Individuals </h3>
+    <div className="w-fit bg-white p-6 shadow-xl">
+      <div className="  mb-3 space-y-3">
+      <div className="flex flex-col">
+        <h3 className="font-semibold">Our Work </h3>
+        <p className="text-[12px]">We listen, Understand, analyze then deliver a solutions which meet (or sometime Exceed) our client expectation. A true craftsmanship for any industry, weather a re-invent the process of your current business or establish emerging ideas to industry.</p>
+       </div>
+       
         <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
         Ticket Booking Solution
 
@@ -155,6 +164,7 @@ const PricingContent2 = () => {
         <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
         Multivendor ECommerce Portal
         </a>
+       
       </div>
       
     </div>
@@ -162,9 +172,20 @@ const PricingContent2 = () => {
 };
 const PricingContent3 = () => {
   return (
-    <div className="w-64 bg-white p-6 shadow-xl">
-      <div className="mb-3 space-y-3">
-        <h3 className="font-semibold">For Individuals </h3>
+    <div className="w-fit bg-white p-6 shadow-xl">
+      <div className="  mb-3 space-y-3">
+        <div className="flex flex-col">
+        <h3 className="font-semibold">Technologies </h3>
+        <p className="text-[12px]">Collaborate with TechCreare IT Expert to build an outstanding application, with industry experience and range of technologies to achieve highest ROI.</p>
+        </div>
+        <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
+     ASP.Net
+
+        </a>
+        <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
+     ASP.Net Core
+
+        </a>
         <a href="#" className="block text-black no-underline text-sm hover:text-primary-80">
      Angular
 
