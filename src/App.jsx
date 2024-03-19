@@ -9,7 +9,7 @@ import Detail from './pages/Detail';
 import Casestudy from './pages/Casestudy';
 import Service from './pages/Service';
 import ContactUs from './pages/Contact-us';
-import Header1 from './components/Header1';
+
 
 const App = () => {
   return (

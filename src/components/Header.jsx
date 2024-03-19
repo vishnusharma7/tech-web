@@ -7,7 +7,6 @@ import { Fragment } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { Menu, Transition } from "@headlessui/react";
 import Navbardropdowns from "./navbardropdowns";
-import Header1 from "./Header1";
 
 
 const Header = () => {
@@ -38,7 +37,7 @@ const Header = () => {
             />
           </Link>
           
-        <Header1 />
+        <Navbardropdowns />
           <Menu as="div" className="relative  text-left">
             <div>
             {isMobile && (
