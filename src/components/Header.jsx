@@ -11,7 +11,20 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const Header = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [isAboutDropdownOpen, setAboutDropdownOpen] = useState(false);
+  const [dropdownStates, setDropdownStates] = useState({
+    about: false,
+    service: false,
+    work: false,
+    technologies : false,
+    // Add more dropdown states as needed
+  });
+
+  const toggleDropdown = (dropdown) => {
+    setDropdownStates((prevState) => ({
+      ...prevState,
+      [dropdown]: !prevState[dropdown],
+    }));
+  };
   const location = useLocation();
   function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
@@ -20,7 +33,7 @@ const Header = () => {
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
-  const isMobile = useMediaQuery({ maxWidth: 1000 }); 
+  const isMobile = useMediaQuery({ maxWidth: 1000 });
 
   return (
     <>
@@ -37,18 +50,18 @@ const Header = () => {
               src="/main-logo.png"
             />
           </Link>
-          
-        <Navbardropdowns />
+
+          <Navbardropdowns />
           <Menu as="div" className="relative  text-left ">
             <div>
-            {isMobile && (
-              <Menu.Button className="flex lg:hidden cursor-pointer bg-[transparent] w-full justify-center gap-x-1.5 rounded-md  px-3 py-2 text-sm font-semibold  shadow-sm ">
-                <CiMenuBurger
-                  className="-mr-1 h-5 w-5 text-white"
-                  aria-hidden="true"
-                />
-              </Menu.Button>
-            )}
+              {isMobile && (
+                <Menu.Button className="flex lg:hidden cursor-pointer bg-[transparent] w-full justify-center gap-x-1.5 rounded-md  px-3 py-2 text-sm font-semibold  shadow-sm ">
+                  <CiMenuBurger
+                    className="-mr-1 h-5 w-5 text-white"
+                    aria-hidden="true"
+                  />
+                </Menu.Button>
+              )}
             </div>
 
             <Transition
@@ -78,102 +91,234 @@ const Header = () => {
                   </Menu.Item>
                   <Menu.Item className="no-underline  text-secondary-light-10 focus:outline-none">
                     {({ active }) => (
-                     <div 
-                     onMouseEnter={() => setAboutDropdownOpen(true)}
-                     onMouseLeave={() => setAboutDropdownOpen(false)}
-                     className="relative no-underline"
-                   >
-                     <Link
-                       to="/about"
-                       href="#"
-                       className={classNames(
-                         active ? "bg-secodary-50 text-primary-80 no-underline " : "text-secondary-light-10 no-underline ",
-                         "block px-4 py-2 "
-                       )}
-                     >
-                       About
-                     </Link>
-                     {isAboutDropdownOpen && (
-                          <div className="relative top-full left-0 z-10  py-2 px-4 no-underline">
+                      <div
+                        onMouseEnter={() => toggleDropdown("about")}
+                        onMouseLeave={() => toggleDropdown("about")}
+                        className="relative no-underline"
+                      >
+                        <Link
+                          to="/about"
+                          href="#"
+                          className={classNames(
+                            active ? "bg-secodary-50 text-primary-80 no-underline " : "text-secondary-light-10 no-underline transition-all duration-300 ",
+                            "block px-4 py-2 "
+                          )}
+                        >
+                          About
+                        </Link>
+                        {dropdownStates.about && (
+                          <div className="relative top-full  border-l-[1px] border-solid text-[18px] flex flex-col gap-1  border-secondary-light-60 left-5 z-10  py-2 px-4 no-underline">
                             <Link
                               to="/about"
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
-                             About Company
+                              About Company
                             </Link>
                             <Link
                               to="/about"
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
-                                   Blogs
+                              Blogs
                             </Link>
                             <Link
                               to="/about"
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
-                                Career
+                              Career
                             </Link>
                             <Link
                               to="/about"
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
-                               Culture & Events
+                              Culture & Events
                             </Link>
                           </div>
                         )}
                       </div>
                     )}
-                  
+
                   </Menu.Item>
                 </div>
                 <div className="py-1">
-                <Menu.Item className="no-underline text-secondary-light-10">
+                  <Menu.Item className="no-underline  text-secondary-light-10 focus:outline-none">
                     {({ active }) => (
-                      <Link
-                        to="service"
-                        href="#"
-                        className={classNames(
-                          active ? "bg-gray-100 text-white" : "text-white-10",
-                          "block px-4 py-2 "
-                        )}
+                      <div
+                        onMouseEnter={() => toggleDropdown("service")}
+                        onMouseLeave={() => toggleDropdown("service")}
+                        className="relative no-underline"
                       >
-                        Service dropdown menu
-                      </Link>
+                        <Link
+                          to="/about"
+                          href="#"
+                          className={classNames(
+                            active ? "bg-secodary-50 text-primary-80 no-underline " : "text-secondary-light-10 no-underline ",
+                            "block px-4 py-2 "
+                          )}
+                        >
+                          Service
+                        </Link>
+                        {dropdownStates.service && (
+                          <div className="relative top-full  border-l-[1px] border-solid text-[18px] flex flex-col gap-1  border-secondary-light-60 left-5 z-10  py-2 px-4 no-underline">
+                            <Link
+                              to="/about"
+                              className="text-secondary-light-10 block py-1 no-underline hover:text-white"
+                            >
+                              Product Engineering
+                            </Link>
+                            <Link
+                              to="/about"
+                              className="text-secondary-light-10 block py-1 no-underline hover:text-white"
+                            >
+                              E-Commerce Application
+
+                            </Link>
+                            <Link
+                              to="/about"
+                              className="text-secondary-light-10 block py-1 no-underline hover:text-white"
+                            >
+                              Web Application Development
+                            </Link>
+                            <Link
+                              to="/about"
+                              className="text-secondary-light-10 block py-1 no-underline hover:text-white"
+                            >
+                              Dedicated Development Center
+                            </Link>
+                            <Link
+                              to="/about"
+                              className="text-secondary-light-10 block py-1 no-underline hover:text-white"
+                            >
+                              Quality Assurance
+                            </Link>
+                          </div>
+                        )}
+                      </div>
                     )}
+
                   </Menu.Item>
+                  <Menu.Item className="no-underline  text-secondary-light-10 focus:outline-none">
+                    {({ active }) => (
+                      <div
+                        onMouseEnter={() => toggleDropdown("work")}
+                        onMouseLeave={() => toggleDropdown("work")}
+                        className="relative no-underline"
+                      >
+                        <Link
+                          to="/about"
+                          href="#"
+                          className={classNames(
+                            active ? "bg-secodary-50 text-primary-80 no-underline " : "text-secondary-light-10 no-underline ",
+                            "block px-4 py-2 "
+                          )}
+                        >
+                          Our work
+                        </Link>
+                        {dropdownStates.work && (
+                          <div className="relative top-full  border-l-[1px] border-solid text-[18px] flex flex-col gap-1  border-secondary-light-60 left-5 z-10  py-2 px-4 no-underline">
+                            <Link
+                              to="/about"
+                              className="text-secondary-light-10 block py-1 no-underline hover:text-white"
+                            >
+                              Asp.Net Core
+                            </Link>
+                            <Link
+                              to="/about"
+                              className="text-secondary-light-10 block py-1 no-underline hover:text-white"
+                            >
+                              Reward Loyalty Program
+
+                            </Link>
+                            <Link
+                              to="/about"
+                              className="text-secondary-light-10 block py-1 no-underline hover:text-white"
+                            >
+                              Help Desk Smart City CRM
+                            </Link>
+                            <Link
+                              to="/about"
+                              className="text-secondary-light-10 block py-1 no-underline hover:text-white"
+                            >
+                              Stock Tracker Web App
+                            </Link>
+                            <Link
+                              to="/about"
+                              className="text-secondary-light-10 block py-1 no-underline hover:text-white"
+                            >
+                              Multivendor ECommerce Portal
+                            </Link>
+                          </div>
+                        )}
+                      </div>
+                    )}
+
+                  </Menu.Item>
+                </div>
+                <div className="py-1">
+                  <Menu.Item className="no-underline  text-secondary-light-10 focus:outline-none">
+                    {({ active }) => (
+                      <div
+                        onMouseEnter={() => toggleDropdown("technologies")}
+                        onMouseLeave={() => toggleDropdown("technologies")}
+                        className="relative no-underline"
+                      >
+                        <Link
+                          to="/about"
+                          href="#"
+                          className={classNames(
+                            active ? "bg-secodary-50 text-primary-80 no-underline " : "text-secondary-light-10 no-underline ",
+                            "block px-4 py-2 "
+                          )}
+                        >
+                          Technologies
+                        </Link>
+                        {dropdownStates.technologies && (
+                          <div className="relative top-full  border-l-[1px] border-solid text-[18px] flex flex-col gap-1  border-secondary-light-60 left-5 z-10  py-2 px-4 no-underline">
+                            <Link
+                              to="/about"
+                              className="text-secondary-light-10 block py-1 no-underline hover:text-white"
+                            >
+                              ASP.Net
+                            </Link>
+                            <Link
+                              to="/about"
+                              className="text-secondary-light-10 block py-1 no-underline hover:text-white"
+                            >
+                              Angular
+
+                            </Link>
+                            <Link
+                              to="/about"
+                              className="text-secondary-light-10 block py-1 no-underline hover:text-white"
+                            >
+                              Node
+                            </Link>
+                            <Link
+                              to="/about"
+                              className="text-secondary-light-10 block py-1 no-underline hover:text-white"
+                            >
+                              PHP Laravel
+                            </Link>
+                            <Link
+                              to="/about"
+                              className="text-secondary-light-10 block py-1 no-underline hover:text-white"
+                            >
+                              Vue JS
+                            </Link>
+                            <Link
+                              to="/about"
+                              className="text-secondary-light-10 block py-1 no-underline hover:text-white"
+                            >
+                              React JS
+                            </Link>
+                          </div>
+                        )}
+                      </div>
+                    )}
+
+                  </Menu.Item>
+                </div>
+                <div className="py-1">
                   <Menu.Item className="no-underline text-secondary-light-10">
-                    {({ active }) => (
-                      <Link
-                        to="/case-study"
-                        href="#"
-                        className={classNames(
-                          active ? "bg-gray-100 text-white" : "text-white-10",
-                          "block px-4 py-2 "
-                        )}
-                      >
-                        Case Study
-                      </Link>
-                    )}
-                  </Menu.Item>
-                </div>
-                <div className="py-1">
-                <Menu.Item className="no-underline text-secondary-light-10">
-                    {({ active }) => (
-                      <Link
-                        to="detail"
-                        href="#"
-                        className={classNames(
-                          active ? "bg-gray-100 text-white" : "text-white-10",
-                          "block px-4 py-2 "
-                        )}
-                      >
-                        Service Detail
-                      </Link>
-                    )}
-                  </Menu.Item>
-                </div>
-                <div className="py-1">
-                <Menu.Item className="no-underline text-secondary-light-10">
                     {({ active }) => (
                       <Link
                         to="contact"
@@ -183,7 +328,7 @@ const Header = () => {
                           "block px-4 py-2 "
                         )}
                       >
-                       Contact
+                        Contact
                       </Link>
                     )}
                   </Menu.Item>
