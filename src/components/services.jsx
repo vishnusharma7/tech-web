@@ -36,7 +36,7 @@ const Services = () => {
   return (
     <section className="self-stretch bg-secondary-light-10 overflow-hidden flex flex-row items-center justify-center py-[10px] px-5 box-border max-w-full text-left text-xl text-secondary-dark-20 font-familymain mq750:pt-[42px] mq750:pb-[42px] mq750:box-border mq1050:pt-[65px] mq1050:pb-[65px] mq1050:box-border" data-aos="fade-up">
       <div className="w-[1240px] flex flex-col items-center justify-start gap-[50px] max-w-full mq750:gap-[50px]">
-        <div className="w-[1200px] flex flex-col items-start justify-start gap-[15px] min-w-[360px] max-w-full text-center text-54-custom text-secondary-dark-20 font-custom-bold">
+        <div className="w-[1000px] flex flex-col items-start justify-start gap-[15px] min-w-[360px] max-w-full text-center text-48-custom text-secondary-dark-20 font-custom-bold">
           <h1 className="m-0 self-stretch  relative text-inherit font-bold font-familymain inline-block mq750:text-43-custom mq450:text-32-custom">
             Comprehensive Software Solutions Tailored for Your Development Needs
           </h1>
@@ -86,15 +86,15 @@ const Services = () => {
               </button>
             ))}
           </div>
-          <div className="self-stretch rounded-xl bg-secondary-light-10 box-border overflow-hidden flex flex-row flex-wrap items-center justify-center py-0 pr-px pl-0 gap-[29px] max-w-full text-30-custom border-[1px] border-solid border-secondary-light-80">
-            <div className="flex-[0.8584] rounded-10-custom-border flex flex-col items-start justify-center py-5 pr-5 pl-10 box-border gap-[10px] min-w-[360px] max-w-full mq750:pr-10 mq750:box-border">
+          <div className="self-stretch rounded-xl bg-secondary-light-10 box-border overflow-hidden flex flex-row flex-wrap items-center justify-center   gap-[29px] max-w-full text-30-custom border-[1px] border-solid border-secondary-light-80">
+            <div className="flex-[0.8584] rounded-10-custom-border flex flex-col items-start justify-center p-5  box-border gap-[10px] min-w-[380px] max-w-full mq750:pr-10 mq750:box-border">
               {tabData.map((tab, index) => (
                 <div key={index} className={`${activeTab === tab.title ? 'block' : 'hidden'}`}>
                   <div className="self-stretch flex flex-col items-start justify-center gap-[20px] min-w-[360px]">
                     <h2 className="m-0 self-stretch  relative text-inherit font-semibold font-inherit inline-block mq450:text-lg mq750:text-24-custom">
                       {tab.title}
                     </h2>
-                    <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-dark-40">
+                    <div className="self-stretch relative text-16.8-custom leading-[27px] font-medium font-custom-bold text-secondary-dark-40">
                       {tab.content}
                     </div>
                     <Link to="/contact" className="no-underline">
@@ -147,7 +147,7 @@ const Services = () => {
                 </div>
               ))}
             </div>
-            <div className="flex-1 flex flex-row items-end justify-start py-[21px] px-5 box-border bg-[url('/public/column-right@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[335px] min-h-[450px] max-w-full text-16.8-custom text-secondary-light-10">
+            <div className="flex-1 flex flex-row items-end justify-start py-[21px] px-5 box-border bg-[url('/public/column-right@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[335px] min-h-[550px] max-w-full text-16.8-custom text-secondary-light-10">
               <div className="w-[300px] rounded-21.6-custom-border bg-gray-400 [backdrop-filter:blur(24px)] overflow-hidden shrink-0 flex flex-row items-center justify-center pt-[27px] px-[26px] pb-[26px] box-border">
                 <div className="flex-1 flex flex-row items-start justify-start py-0 px-px gap-[34px] mq450:flex-wrap">
                   <div className="flex-1 flex flex-col items-start justify-start gap-[21px] min-w-[84px]">

@@ -7,10 +7,11 @@ import { Fragment } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { Menu, Transition } from "@headlessui/react";
 import Navbardropdowns from "./navbardropdowns";
-
+import { AnimatePresence, motion } from "framer-motion";
 
 const Header = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isAboutDropdownOpen, setAboutDropdownOpen] = useState(false);
   const location = useLocation();
   function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
@@ -38,7 +39,7 @@ const Header = () => {
           </Link>
           
         <Navbardropdowns />
-          <Menu as="div" className="relative  text-left">
+          <Menu as="div" className="relative  text-left ">
             <div>
             {isMobile && (
               <Menu.Button className="flex lg:hidden cursor-pointer bg-[transparent] w-full justify-center gap-x-1.5 rounded-md  px-3 py-2 text-sm font-semibold  shadow-sm ">
@@ -59,7 +60,7 @@ const Header = () => {
               leaveFrom="transform opacity-100 scale-100"
               leaveTo="transform opacity-0 scale-95"
             >
-              <Menu.Items className="absolute right-0  z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 text-white rounded-md bg-[#111111] shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+              <Menu.Items className="absolute right-[-50%]  z-10 mt-2 w-[100vw] origin-top-right divide-y divide-gray-100 text-white rounded-md bg-[#111111] shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                 <div className="py-1">
                   <Menu.Item className="no-underline text-secondary-light-10">
                     {({ active }) => (
@@ -68,26 +69,61 @@ const Header = () => {
                         href="#"
                         className={classNames(
                           active ? "bg-gray-100 text-white" : "secondary-light-10 ",
-                          "block px-4 py-2 text-sm"
+                          "block px-4 py-2 "
                         )}
                       >
                         Home
                       </Link>
                     )}
                   </Menu.Item>
-                  <Menu.Item className="no-underline text-secondary-light-10">
+                  <Menu.Item className="no-underline  text-secondary-light-10 focus:outline-none">
                     {({ active }) => (
-                      <Link
-                        to="/about"
-                        href="#"
-                        className={classNames(
-                          active ? "bg-gray-100 text-white" : "secondary-light-10",
-                          "block px-4 py-2 text-sm"
+                     <div 
+                     onMouseEnter={() => setAboutDropdownOpen(true)}
+                     onMouseLeave={() => setAboutDropdownOpen(false)}
+                     className="relative no-underline"
+                   >
+                     <Link
+                       to="/about"
+                       href="#"
+                       className={classNames(
+                         active ? "bg-secodary-50 text-primary-80 no-underline " : "text-secondary-light-10 no-underline ",
+                         "block px-4 py-2 "
+                       )}
+                     >
+                       About
+                     </Link>
+                     {isAboutDropdownOpen && (
+                          <div className="relative top-full left-0 z-10  py-2 px-4 no-underline">
+                            <Link
+                              to="/about"
+                              className="text-secondary-light-10 block py-1 no-underline hover:text-white"
+                            >
+                             About Company
+                            </Link>
+                            <Link
+                              to="/about"
+                              className="text-secondary-light-10 block py-1 no-underline hover:text-white"
+                            >
+                                   Blogs
+                            </Link>
+                            <Link
+                              to="/about"
+                              className="text-secondary-light-10 block py-1 no-underline hover:text-white"
+                            >
+                                Career
+                            </Link>
+                            <Link
+                              to="/about"
+                              className="text-secondary-light-10 block py-1 no-underline hover:text-white"
+                            >
+                               Culture & Events
+                            </Link>
+                          </div>
                         )}
-                      >
-                        About
-                      </Link>
+                      </div>
                     )}
+                  
                   </Menu.Item>
                 </div>
                 <div className="py-1">
@@ -98,10 +134,10 @@ const Header = () => {
                         href="#"
                         className={classNames(
                           active ? "bg-gray-100 text-white" : "text-white-10",
-                          "block px-4 py-2 text-sm"
+                          "block px-4 py-2 "
                         )}
                       >
-                        Service
+                        Service dropdown menu
                       </Link>
                     )}
                   </Menu.Item>
@@ -112,7 +148,7 @@ const Header = () => {
                         href="#"
                         className={classNames(
                           active ? "bg-gray-100 text-white" : "text-white-10",
-                          "block px-4 py-2 text-sm"
+                          "block px-4 py-2 "
                         )}
                       >
                         Case Study
@@ -128,7 +164,7 @@ const Header = () => {
                         href="#"
                         className={classNames(
                           active ? "bg-gray-100 text-white" : "text-white-10",
-                          "block px-4 py-2 text-sm"
+                          "block px-4 py-2 "
                         )}
                       >
                         Service Detail
@@ -144,7 +180,7 @@ const Header = () => {
                         href="#"
                         className={classNames(
                           active ? "bg-gray-100 text-white" : "text-white-10",
-                          "block px-4 py-2 text-sm"
+                          "block px-4 py-2 "
                         )}
                       >
                        Contact
