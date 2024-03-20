@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 import React, { useState } from "react";
@@ -15,7 +16,7 @@ const Header = () => {
     about: false,
     service: false,
     work: false,
-    technologies : false,
+    technologies: false,
     // Add more dropdown states as needed
   });
 
@@ -72,7 +73,7 @@ const Header = () => {
               leaveFrom="transform opacity-100 scale-100"
               leaveTo="transform opacity-0 scale-95"
             >
-              <Menu.Items className="absolute right-[-50%]  z-10 mt-2 w-[100vw] origin-top-right divide-y divide-gray-100 text-white rounded-md bg-[#111111] shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+              <Menu.Items className="absolute right-[-50%]  z-10 mt-2 w-[100vw]  origin-top-right divide-y divide-gray-100 text-white rounded-md bg-[#111111] shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                 <div className="py-1">
                   <Menu.Item className="no-underline text-secondary-light-10">
                     {({ active }) => (
@@ -95,20 +96,26 @@ const Header = () => {
                         onMouseLeave={() => toggleDropdown("about")}
                         className="relative no-underline"
                       >
-                        <Link
-                          to="/about"
+                        <Link 
                           href="#"
                           className={classNames(
                             active ? "bg-secodary-50 text-primary-80 no-underline " : "text-secondary-light-10 no-underline transition-all duration-300 ",
                             "block px-4 py-2 "
                           )}
                         >
-                          About
+                          <div className="flex items-center gap-1">
+                         About
+                         
+                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                         </svg>
+                          </div>
+                         
                         </Link>
+                       
                         {dropdownStates.about && (
                           <div className="relative top-full  border-l-[1px] border-solid text-[18px] flex flex-col gap-1  border-secondary-light-60 left-5 z-10  py-2 px-4 no-underline">
-                            <Link
-                              to="/about"
+                            <Link to={"/about"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               About Company
@@ -147,44 +154,50 @@ const Header = () => {
                         className="relative no-underline"
                       >
                         <Link
-                          to="/about"
+                          
                           href="#"
                           className={classNames(
                             active ? "bg-secodary-50 text-primary-80 no-underline " : "text-secondary-light-10 no-underline ",
                             "block px-4 py-2 "
                           )}
                         >
+                           <div className="flex items-center gap-1">
+
                           Service
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                         </svg>
+                          </div>
                         </Link>
                         {dropdownStates.service && (
                           <div className="relative top-full  border-l-[1px] border-solid text-[18px] flex flex-col gap-1  border-secondary-light-60 left-5 z-10  py-2 px-4 no-underline">
                             <Link
-                              to="/about"
+                              to={"/service"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               Product Engineering
                             </Link>
                             <Link
-                              to="/about"
+                              to={"/service"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               E-Commerce Application
 
                             </Link>
                             <Link
-                              to="/about"
+                              to={"/service"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               Web Application Development
                             </Link>
                             <Link
-                              to="/about"
+                             to={"/service"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               Dedicated Development Center
                             </Link>
                             <Link
-                              to="/about"
+                             to={"/service"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               Quality Assurance
@@ -202,20 +215,24 @@ const Header = () => {
                         onMouseLeave={() => toggleDropdown("work")}
                         className="relative no-underline"
                       >
-                        <Link
-                          to="/about"
+                        <Link 
                           href="#"
                           className={classNames(
                             active ? "bg-secodary-50 text-primary-80 no-underline " : "text-secondary-light-10 no-underline ",
                             "block px-4 py-2 "
                           )}
                         >
+                          <div className="flex items-center gap-1">
                           Our work
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                         </svg>
+                          </div>
                         </Link>
                         {dropdownStates.work && (
                           <div className="relative top-full  border-l-[1px] border-solid text-[18px] flex flex-col gap-1  border-secondary-light-60 left-5 z-10  py-2 px-4 no-underline">
                             <Link
-                              to="/about"
+                              to={"/detail"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               Asp.Net Core
@@ -228,19 +245,19 @@ const Header = () => {
 
                             </Link>
                             <Link
-                              to="/about"
+                                to={"/detail"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               Help Desk Smart City CRM
                             </Link>
                             <Link
-                              to="/about"
+                                to={"/detail"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               Stock Tracker Web App
                             </Link>
                             <Link
-                              to="/about"
+                                to={"/detail"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               Multivendor ECommerce Portal
@@ -260,51 +277,55 @@ const Header = () => {
                         onMouseLeave={() => toggleDropdown("technologies")}
                         className="relative no-underline"
                       >
-                        <Link
-                          to="/about"
+                        <Link 
                           href="#"
                           className={classNames(
                             active ? "bg-secodary-50 text-primary-80 no-underline " : "text-secondary-light-10 no-underline ",
                             "block px-4 py-2 "
                           )}
                         >
+                          <div className="flex items-center gap-1">
                           Technologies
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                         </svg>
+                          </div>
                         </Link>
                         {dropdownStates.technologies && (
                           <div className="relative top-full  border-l-[1px] border-solid text-[18px] flex flex-col gap-1  border-secondary-light-60 left-5 z-10  py-2 px-4 no-underline">
                             <Link
-                              to="/about"
+                              to={"/case-study"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               ASP.Net
                             </Link>
                             <Link
-                              to="/about"
+                              to={"/case-study"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               Angular
 
                             </Link>
                             <Link
-                              to="/about"
+                              to={"/case-study"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               Node
                             </Link>
                             <Link
-                              to="/about"
+                              to={"/case-study"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               PHP Laravel
                             </Link>
                             <Link
-                              to="/about"
+                              to={"/case-study"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               Vue JS
                             </Link>
                             <Link
-                              to="/about"
+                              to={"/case-study"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               React JS
