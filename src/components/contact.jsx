@@ -2,7 +2,7 @@
 const Contact = () => {
   return (
     <section className="self-stretch overflow-hidden flex flex-col items-center justify-center py-[100px] px-5 box-border max-w-full text-center text-26-custom text-secondary-dark-20 font-familymain mq1050:pt-[42px] mq1050:pb-[42px] mq1050:box-border mq1250:pt-[65px] mq1250:pb-[65px] mq1250:box-border mq450:pt-[27px] mq450:pb-[27px] mq450:box-border">
-      <div className="w-[1240px] flex flex-col items-center justify-center gap-[60px] max-w-full mq750:gap-[60px]">
+      <div className="w-[1300px] flex flex-col items-center justify-center gap-[60px] max-w-full mq750:gap-[60px]">
         <div
           className="w-[850px] flex flex-col items-center justify-center gap-[25px] min-w-[360px] max-w-full text-center text-60-custom text-secondary-dark-20 font-custom-bold" data-aos="fade-right" data-aos-duration="700"
 

@@ -26,7 +26,7 @@ const Row1 = ({
 
   return (
     <div
-      className="w-[1240px] flex flex-row flex-wrap items-start justify-center  max-w-full text-left text-54-custom text-secondary-dark-20 font-familymain mq450:gap-[70px] mq750:gap-[70px]"
+      className="w-[1300px] flex flex-row flex-wrap items-start justify-center  max-w-full text-left text-54-custom text-secondary-dark-20 font-familymain mq450:gap-[70px] mq750:gap-[70px]"
       style={row2Style}
     >
       <div className="flex-1 flex flex-col items-start justify-center gap-[15px] min-w-[360px] max-w-full">

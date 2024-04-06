@@ -3,7 +3,7 @@ import React from 'react'
 const CTA = () => {
     return (
       <section className="self-stretch bg-primary-dark-80 overflow-hidden flex flex-col items-center justify-start py-[100px] px-5 box-border max-w-full text-left text-54-custom text-secondary-light-10 font-familymain mq450:pt-[65px] mq450:pb-[65px] mq450:box-border">
-        <div className="w-[1240px] flex flex-row flex-wrap items-start justify-center gap-[20px] max-w-full">
+        <div className="w-[1300px] flex flex-row flex-wrap items-start justify-center gap-[20px] max-w-full">
           <div className="flex-1 flex flex-col items-start justify-center min-w-[335px] max-w-full">
             <h1 className="m-0 self-stretch h-[195px] relative text-inherit font-semibold font-inherit inline-block mq750:text-43-custom mq450:text-32-custom">
               Bridging the Gap Between Brands and Audiences

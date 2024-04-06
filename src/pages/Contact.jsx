@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="w-full relative [background:linear-gradient(180deg,_#fbf8ff,_#fff)] overflow-hidden flex flex-col items-start justify-start tracking-[normal]">
      <section className="self-stretch overflow-hidden flex flex-col items-center justify-center py-[100px] px-5 box-border max-w-full text-center text-41xl text-secondary-dark-20 font-sub-headings-sub-heading-26px-semibold mq450:pt-[27px] mq450:pb-[27px] mq450:box-border mq1050:pt-[42px] mq1050:pb-[42px] mq1050:box-border mq1250:pt-[65px] mq1250:pb-[65px] mq1250:box-border">
-      <div className="w-[1240px] flex flex-col items-center justify-center gap-[60px] max-w-full mq750:gap-[30px]">
+      <div className="w-[1300px] flex flex-col items-center justify-center gap-[60px] max-w-full mq750:gap-[30px]">
         <div className="w-[1000px] flex flex-col items-center justify-center gap-[15px] min-w-[360px] max-w-full font-paragraphs-para-18px-semibold">
           <h1 className="m-0 self-stretch h-36 relative text-inherit font-bold font-sub-headings-sub-heading-26px-semibold inline-block mq750:text-29xl mq450:text-17xl">
             Get in Touch with Our Expert Marketing Team

@@ -39,7 +39,7 @@ const Header = () => {
   return (
     <>
       <header className="self-stretch bg-primary-dark-80 box-border flex flex-col items-center justify-center py-[20px] lg:py-[30px] px-5 top-[0] z-[99] sticky max-w-full text-left text-21-custom  text-secondary-light-30 font-familymain border-b-[2px] border-solid border-mediumblue">
-        <div className="w-[1240px]  flex flex-row items-center justify-between gap-[0px] [row-gap:20px] max-w-full">
+        <div className="w-[1300px]  flex flex-row items-center justify-between gap-[0px] [row-gap:20px] max-w-full">
           <Link
             to="/"
             className="flex flex-row items-center justify-start gap-[9.22px] no-underline"
@@ -232,7 +232,7 @@ const Header = () => {
                         {dropdownStates.work && (
                           <div className="relative top-full  border-l-[1px] border-solid text-[18px] flex flex-col gap-1  border-secondary-light-60 left-5 z-10  py-2 px-4 no-underline">
                             <Link
-                              to={"/detail"}
+                              to={"/our-work"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               Asp.Net Core
@@ -245,19 +245,19 @@ const Header = () => {
 
                             </Link>
                             <Link
-                                to={"/detail"}
+                                to={"/our-work"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               Help Desk Smart City CRM
                             </Link>
                             <Link
-                                to={"/detail"}
+                                to={"/our-work"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               Stock Tracker Web App
                             </Link>
                             <Link
-                                to={"/detail"}
+                                to={"/our-work"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               Multivendor ECommerce Portal

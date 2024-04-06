@@ -43,7 +43,7 @@ const Services1 = () => {
         </button>
       </div>
       <section className="self-stretch bg-secondary-light-10 overflow-hidden flex flex-col items-center justify-start py-[100px] px-5 box-border gap-[60px] max-w-full text-center text-54-custom text-secondary-dark-20 font-familymain mq750:gap-[60px] mq750:pt-[42px] mq750:pb-[42px] mq750:box-border mq1050:pt-[65px] mq1050:pb-[65px] mq1050:box-border" data-aos="fade-up">
-      <div className="w-[1240px] rounded-xl [background:linear-gradient(180deg,_#fbf8ff,_#fff)] flex flex-row flex-wrap items-center justify-start p-[30px] box-border gap-[29px] max-w-full text-left text-xl ">
+      <div className="w-[1300px] rounded-xl [background:linear-gradient(180deg,_#fbf8ff,_#fff)] flex flex-row flex-wrap items-center justify-start p-[30px] box-border gap-[29px] max-w-full text-left text-xl ">
       <div className="flex gap-[20px] mq750:flex-col  items-center bg-gradient-to-b from-gradient-primary-gradient to-white   rounded-[20px]">
           <div className="flex flex-col items-center gap-[20px] min-w-[320px] ">
           <div className={`cursor-pointer flex flex-col gap-[20px]  min-w-[30px] bg-white p-[20px] border-solid border-secondary-light-70 rounded-[20px] tab-btn ${   selectedTab === 1 ? 'border shadow-md' : ''    }`}    onClick={() => handleTabClick(1)}

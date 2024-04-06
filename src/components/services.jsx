@@ -35,7 +35,7 @@ const Services = () => {
 
   return (
     <section className="self-stretch bg-secondary-light-10 overflow-hidden flex flex-row items-center justify-center py-[10px] px-5 box-border max-w-full text-left text-xl text-secondary-dark-20 font-familymain mq750:pt-[42px] mq750:pb-[42px] mq750:box-border mq1050:pt-[65px] mq1050:pb-[65px] mq1050:box-border" data-aos="fade-up">
-      <div className="w-[1240px] flex flex-col items-center justify-start gap-[50px] max-w-full mq750:gap-[50px]">
+      <div className="w-[1300px] flex flex-col items-center justify-start gap-[50px] max-w-full mq750:gap-[50px]">
         <div className="w-[1000px] flex flex-col items-start justify-start gap-[15px] min-w-[360px] max-w-full text-center text-48-custom text-secondary-dark-20 font-custom-bold">
           <h1 className="m-0 self-stretch  relative text-inherit font-bold font-familymain inline-block mq750:text-43-custom mq450:text-32-custom">
             Comprehensive Software Solutions Tailored for Your Development Needs

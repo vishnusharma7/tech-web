@@ -1,7 +1,7 @@
 const Project2 = () => {
   return (
     <section className="self-stretch bg-secondary-light-10 overflow-hidden flex flex-col items-center justify-center py-[100px] px-5 box-border max-w-full text-left text-48-custom text-secondary-dark-20 font-familymain mq450:pt-[27px] mq450:pb-[27px] mq450:box-border mq1050:pt-[42px] mq1050:pb-[42px] mq1050:box-border mq1250:pt-[65px] mq1250:pb-[65px] mq1250:box-border">
-      <div className="w-[1240px] flex flex-col items-center justify-center gap-[60px] max-w-full mq750:gap-[60px]">
+      <div className="w-[1300px] flex flex-col items-center justify-center gap-[60px] max-w-full mq750:gap-[60px]">
         <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[20px_80px] min-w-[360px] max-w-full mq450:gap-[20px_80px] mq750:gap-[20px_80px]">
           <h1 className="m-0 h-[116px] flex-1 relative text-inherit font-bold font-inherit inline-block min-w-[360px] max-w-full mq450:text-29-custom mq750:text-38-custom" data-aos="fade-right">
             Projects We’ve Done So far! You’ll Love Them...

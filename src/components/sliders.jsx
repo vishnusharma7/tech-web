@@ -44,7 +44,7 @@ function Sliders() {
   return (
           <section className="self-stretch bg-secondary-light-10 overflow-hidden flex flex-row items-center justify-center p-[60px] box-border max-w-full text-left text-36-custom text-secondary-dark-20 font-familymain mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq1250:pl-[30px] mq1250:pr-[30px] mq1250:box-border">
 
-          <div className="w-[1240px] flex flex-col items-start justify-start gap-[30px] max-w-full">
+          <div className="w-[1300px] flex flex-col items-start justify-start gap-[30px] max-w-full">
 
         <Slider
         {...settings}

@@ -22,7 +22,7 @@ const Navbardropdowns = () => {
           Services
         </FlyoutLink>
       </Link>
-      <Link to={"/detail"} className={`flex flex-row items-center justify-center whitespace-nowrap text-secondary-light-10 no-underline ${location.pathname === '/detail' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}>
+      <Link to={"/our-work"} className={`flex flex-row items-center justify-center whitespace-nowrap text-secondary-light-10 no-underline ${location.pathname === '/our-work' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}>
         <FlyoutLink FlyoutContent={PricingContent2} >
           Our work
         </FlyoutLink>

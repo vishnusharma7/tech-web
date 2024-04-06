@@ -2,7 +2,7 @@
 const Feature2 = () => {
   return (
     <div className="self-stretch bg-secondary-light-20  overflow-hidden flex flex-row items-center justify-center py-[120px] px-5 box-border max-w-full text-center text-54-custom text-secondary-dark-20 font-custom-bold mq750:pt-[51px] mq750:pb-[51px] mq750:box-border mq1250:pt-[78px] mq1250:pb-[78px] mq1250:box-border">
-      <div className="w-[1240px] flex flex-row items-center justify-center gap-[80px] max-w-full mq450:gap-[80px] mq750:gap-[80px]">
+      <div className="w-[1300px] flex flex-row items-center justify-center gap-[80px] max-w-full mq450:gap-[80px] mq750:gap-[80px]">
         <div className="self-stretch flex flex-col   items-center justify-start gap-[60px] text-left text-16.3-custom font-h4-desktop-h4-bold">
           <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px]">
             <div className="flex-1 rounded-medium-text h-[480px] flex flex-col items-end justify-end p-[30px] box-border bg-[url('/public/image1@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px]" data-aos="fade-right">

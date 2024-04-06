@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 const Feature = () => {
   return (
     <section className="self-stretch [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] overflow-hidden flex flex-row items-center justify-center py-[120px] px-5 box-border max-w-full text-center text-54-custom text-secondary-light-10 font-familymain mq450:pt-[33px] mq450:pb-[33px] mq450:box-border mq1050:pt-[51px] mq1050:pb-[51px] mq1050:box-border mq1250:pt-[78px] mq1250:pb-[78px] mq1250:box-border">
-      <div className="w-[1240px] flex flex-col items-center justify-start gap-[80px] max-w-full mq450:gap-[80px] mq750:gap-[80px]">
+      <div className="w-[1300px] flex flex-col items-center justify-start gap-[80px] max-w-full mq450:gap-[80px] mq750:gap-[80px]">
         <div
           className="w-[900px] flex flex-col items-center justify-start gap-[15px] min-w-[360px] max-w-full"
           data-aos="fade-up"

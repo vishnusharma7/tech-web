@@ -70,7 +70,7 @@ const Statistics = () => {
 
   return (
     <section ref={sectionRef} className="self-stretch bg-secondary-light-10 overflow-hidden flex flex-row items-center justify-center p-[10px] pb-[50px] box-border max-w-full text-left text-36-custom text-secondary-dark-20 font-familymain mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq1250:pl-[30px] mq1250:pr-[30px] mq1250:box-border">
-      <div className="w-[1240px] flex flex-col items-start justify-start gap-[30px] max-w-full">
+      <div className="w-[1300px] flex flex-col items-start justify-start gap-[30px] max-w-full">
         <div className="self-stretch box-border flex flex-row flex-wrap items-center justify-center pt-0 px-0 pb-20 gap-[20px] max-w-full border-b-[1px] border-solid border-secondary-light-60">
           <div className="w-[435px] flex flex-col items-start justify-center min-w-[360px] max-w-full">
             <h1 className="m-0 self-stretch h-[129px] relative text-inherit font-semibold font-inherit inline-block mq450:text-22-custom mq750:text-29-custom" data-aos="fade-up">

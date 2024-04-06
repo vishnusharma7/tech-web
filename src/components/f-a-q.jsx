@@ -45,7 +45,7 @@ const FAQ = () => {
 
   return (
     <section className="self-stretch bg-secondary-light-10 overflow-hidden flex flex-col pt-[2em] items-center justify-center pb-[120px] px-5 box-border max-w-full text-center text-54-custom text-secondary-dark-20 font-familymain mq750:pt-[51px] mq750:pb-[51px] mq750:box-border mq1050:pt-[78px] mq1050:pb-[78px] mq1050:box-border">
-      <div className="w-[1240px] flex flex-col items-center justify-center gap-[50px] max-w-full mq750:gap-[50px]">
+      <div className="w-[1300px] flex flex-col items-center justify-center gap-[50px] max-w-full mq750:gap-[50px]">
         <div className="w-[900px] flex flex-col items-center justify-center gap-[15px] min-w-[360px] max-w-full">
           <h1 className="m-0 self-stretch relative text-inherit font-bold font-inherit inline-block mq450:text-32-custom mq750:text-43-custom">
             Frequently Asked Questions

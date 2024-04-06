@@ -3,7 +3,7 @@ import History2 from "./history2";
 const History1 = () => {
   return (
     <section className="self-stretch bg-secondary-light-10 box-border overflow-hidden flex flex-col items-center justify-center py-[120px] px-5 max-w-full text-left text-54-custom text-secondary-dark-20 font-familymain border-t-[1px] border-solid border-secondary-light-10 mq750:gap-[60px] mq750:pt-[51px] mq750:pb-[51px] mq750:box-border mq1250:pt-[78px] mq1250:pb-[78px] mq1250:box-border">
-      <div className="w-[1240px] flex flex-row flex-wrap items-start justify-center gap-[60px] max-w-full mq750:gap-[60px]">
+      <div className="w-[1300px] flex flex-row flex-wrap items-start justify-center gap-[60px] max-w-full mq750:gap-[60px]">
         <div className="flex-1 flex flex-col items-start justify-center gap-[15px] min-w-[360px] max-w-full">
           <h1 className="m-0 self-stretch h-[65px] relative text-inherit font-bold font-inherit inline-block mq450:text-32-custom mq750:text-43-custom">{`Our History & Expertise`}</h1>
           <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-dark-40">

@@ -7,7 +7,7 @@ const Testimonial1 = () => {
         heading="See What Clients Are Raving About"
         image="/image-2@2x.png"
       />
-      <div className="w-[1240px] flex flex-row items-center justify-between py-0 px-[65px] box-border gap-[20px] max-w-full mq1050:flex-wrap mq1050:justify-center mq1250:pl-8 mq1250:pr-8 mq1250:box-border">
+      <div className="w-[1300px] flex flex-row items-center justify-between py-0 px-[65px] box-border gap-[20px] max-w-full mq1050:flex-wrap mq1050:justify-center mq1250:pl-8 mq1250:pr-8 mq1250:box-border">
         <img
           className="h-[36.7px] w-[150px] relative overflow-hidden shrink-0 object-cover"
           loading="eager"

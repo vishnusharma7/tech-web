@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const CTA3 = () => {
   return (
     <section className="self-stretch [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] box-border overflow-hidden flex flex-col items-center justify-start py-[100px] px-5 max-w-full text-left text-42-custom text-secondary-light-40 font-custom-bold border-t-[4px] border-solid border-primary-80 mq450:pt-[65px] mq450:pb-[65px] mq450:box-border">
-      <div className="w-[1240px] flex flex-row flex-wrap items-center justify-between gap-[20px] max-w-full">
+      <div className="w-[1300px] flex flex-row flex-wrap items-center justify-between gap-[20px] max-w-full">
         <div className="w-[650px] flex flex-col items-start justify-center gap-[20px] max-w-full">
           <h1 className="m-0 self-stretch h-[180px] relative text-inherit font-bold font-familymain text-secondary-light-10 inline-block mq450:text-25-custom mq750:text-34-custom" data-aos="fade-right">
             Building a Strong Connection Between Tech Solutions and Target Users
