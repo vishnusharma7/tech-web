@@ -12,94 +12,94 @@ const Feature1 = () => {
             <img
               className="h-5 w-5 relative"
               loading="eager"
-              alt=""
+              alt="white-star"
               src="/star-9.svg"
             />
-            <div className="transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
+            <h5 className=" m-0 text-[20px] transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
             Hire Dedicated Developers | Start Project in 1 Week
-            </div>
+            </h5>
           </div>
           <img
             className="self-stretch relative max-w-full overflow-hidden max-h-full"
-            alt=""
+            alt="divider"
             src="/divider-01.svg"
           />
           <div className=" cursor-pointer group self-stretch flex flex-row items-center justify-start gap-[10px]">
-            <img className="h-5 w-5 relative" alt="" src="/star-9.svg" />
-            <div className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
+            <img className="h-5 w-5 relative" alt="white-star" src="/star-9.svg" />
+            <h5 className=" m-0 text-[20px] transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
             Transparent Pricing | Time zone Compatible
-            </div>
+            </h5>
           </div>
           <img
             className="self-stretch relative max-w-full overflow-hidden max-h-full"
-            alt=""
+            alt="divider"
             src="/divider-01.svg"
           />
           <div className=" cursor-pointer group self-stretch flex flex-row items-center justify-start gap-[10px]">
-            <img className="h-5 w-5 relative" alt="" src="/star-9.svg" />
-            <div className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
+            <img className="h-5 w-5 relative" alt="white-star" src="/star-9.svg" />
+            <h5 className="m-0 text-[20px] transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
             Agile Development
-            </div>
+            </h5>
           </div>
         </div>
         <div className="flex-1 flex flex-col items-center justify-center gap-[20px] min-w-[138px] max-w-full">
           <div className=" cursor-pointer group self-stretch flex flex-row items-center justify-start gap-[10px]">
-            <img className="  relative" alt="" src="/star-9.svg" />
-            <div className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
+            <img className="  relative" alt="white-star" src="/star-9.svg" />
+            <h5 className=" m-0 text-[20px] transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
             Full Mobile App and Software Services
-            </div>
+            </h5>
           </div>
           <img
             className="self-stretch relative max-w-full overflow-hidden max-h-full"
-            alt=""
+            alt="divider"
             src="/divider-01.svg"
           />
           <div className=" cursor-pointer group self-stretch flex flex-row items-start justify-start gap-[10px]">
-            <img className="w-5 relative" alt="" src="/star-9.svg" />
-            <div className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
+            <img className="w-5 relative" alt="white-star" src="/star-9.svg" />
+            <h5 className=" m-0 text-[20px] transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
             Daily / Weekly / Monthly Reporting each day
-            </div>
+            </h5>
           </div>
           <img
             className="self-stretch relative max-w-full overflow-hidden max-h-full"
-            alt=""
+            alt="divider"
             src="/divider-01.svg"
           />
           <div className=" cursor-pointer group self-stretch flex flex-row items-center justify-start gap-[10px]">
-            <img className="h-5 w-5 relative" alt="" src="/star-9.svg" />
-            <div className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
+            <img className="h-5 w-5 relative" alt="white-star" src="/star-9.svg" />
+            <h5 className="m-0 text-[20px] transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
             Swift Access to Skilled Resources
-            </div>
+            </h5>
           </div>
         </div>
         <div className="flex-1 flex flex-col items-center justify-center gap-[20px] min-w-[138px] max-w-full">
           <div className=" cursor-pointer group self-stretch flex flex-row items-center justify-start gap-[10px]">
-            <img className="h-5 w-5 relative" alt="" src="/star-9.svg" />
-            <div className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
+            <img className="h-5 w-5 relative" alt="white-star" src="/star-9.svg" />
+            <h5 className="m-0 text-[20px] transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
             Smooth and Excellent Communication
-            </div>
+            </h5>
           </div>
           <img
             className="self-stretch relative max-w-full overflow-hidden max-h-full"
-            alt=""
+            alt="divider"
             src="/divider-01.svg"
           />
           <div className=" cursor-pointer group self-stretch flex flex-row items-center justify-start gap-[10px]">
-            <img className="h-5 w-5 relative" alt="" src="/star-9.svg" />
-            <div className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
+            <img className="h-5 w-5 relative" alt="white-star" src="/star-9.svg" />
+            <h5 className="m-0 text-[20px] transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
             Fully Signed NDA for Data Privacy and Confidentiality
-            </div>
+            </h5>
           </div>
           <img
             className="self-stretch relative max-w-full overflow-hidden max-h-full"
-            alt=""
+            alt="divider"
             src="/divider-01.svg"
           />
           <div className=" cursor-pointer group self-stretch flex flex-row items-center justify-start gap-[10px]">
-            <img className="h-5 w-5 relative" alt="" src="/star-9.svg" />
-            <div className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
+            <img className="h-5 w-5 relative" alt="white-star" src="/star-9.svg" />
+            <h5 className="m-0 text-[20px] transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
               Dedicated Development center
-            </div>
+            </h5>
           </div>
         </div>
       </div>
