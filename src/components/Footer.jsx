@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="flex flex-row items-center justify-start gap-[13.37px] ">
             <img
               className=" relative w-[250px]"
-              alt=""
+              alt="mainlogo"
               src="/main-logo.png"
             />
             {/* <div className="relative leading-[68.74px] font-semibold text-transparent !bg-clip-text [background:linear-gradient(140.99deg,_#f8efff,_#6b27ef)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] mq450:text-36-custom mq450:leading-[41px] mq750:text-48-custom mq750:leading-[55px]">
@@ -21,19 +21,19 @@ const Footer = () => {
           </div>
           <div className="flex flex-row items-center justify-start gap-[20px]">
             <div className="h-10 w-10 rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
-              <img className="w-7 h-7 relative" alt="" src="/group.svg" />
+              <img className="w-7 h-7 relative" alt="facebook" src="/group.svg" />
             </div>
             <div className="h-10 w-10 rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
               <img
                 className="w-7 h-7 relative overflow-hidden shrink-0"
-                alt=""
+                alt="linkedin"
                 src="/linkedin.svg"
               />
             </div>
             <div className="h-10 w-10 rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
               <img
                 className="w-7 h-7 relative overflow-hidden shrink-0"
-                alt=""
+                alt="instagram"
                 src="/instagram.svg"
               />
             </div>
@@ -44,12 +44,12 @@ const Footer = () => {
             <h1 className="m-0 self-stretch h-[50px] relative text-inherit font-bold font-inherit inline-block mq450:text-25-custom mq750:text-34-custom">
               About Us
             </h1>
-            <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-light-30">
+            <h2 className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-light-30">
               With a mission focused on strategic marketing, we're here to be
               your trusted partner, helping you navigate the complex marketing
               landscape. Choose us for our expertise, experience, and unwavering
               dedication to your success.
-            </div>
+            </h2>
           </div>
           <div className="self-stretch flex flex-row flex-wrap items-start justify-start py-0 pr-0.5 pl-0 gap-[20px] text-26-custom">
             <div className=" flex-1 flex flex-col items-start justify-start min-w-[200px]">
@@ -64,7 +64,7 @@ const Footer = () => {
                     </div>
                     <img
                       className="transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
-                      alt=""
+                      alt="arrow"
                       src="/icon-3.svg"
                     />
                   </div>
@@ -74,7 +74,7 @@ const Footer = () => {
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
-                      alt=""
+                      alt="arrow"
                       src="/icon-3.svg"
                     />
                   </div>
@@ -84,7 +84,7 @@ const Footer = () => {
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
-                      alt=""
+                      alt="arrow"
                       src="/icon-3.svg"
                     />
                   </div>
@@ -94,7 +94,7 @@ const Footer = () => {
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
-                      alt=""
+                      alt="arrow"
                       src="/icon-3.svg"
                     />
                   </div>
@@ -104,7 +104,7 @@ const Footer = () => {
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
-                      alt=""
+                      alt="arrow"
                       src="/icon-3.svg"
                     />
                   </div>
@@ -123,7 +123,7 @@ const Footer = () => {
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
-                      alt=""
+                      alt="arrow"
                       src="/icon-3.svg"
                     />
                   </div>
@@ -133,7 +133,7 @@ const Footer = () => {
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
-                      alt=""
+                      alt="arrow"
                       src="/icon-3.svg"
                     />
                   </div>
@@ -143,7 +143,7 @@ const Footer = () => {
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
-                      alt=""
+                      alt="arrow"
                       src="/icon-3.svg"
                     />
                   </div>
@@ -151,7 +151,7 @@ const Footer = () => {
                     <div className="relative leading-[25px] font-medium">React JS</div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
-                      alt=""
+                      alt="arrow"
                       src="/icon-3.svg"
                     />
                   </div>
@@ -161,7 +161,7 @@ const Footer = () => {
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
-                      alt=""
+                      alt="arrow"
                       src="/icon-3.svg"
                     />
                   </div>
@@ -171,7 +171,7 @@ const Footer = () => {
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
-                      alt=""
+                      alt="arrow"
                       src="/icon-3.svg"
                     />
                   </div>
@@ -181,7 +181,7 @@ const Footer = () => {
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
-                      alt=""
+                      alt="arrow"
                       src="/icon-3.svg"
                     />
                   </div>
@@ -200,7 +200,7 @@ const Footer = () => {
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
-                      alt=""
+                      alt="arrow"
                       src="/icon-3.svg"
                     />
                   </div>
@@ -210,7 +210,7 @@ const Footer = () => {
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
-                      alt=""
+                      alt="arrow"
                       src="/icon-3.svg"
                     />
                   </div>
@@ -220,7 +220,7 @@ const Footer = () => {
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
-                      alt=""
+                      alt="arrow"
                       src="/icon-3.svg"
                     />
                   </div>
@@ -230,7 +230,7 @@ const Footer = () => {
                     </div>
                     <img
                       className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
-                      alt=""
+                      alt="arrow"
                       src="/icon-3.svg"
                     />
                   </div>

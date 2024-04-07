@@ -83,25 +83,25 @@ const Statistics = () => {
               <div className="self-stretch h-[58px] relative font-semibold inline-block mq450:text-29-custom mq750:text-38-custom">
                 {counter1}+
               </div>
-              <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-dark-40">
+              <h1 className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-dark-40">
                 Company Expert
-              </div>
+              </h1>
             </div>
             <div className="flex-1 rounded-10-custom-border overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[80px]" data-aos="fade-up" data-aos-delay="200"> 
               <div className="self-stretch h-[58px] relative font-semibold inline-block mq450:text-29-custom mq750:text-38-custom">
                 {counter2}+
               </div>
-              <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-dark-40">
+              <h1 className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-dark-40">
                Industry Experience
-              </div>
+              </h1>
             </div>
             <div className="flex-1 rounded-10-custom-border overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[80px]" data-aos="fade-up" data-aos-delay="300">
               <div className="self-stretch h-[58px] relative font-semibold inline-block mq450:text-29-custom mq750:text-38-custom">
                 {counter3}+
               </div>
-              <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-dark-40">
+              <h1 className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-dark-40">
                 Delivered Projects
-              </div>
+              </h1>
             </div>
           </div>
         </div>

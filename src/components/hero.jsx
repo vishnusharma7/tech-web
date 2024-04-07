@@ -23,7 +23,7 @@ const Hero = () => {
             <img
               className="h-6 w-6 relative overflow-hidden shrink-0 transition-transform duration-300 ease-in-out transform group-hover:translate-x-1
               "
-              alt="btn-icons"
+              alt="arrow"
               src="/btn-icons.svg"
             />
           </button>
@@ -69,7 +69,7 @@ const Hero = () => {
       >
         <img
           className="relative mq1050:w-full   w-[531px]   lg:w-[536.5px]   object-cover"
-          alt=""
+          alt="mainlogo"
           src="/hero-imag-main-2x.png"
         />
       </div>

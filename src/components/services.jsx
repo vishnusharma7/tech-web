@@ -40,10 +40,10 @@ const Services = () => {
           <h1 className="m-0 self-stretch  relative text-inherit font-bold font-familymain inline-block mq750:text-43-custom mq450:text-32-custom">
             Comprehensive Software Solutions Tailored for Your Development Needs
           </h1>
-          <div className="self-stretch relative text-lg leading-[27px] font-medium text-secondary-dark-40">
+          <h2 className="self-stretch relative text-lg leading-[27px] font-medium text-secondary-dark-40">
             A range of Agile Software Development Services, including Web & Mobile application development and Digital Marketing services.
             Our solutions assist enterprises and SMEs in creating innovative solutions and achieving exceptional results.
-          </div>
+          </h2>
 
           <div
             className="w-[225px] rounded-45.7-custom-border [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hidden flex-row items-center justify-center py-[15px] px-[30px] box-border gap-[10px] min-w-[140px] whitespace-nowrap text-left text-base text-secondary-light-10"
@@ -56,7 +56,7 @@ const Services = () => {
 
               <img
                 className="h-6 w-6 relative overflow-hidden shrink-0"
-                alt=""
+                alt="arrow"
                 src="/btn-icons.svg"
               />
             </button>

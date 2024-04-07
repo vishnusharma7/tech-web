@@ -8,24 +8,24 @@ const CTA3 = () => {
           <h1 className="m-0 self-stretch h-[180px] relative text-inherit font-bold font-familymain text-secondary-light-10 inline-block mq450:text-25-custom mq750:text-34-custom" data-aos="fade-right">
             Building a Strong Connection Between Tech Solutions and Target Users
           </h1>
-          <div className="self-stretch relative text-lg leading-[27px] font-medium" data-aos="fade-up" data-aos-delay="400">
+          <h2 className="self-stretch relative text-lg leading-[27px] font-medium" data-aos="fade-up" data-aos-delay="400">
             From optimizing algorithms and data analysis to developing innovative software solutions and implementing effective cybersecurity measures, we offer comprehensive IT services to meet all your technological requirements.
-          </div>
+          </h2>
           <div className="self-stretch flex flex-row flex-wrap items-center justify-start py-0 pr-6 pl-0 gap-[10px] text-base" data-aos="fade-right" data-aos-delay="200">
             <div className="flex-1 flex flex-row items-center justify-start gap-[4px] min-w-[86px]">
-              <img className="h-3.5 w-3.5 relative" alt="" src="/c-t-a-buttons.svg" />
+              <img className="h-3.5 w-3.5 relative" alt="primary-star" src="/c-t-a-buttons.svg" />
               <div className="relative leading-[25px] font-medium">
                 Enhanced Online Visibility
               </div>
             </div>
             <div className="flex flex-row items-center justify-start gap-[4px]">
-              <img className="h-3.5 w-3.5 relative" alt="" src="/c-t-a-buttons.svg" />
+              <img className="h-3.5 w-3.5 relative" alt="primary-star" src="/c-t-a-buttons.svg" />
               <div className="relative leading-[25px] font-medium">
-                Customized Strategies
+              Customized Strategies
               </div>
             </div>
             <div className="flex flex-row items-center justify-start gap-[4px]">
-              <img className="h-3.5 w-3.5 relative" alt="" src="/c-t-a-buttons.svg" />
+              <img className="h-3.5 w-3.5 relative" alt="primary-star" src="/c-t-a-buttons.svg" />
               <div className="relative leading-[25px] font-medium">
                 Improved Branding
               </div>
@@ -39,7 +39,7 @@ const CTA3 = () => {
             </b>
             <img
               className=" transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
-              alt=""
+              alt="arrow"
               src="/btn-icons.svg"
             />
           </button>

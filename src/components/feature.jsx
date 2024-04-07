@@ -10,11 +10,11 @@ const Feature = () => {
           <h1 className="m-0 self-stretch h-[130px] relative text-[50px] font-bold font-inherit inline-block mq450:text-32-custom mq750:text-43-custom">
             Unleash the Potential of Your Business with Cutting-Edge Software Solutions
           </h1>
-          <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-light-40">
+          <h2 className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-light-40">
             Together, we'll transform your ideas into tangible, measurable
             results, driving real growth and helping you build a stronger, more
             successful brand.
-          </div>
+          </h2>
           <Link to="/contact" className="no-underline">
             <button className="group transition-bg [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hover:border-primary-80 transition-transform duration-300 ease-in-out transform cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] ">
               <div className=" relative text-base leading-[25px] font-semibold font-custom-bold text-secondary-light-10 text-left">
@@ -23,7 +23,7 @@ const Feature = () => {
               </div>
               <img
                 className="transition-transform duration-300 ease-in-out transform group-hover:text-secondary-light-10 group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
-                alt=""
+                alt="arrow"
                 src="/btn-icons.svg"
               />
             </button>
@@ -115,16 +115,16 @@ const Feature = () => {
               </div>
             </div>
             <div
-              className="flex-1 flex flex-col items-start justify-center gap-[20px] min-w-[360px] text-base text-secondary-light-30 font-paragraphs-para-16px-semibold"
+              className="flex-1 flex flex-col items-start justify-center gap-[15px] min-w-[360px] text-base text-secondary-light-30 font-paragraphs-para-16px-semibold"
               data-aos="fade-left"
               data-aos-duration="700"
             >
-              <div className="self-stretch relative   text-43-custom mq450:text-32-custom mq750:text-43-custom font-semibold text-secondary-light-10">
+              <h1 className="self-stretch relative text-[50px] mq450:text-32-custom mq750:text-43-custom font-semibold text-secondary-light-10">
                 Partner with Us for Next-Generation Software Solutions
-              </div>
-              <div className="self-stretch relative text-xl leading-[30px] font-medium">
+              </h1>
+              <h2 className="self-stretch relative text-lg leading-[30px] font-medium">
                 A comprehensive suite of software development services, encompassing Web & Mobile applications, E-commerce solutions, Healthcare and Insurance software, as well as Digital Marketing services.
-              </div>
+              </h2>
 
               <div className="self-stretch flex flex-col items-start justify-start gap-[8px] text-secondary-light-40">
                 <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">

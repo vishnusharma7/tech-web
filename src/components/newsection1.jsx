@@ -7,32 +7,32 @@ const newsection1 = () => {
         <div className="flex  flex-row items-center justify-start  gap-[4px] ">
           <img
             className="h-3.5 w-3.5 relative"
-            alt=""
+            alt="primary-star"
             src="/c-t-a-buttons.svg"
           />
-          <div className=" relative leading-[25px] text-[18px] font-semibold whitespace-nowrap">
+          <h1 className=" relative leading-[25px] text-[18px] font-semibold whitespace-nowrap">
             Dedicated Developers for Specific Industrie
-          </div>
+          </h1>
         </div>
         <div className="flex flex-row items-center justify-start gap-[4px]">
           <img
             className="h-3.5 w-3.5 relative"
-            alt=""
+            alt="primary-star"
             src="/c-t-a-buttons.svg"
           />
-          <div className="relative leading-[25px] text-[18px] font-semibold ">
+          <h1 className="relative leading-[25px] text-[18px] font-semibold ">
             Tailored Application at a Competitive Price
-          </div>
+          </h1>
         </div>
         <div className="flex flex-row items-center justify-start gap-[4px]">
           <img
             className="h-3.5 w-3.5 relative"
-            alt=""
+            alt="primary-star"
             src="/c-t-a-buttons.svg"
           />
-          <div className="relative leading-[25px] text-[18px] font-semibold">
+          <h1 className="relative leading-[25px] text-[18px] font-semibold">
             Versatile Engagement Structures
-          </div>
+          </h1>
         </div>
       </div>
     </section>

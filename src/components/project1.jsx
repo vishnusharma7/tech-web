@@ -8,11 +8,11 @@ const Project1 = () => {
           <h1 className="m-0 self-stretch h-[130px] relative text-inherit font-bold font-inherit inline-block mq450:text-32-custom mq750:text-43-custom">
             A Showcase of Our Varied Marketing Projects
           </h1>
-          <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-dark-40">
+          <h2 className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-dark-40">
             It's our commitment to innovation, data-driven strategies, and a
             customer-centric approach. We're not just your marketing agency;
             we're your partners in progress.
-          </div>
+          </h2>
           <Link to="/contact" className="no-underline">
             <button className="group transition-bg [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hover:border-primary-80 transition-transform duration-300 ease-in-out transform cursor-pointer group py-[15px] px-7 bg-[transparent] rounded-45.7-custom-border box-border flex flex-row items-center justify-center gap-[10px] min-w-[140px] ">
               <div className=" relative text-base leading-[25px] font-semibold font-custom-bold text-secondary-light-10 text-left">
@@ -21,7 +21,7 @@ const Project1 = () => {
               </div>
               <img
                 className="transition-transform duration-300 ease-in-out transform group-hover:text-secondary-light-10 group-hover:translate-x-1 h-6 w-6 relative overflow-hidden shrink-0"
-                alt=""
+                alt="arrow"
                 src="/btn-icons.svg"
               />
             </button>
