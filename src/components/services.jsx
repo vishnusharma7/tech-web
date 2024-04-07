@@ -5,17 +5,17 @@ import { Link } from "react-router-dom";
 const Services = () => {
   const tabData = [
     {
-      title: "Web and mobile application",
+      title: "Web Developement",
       content:
         "Our software service offers personalized web and mobile app development tailored to each client. We collaborate closely, ensuring the final product exceeds expectations. Ongoing support and maintenance keep applications up-to-date. We deliver cutting-edge solutions with seamless user experiences. Our commitment to excellence sets us apart, making us the ideal partner for businesses looking to elevate their digital presence.",
     },
     {
-      title: "Digital Transformation",
+      title: "Mobile Application",
       content:
         "At our IT software agency, we specialize in driving digital transformation for businesses. Our expert team offers cutting-edge solutions in cloud computing, data analytics, AI, and machine learning to enhance operations and customer experiences. We tailor our services to meet each client's unique needs, ensuring a successful transformation journey. By partnering with us, businesses can innovate, adapt to market changes, and stay competitive in the digital era. With our industry expertise and proven track record, we are committed to helping businesses thrive through seamless digital transformation. Contact us today to kickstart your digital evolution.",
     },
     {
-      title: "IT consulting and outsourcing",
+      title: "Dedicated Employee",
       content:
         "Our software agency specializes in providing top-notch IT consulting and outsourcing services. We offer expert guidance and support to help businesses optimize their technology solutions and streamline their operations. Our team of experienced professionals is dedicated to delivering tailored strategies and solutions to meet our clients' specific needs and goals. Whether you require project management, software development, or technical support, we have the expertise to drive your business forward. Trust us to enhance your efficiency, productivity, and overall success through our comprehensive IT consulting and outsourcing services. Let us be your partner in navigating the ever-evolving world of technology.",
     },
