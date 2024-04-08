@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import Feature2 from "../components/feature2";
 import Services1 from "../components/services1";
-
+import { Helmet } from 'react-helmet';
 import CTA3 from "../components/c-t-a3";
 import Sliders from '../components/sliders';
 
@@ -11,6 +11,11 @@ const Detail = () => {
   }, []);
   return (
     <>
+    <Helmet>
+        <title>TechCreare - Ourwork</title>
+        <meta name="description" content="Description for the our work page" />
+        {/* Add other meta tags specific to the about page */}
+      </Helmet>
      <section className="self-stretch [background:linear-gradient(96.6deg,_#2c0058,_#06000c_66.67%)] box-border overflow-hidden flex flex-col items-center justify-center py-[100px] pr-[420px] pl-5 max-w-full text-left text-54-custom text-secondary-light-10 font-familymain border-b-[6px] border-solid border-mediumblue mq450:pr-5 mq450:box-border mq750:pt-[65px] mq750:pr-[105px] mq750:pb-[65px] mq750:box-border mq1250:pr-[210px] mq1250:box-border">
         <div className="w-[840px] flex flex-col items-start justify-center gap-[15px] max-w-full">
           <h1 className="m-0 self-stretch  relative text-inherit font-bold font-inherit inline-block mq450:text-32-custom mq750:text-43-custom" data-aos="fade-down" data-aos-duration="500">

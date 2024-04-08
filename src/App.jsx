@@ -9,6 +9,7 @@ import Detail from './pages/Detail';
 import Casestudy from './pages/Casestudy';
 import Service from './pages/Service';
 import ContactUs from './pages/Contact-us';
+import ScrollToTop from './components/scrolltotop';
 
 
 const App = () => {
@@ -26,9 +27,11 @@ const App = () => {
             <Route path="/service" element={<Service />} />
             <Route path='/case-study' element={<Casestudy />} />
           </Routes>
+      <ScrollToTop />
         </div>
         <Footer />
       </div>
+    
     </BrowserRouter>
   );
 };
