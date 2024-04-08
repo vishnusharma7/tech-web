@@ -31,11 +31,13 @@ function ScrollToTop() {
     <div>
       {isVisible && (
         <button
-          className="fixed bottom-10 right-10 bg-white text-gray-800 rounded-full p-3 shadow-md outline-none focus:outline-none hover:bg-gray-200"
+          className=" [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex items-center justify-center z-50 fixed bottom-10 right-10  text-white rounded-full p-3 shadow-md outline-none focus:outline-none hover:bg-gray-200"
           onClick={scrollToTop}
         >
-            ⬆️
-          {/* <img className="h-6 w-6 relative overflow-hidden shrink-0" src="upper-arrow.svg" alt="" /> */}
+        
+        <svg className="text-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+</svg>
         </button>
       )}
     </div>
