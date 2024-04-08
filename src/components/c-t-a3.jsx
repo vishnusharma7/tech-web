@@ -8,7 +8,7 @@ const CTA3 = () => {
           <h1 className="m-0 self-stretch h-[180px] relative text-inherit font-bold font-familymain text-secondary-light-10 inline-block mq450:text-25-custom mq750:text-34-custom" data-aos="fade-right">
             Building a Strong Connection Between Tech Solutions and Target Users
           </h1>
-          <h2 className="self-stretch relative text-lg leading-[27px] font-medium" data-aos="fade-up" data-aos-delay="400">
+          <h2 className=" m-0 self-stretch relative text-lg leading-[27px] font-medium" data-aos="fade-up" data-aos-delay="400">
             From optimizing algorithms and data analysis to developing innovative software solutions and implementing effective cybersecurity measures, we offer comprehensive IT services to meet all your technological requirements.
           </h2>
           <div className="self-stretch flex flex-row flex-wrap items-center justify-start py-0 pr-6 pl-0 gap-[10px] text-base" data-aos="fade-right" data-aos-delay="200">

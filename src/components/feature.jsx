@@ -122,7 +122,7 @@ const Feature = () => {
               <h1 className="self-stretch relative text-[50px] mq450:text-32-custom mq750:text-43-custom font-semibold text-secondary-light-10">
                 Partner with Us for Next-Generation Software Solutions
               </h1>
-              <h2 className="self-stretch relative text-lg leading-[30px] font-medium">
+              <h2 className=" m-0 self-stretch relative text-lg leading-[30px] font-medium">
                 A comprehensive suite of software development services, encompassing Web & Mobile applications, E-commerce solutions, Healthcare and Insurance software, as well as Digital Marketing services.
               </h2>
 

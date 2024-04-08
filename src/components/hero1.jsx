@@ -99,8 +99,8 @@ const Hero1 = () => {
           >
             Our Expertise: Navigating the Marketing Landscape
           </h1>
-          <div
-            className="self-stretch relative text-lg leading-[27px] font-medium text-secondary-dark-40"
+          <h2
+            className=" m-0 self-stretch relative text-lg leading-[27px] font-medium text-secondary-dark-40"
             data-aos="fade-up"
             data-aos-delay="100"
           >
@@ -108,7 +108,7 @@ const Hero1 = () => {
             your trusted partner, helping you navigate the complex marketing
             landscape. Choose us for our expertise, experience, and unwavering
             dedication to your success.
-          </div>
+          </h2>
           <div className="w-[225px] rounded-45.7-custom-border [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hidden flex-row items-center justify-center py-[15px] px-[30px] box-border gap-[10px] min-w-[140px] whitespace-nowrap text-left text-base text-secondary-light-10">
             <b className="h-7 flex-1 relative leading-[28px] inline-block">
               Get Started Now
@@ -123,7 +123,7 @@ const Hero1 = () => {
         <img
           className="self-stretch h-[580px] relative rounded-50-custom-border max-w-full overflow-hidden shrink-0 object-cover"
           loading="eager"
-          alt=""
+          alt="about-image"
           src="/image4@2x.png"
         />
         <div className="self-stretch hidden flex-row items-center justify-between gap-[20px] mq1050:flex-wrap">

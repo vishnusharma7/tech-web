@@ -509,11 +509,11 @@ function Servicedetail() {
               <b className="self-stretch relative font-h4-desktop-h4-bold  lg:text-medium-headings md:text-36-pixel text-small-heading ">
                 Rave Reviews for Our Marketing Agency
               </b>
-              <div className="self-stretch relative text-lg leading-[27px] font-medium text-secondary-dark-50">
+              <h2 className=" m-0 self-stretch relative text-lg leading-[27px] font-medium text-secondary-dark-50">
                 That's the essence of our approach. We're more than just a
                 service provider; we're a team of passionate professionals who
                 are committed to helping you unlock your brand's full potential.
-              </div>
+              </h2>
               <button className="group rounded-medium-border [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-center py-[15px] px-[30px] box-border gap-[10px] min-w-[140px] text-base text-secondary-light-10">
                 <b className="relative leading-[28px]">Get Started Now</b>
                 <img

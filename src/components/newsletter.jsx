@@ -4,10 +4,10 @@ const Newsletter = () => {
       <div className="w-[650px] flex flex-col items-center justify-center gap-[20px] min-w-[360px] max-w-full">
         <h1 className=" m-0 self-stretch h-[100px] relative text-inherit font-bold font-familymain inline-block mq450:text-25-custom mq750:text-34-custom" data-aos="fade-up">          Don't Miss Out: Subscribe to Our Newsletter Today!
         </h1>
-        <div className="self-stretch relative text-lg leading-[27px] font-medium text-secondary-light-30" data-aos="fade-up" data-aos-delay="300">
+        <h2 className="m-0 self-stretch relative text-lg leading-[27px] font-medium text-secondary-light-30" data-aos="fade-up" data-aos-delay="300">
           We believe in the power of personal stories, and here, we celebrate
           voices that often go unheard.
-        </div>
+        </h2>
         <div className="self-stretch flex flex-row flex-wrap items-start justify-center gap-[10px] max-w-full z-30" data-aos="fade-up" data-aos-delay="300">
           <input
             className="w-full [border:none] [outline:none] bg-secondary-light-10 h-[62px] flex-1 rounded-45.7-custom-border shadow-[4px_4px_30px_rgba(0,_0,_0,_0.04)] flex flex-row items-center justify-start py-[18.281879425048828px] px-[27.422819137573242px] box-border font-custom-bold font-medium text-base text-secondary-dark-40 min-w-[140px] max-w-full"

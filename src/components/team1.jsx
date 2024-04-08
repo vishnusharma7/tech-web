@@ -26,9 +26,9 @@ const Team1 = () => {
               <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
                 James David
               </h2>
-              <div className="self-stretch relative text-base leading-[25px] font-medium font-custom-bold text-secondary-light-30">
+              <h3 className=" m-0 self-stretch relative text-base leading-[25px] font-medium font-custom-bold text-secondary-light-30">
                 Marketing Manager
-              </div>
+              </h3>
             </div>
             <div className="self-stretch flex flex-col items-start justify-center gap-[10px]">
               <div className="self-stretch relative leading-[20px] font-medium">
@@ -38,7 +38,7 @@ const Team1 = () => {
                 <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[29.9px] w-[30px] rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[17.9px] relative"
-                    alt=""
+                    alt="facebook"
                     src="/group-4.svg"
                   />
                 </div>
@@ -46,7 +46,7 @@ const Team1 = () => {
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
                     loading="eager"
-                    alt=""
+                    alt="linkedin"
                     src="/linkedin.svg"
                   />
                 </div>
@@ -54,7 +54,7 @@ const Team1 = () => {
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
                     loading="eager"
-                    alt=""
+                    alt="instagram"
                     src="/instagram.svg"
                   />
                 </div>
@@ -76,9 +76,9 @@ const Team1 = () => {
               <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
                 James David
               </h2>
-              <div className="self-stretch relative text-base leading-[25px] font-medium font-custom-bold text-secondary-light-30">
+              <h3 className=" m-0 self-stretch relative text-base leading-[25px] font-medium font-custom-bold text-secondary-light-30">
                 Marketing Manager
-              </div>
+              </h3>
             </div>
             <div className="self-stretch flex flex-col items-start justify-center gap-[10px]">
               <div className="self-stretch relative leading-[20px] font-medium">
@@ -88,21 +88,21 @@ const Team1 = () => {
                 <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[29.9px] w-[30px] rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[17.9px] relative"
-                    alt=""
+                    alt="facebook"
                     src="/group-4.svg"
                   />
                 </div>
                 <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
-                    alt=""
+                    alt="linkedin"
                     src="/linkedin.svg"
                   />
                 </div>
                 <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
-                    alt=""
+                    alt="instagram"
                     src="/instagram.svg"
                   />
                 </div>
@@ -124,9 +124,9 @@ const Team1 = () => {
               <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
                 James David
               </h2>
-              <div className="self-stretch relative text-base leading-[25px] font-medium font-custom-bold text-secondary-light-30">
+              <h3 className="m-0 self-stretch relative text-base leading-[25px] font-medium font-custom-bold text-secondary-light-30">
                 Marketing Manager
-              </div>
+              </h3>
             </div>
             <div className="self-stretch flex flex-col items-start justify-center gap-[10px]">
               <div className="self-stretch relative leading-[20px] font-medium">
@@ -136,21 +136,21 @@ const Team1 = () => {
                 <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[29.9px] w-[30px] rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[17.9px] relative"
-                    alt=""
+                    alt="facebook"
                     src="/group-4.svg"
                   />
                 </div>
                 <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
-                    alt=""
+                    alt="linkedin"
                     src="/linkedin.svg"
                   />
                 </div>
                 <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
-                    alt=""
+                    alt="instagram"
                     src="/instagram.svg"
                   />
                 </div>
@@ -172,9 +172,9 @@ const Team1 = () => {
               <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
                 James David
               </h2>
-              <div className="self-stretch relative text-base leading-[25px] font-medium font-custom-bold text-secondary-light-30">
+              <h3 className=" m-0 self-stretch relative text-base leading-[25px] font-medium font-custom-bold text-secondary-light-30">
                 Marketing Manager
-              </div>
+              </h3>
             </div>
             <div className="self-stretch flex flex-col items-start justify-center gap-[10px]">
               <div className="self-stretch relative leading-[20px] font-medium">
@@ -184,21 +184,21 @@ const Team1 = () => {
                 <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[29.9px] w-[30px] rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[17.9px] relative"
-                    alt=""
+                    alt="facebook"
                     src="/group-4.svg"
                   />
                 </div>
                 <div className="hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className=" cursor-pointer w-[18px] h-[18px] relative overflow-hidden shrink-0"
-                    alt=""
+                    alt="linkedin"
                     src="/linkedin.svg"
                   />
                 </div>
                 <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
-                    alt=""
+                    alt="instagram"
                     src="/instagram.svg"
                   />
                 </div>
@@ -220,9 +220,9 @@ const Team1 = () => {
               <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
                 James David
               </h2>
-              <div className="self-stretch relative text-base leading-[25px] font-medium font-custom-bold text-secondary-light-30">
+              <h3 className=" m-0 self-stretch relative text-base leading-[25px] font-medium font-custom-bold text-secondary-light-30">
                 Marketing Manager
-              </div>
+              </h3>
             </div>
             <div className="self-stretch flex flex-col items-start justify-center gap-[10px]">
               <div className="self-stretch relative leading-[20px] font-medium">
@@ -232,21 +232,21 @@ const Team1 = () => {
                 <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[29.9px] w-[30px] rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[17.9px] relative"
-                    alt=""
+                    alt="facebook"
                     src="/group-4.svg"
                   />
                 </div>
                 <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
-                    alt=""
+                    alt="linkedin"
                     src="/linkedin.svg"
                   />
                 </div>
                 <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
-                    alt=""
+                    alt="instagram"
                     src="/instagram.svg"
                   />
                 </div>
@@ -268,9 +268,9 @@ const Team1 = () => {
               <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
                 James David
               </h2>
-              <div className="self-stretch relative text-base leading-[25px] font-medium font-custom-bold text-secondary-light-30">
+              <h3 className="m-0 self-stretch relative text-base leading-[25px] font-medium font-custom-bold text-secondary-light-30">
                 Marketing Manager
-              </div>
+              </h3>
             </div>
             <div className="self-stretch flex flex-col items-start justify-center gap-[10px]">
               <div className="self-stretch relative leading-[20px] font-medium">
@@ -280,21 +280,21 @@ const Team1 = () => {
                 <div className=" cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[29.9px] w-[30px] rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[17.9px] relative"
-                    alt=""
+                    alt="facebook"
                     src="/group-4.svg"
                   />
                 </div>
                 <div className="cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
-                    alt=""
+                    alt="linkedin"
                     src="/linkedin.svg"
                   />
                 </div>
                 <div className="cursor-pointer hover:-translate-y-1 duration-300 transition-transform ease-in-out h-[30px] w-[30px] rounded-500-custom-border bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
                   <img
                     className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
-                    alt=""
+                    alt="instagram"
                     src="/instagram.svg"
                   />
                 </div>
