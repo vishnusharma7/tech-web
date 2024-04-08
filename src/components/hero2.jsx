@@ -5,11 +5,11 @@ const Hero2 = () => {
         <h1 className="m-0 self-stretch relative text-inherit font-bold font-inherit inline-block mq450:text-36-custom mq750:text-48-custom" data-aos="fade-right">
           Your Path to Marketing Excellence Begins Here
         </h1>
-        <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-light-40" data-aos="fade-right" data-aos-duration="100">
+        <h2 className=" m-0 self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-light-40" data-aos="fade-right" data-aos-duration="100">
           We understand that each business is unique, and our tailor-made
           strategies are designed to amplify your individuality and propel your
           success.
-        </div>
+        </h2>
         <button className="cursor-pointer group [border:none] py-[15px] px-[30px] bg-[transparent] rounded-45.7-custom-border [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap" data-aos="fade-right" data-aos-duration="200">
           <b className="  relative text-base leading-[28px] font-custom-bold text-secondary-light-10 text-left">
             Get Started Now

@@ -10,7 +10,7 @@ const Hero = () => {
           <h1 className="m-0 self-stretch  relative text-[48px] font-bold   mq450:text-36-custom mq750:text-48-custom">
           Leading App and Agile Software Development company
           </h1>
-          <h2 className="self-stretch  relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-light-40 inline-block">
+          <h2 className="m-0 self-stretch  relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-light-40 inline-block">
             We understand that each business is unique, and our tailor-made
             strategies are designed to amplify your individuality and propel
             your success.
@@ -69,7 +69,7 @@ const Hero = () => {
       >
         <img
           className="relative mq1050:w-full   w-[531px]   lg:w-[536.5px]   object-cover"
-          alt="mainlogo"
+          alt="main-photo"
           src="/hero-imag-main-2x.png"
         />
       </div>

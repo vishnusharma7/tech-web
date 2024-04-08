@@ -40,7 +40,7 @@ const Services = () => {
           <h1 className="m-0 self-stretch  relative text-inherit font-bold font-familymain inline-block mq750:text-43-custom mq450:text-32-custom">
             Comprehensive Software Solutions Tailored for Your Development Needs
           </h1>
-          <h2 className="self-stretch relative text-lg leading-[27px] font-medium text-secondary-dark-40">
+          <h2 className="m-0 self-stretch relative text-lg leading-[27px] font-medium text-secondary-dark-40">
             A range of Agile Software Development Services, including Web & Mobile application development and Digital Marketing services.
             Our solutions assist enterprises and SMEs in creating innovative solutions and achieving exceptional results.
           </h2>

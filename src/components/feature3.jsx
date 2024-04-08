@@ -88,10 +88,10 @@ const Feature3 = () => {
           <h1 className="m-0 self-stretch h-[100px] relative text-inherit font-semibold font-familymain inline-block mq450:text-25-custom mq750:text-34-custom">
             Partner with Us for Next-Generation Software Solutions
           </h1>
-          <div className="self-stretch h-[60px] relative text-xl leading-[30px] font-medium text-secondary-light-30 inline-block mq450:text-base mq450:leading-[24px]">
+          <h2 className="m-0 self-stretch h-[60px] relative text-xl leading-[30px] font-medium text-secondary-light-30 inline-block mq450:text-base mq450:leading-[24px]">
             Provide a wide array of digital marketing services, including SEO,
             content marketing, social media.
-          </div>
+          </h2>
           <div className="self-stretch flex flex-col items-start justify-start gap-[8px] max-w-full text-base text-secondary-light-40">
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
               <img

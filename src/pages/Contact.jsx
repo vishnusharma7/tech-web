@@ -11,11 +11,11 @@ const Contact = () => {
           <h1 className="m-0 self-stretch h-36 relative text-inherit font-bold font-sub-headings-sub-heading-26px-semibold inline-block mq750:text-29xl mq450:text-17xl">
             Get in Touch with Our Expert Marketing Team
           </h1>
-          <div className="self-stretch relative text-lg leading-[27px] font-medium text-secondary-dark-40">
+          <h2 className=" m-0 self-stretch relative text-lg leading-[27px] font-medium text-secondary-dark-40">
             Our experienced team is passionate about helping your business
             thrive in the digital landscape. Drive your marketing efforts to new
             heights.
-          </div>
+          </h2>
           <div className="w-[225px] rounded-26xl-7 [background:linear-gradient(140.99deg,_#4743ff,_#8712e3)] hidden flex-row items-center justify-center py-[15px] px-[30px] box-border gap-[10px] min-w-[140px] whitespace-nowrap text-left text-base text-secondary-light-10">
             <b className="flex-1 relative leading-[28px]">Get Started Now</b>
             <img

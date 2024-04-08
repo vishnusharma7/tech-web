@@ -21,11 +21,11 @@ const Detail = () => {
           <h1 className="m-0 self-stretch  relative text-inherit font-bold font-inherit inline-block mq450:text-32-custom mq750:text-43-custom" data-aos="fade-down" data-aos-duration="500">
             The Most Proper Marketing Actions You’ll Ever Need For Business.
           </h1>
-          <div className="self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-light-30" data-aos="fade-up" data-aos-duration="500">
+          <h2 className="m-0 self-stretch relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-light-30" data-aos="fade-up" data-aos-duration="500">
             With a relentless commitment to delivering excellence, we have
             partnered with clients from various industries, helping them achieve
             their marketing goals and elevate their brand presence.
-          </div>
+          </h2>
           <button className="cursor-pointer group [border:none] py-[15px] px-[30px] bg-[transparent] rounded-45.7-custom-border [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap" data-aos="fade-up" data-aos-duration="500">
             <b className="relative text-base leading-[28px] font-custom-bold text-secondary-light-10 text-left">
               Get Started Now

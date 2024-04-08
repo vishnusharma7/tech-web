@@ -36,36 +36,36 @@ const Home = () => {
           <div className="self-stretch rounded-30-custom-border bg-primary-dark-80 box-border hidden flex-col items-center justify-center py-[50px] px-14 max-w-full border-[4px] border-solid border-primary-801">
             <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[20px_40px] max-w-full">
               <div className="w-[434px] flex flex-col items-start justify-center min-w-[360px] max-w-full">
-                <div className="self-stretch h-[129px] relative font-semibold inline-block mq450:text-22-custom mq750:text-29-custom">
+                <h1 className="m-0 self-stretch h-[129px] relative font-semibold inline-block mq450:text-22-custom mq750:text-29-custom">
                   Over 95% Of Our Clients Report High Satisfaction With Our 
                   Services
-                </div>
+                </h1>
               </div>
 
               <div className="flex-1 flex flex-row flex-wrap items-center justify-start min-w-[335px] max-w-full text-center text-48-custom">
                 <div className="h-[91px] flex-1 rounded-10-custom-border overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[200px]">
-                  <div className="self-stretch flex-1 relative font-semibold mq450:text-29-custom mq750:text-38-custom">
+                  <h1 className=" m-0 self-stretch flex-1 relative font-semibold mq450:text-29-custom mq750:text-38-custom">
                     88+
-                  </div>
-                  <div className="self-stretch h-[27px] relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-light-30 inline-block">
+                  </h1>
+                  <h2 className="m-0 self-stretch h-[27px] relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-light-30 inline-block">
                     Global Companes
-                  </div>
+                  </h2>
                 </div>
                 <div className="h-[91px] flex-1 rounded-10-custom-border overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[200px]">
-                  <div className="self-stretch flex-1 relative font-semibold mq450:text-29-custom mq750:text-38-custom">
+                  <h1 className="m-0 self-stretch flex-1 relative font-semibold mq450:text-29-custom mq750:text-38-custom">
                     30+
-                  </div>
-                  <div className="self-stretch h-[27px] relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-light-30 inline-block">
+                  </h1>
+                  <h2 className="m-0 self-stretch h-[27px] relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-light-30 inline-block">
                     Marketing Tactics
-                  </div>
+                  </h2>
                 </div>
                 <div className="h-[91px] flex-1 rounded-10-custom-border overflow-hidden flex flex-col items-center justify-center gap-[6px] min-w-[200px]">
-                  <div className="self-stretch flex-1 relative font-semibold mq450:text-29-custom mq750:text-38-custom">
+                  <h1 className="m-0 self-stretch flex-1 relative font-semibold mq450:text-29-custom mq750:text-38-custom">
                     15yr+
-                  </div>
-                  <div className="self-stretch h-[27px] relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-light-30 inline-block">
+                  </h1>
+                  <h2 className="m-0 self-stretch h-[27px] relative text-lg leading-[27px] font-medium font-custom-bold text-secondary-light-30 inline-block">
                     Industry Experience
-                  </div>
+                  </h2>
                 </div>
               </div>
             </div>

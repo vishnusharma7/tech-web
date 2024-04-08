@@ -93,12 +93,12 @@ const Feature2 = () => {
               data-aos="fade-left"
               data-aos-duration="700"
             >
-              <div className="self-stretch relative   text-43-custom mq450:text-32-custom mq750:text-43-custom font-semibold text-primary-dark-80">
+              <h1 className=" m-0 self-stretch relative   text-43-custom mq450:text-32-custom mq750:text-43-custom font-semibold text-primary-dark-80">
                 Partner with Us for Next-Generation Software Solutions
-              </div>
-              <div className="self-stretch relative text-xl leading-[30px] font-medium">
+              </h1>
+              <h2 className="m-0 self-stretch relative text-xl leading-[30px] font-medium">
                 A comprehensive suite of software development services, encompassing Web & Mobile applications, E-commerce solutions, Healthcare and Insurance software, as well as Digital Marketing services.
-              </div>
+              </h2>
 
               <div className="self-stretch flex flex-col items-start justify-start gap-[8px] text-primary-dark-80">
                 <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
@@ -148,13 +148,13 @@ const Feature2 = () => {
           </div>
           <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px] text-base text-secondary-light-30 font-paragraphs-para-16px-semibold">
             <div className="flex-1 flex flex-col items-start justify-center gap-[20px] min-w-[360px]" data-aos="fade-right">
-              <div className="self-stretch relative   text-43-custom mq450:text-32-custom mq750:text-43-custom font-semibold text-primary-dark-80">
+              <h1 className="m-0 self-stretch relative   text-43-custom mq450:text-32-custom mq750:text-43-custom font-semibold text-primary-dark-80">
                 Driving Real Business Growth and Building Stronger Brands
-              </div>
-              <div className="self-stretch relative text-xl leading-[30px] font-medium text-primary-dark-80">
+              </h1>
+              <h2 className="m-0 self-stretch relative text-xl leading-[30px] font-medium text-primary-dark-80">
                 We're more than just a marketing firm; we're your dedicated
                 partners in success.
-              </div>
+              </h2>
               <div className="self-stretch flex flex-col items-start justify-start gap-[8px] text-primary-dark-80">
                 <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
                   <img
