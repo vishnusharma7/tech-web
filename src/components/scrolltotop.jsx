@@ -34,7 +34,8 @@ function ScrollToTop() {
           className="fixed bottom-10 right-10 bg-white text-gray-800 rounded-full p-3 shadow-md outline-none focus:outline-none hover:bg-gray-200"
           onClick={scrollToTop}
         >
-          ⬆️
+            ⬆️
+          {/* <img className="h-6 w-6 relative overflow-hidden shrink-0" src="upper-arrow.svg" alt="" /> */}
         </button>
       )}
     </div>
