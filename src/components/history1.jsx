@@ -22,9 +22,9 @@ const History1 = () => {
                       />
                     </button>
           <img
-            className="self-stretch h-[794px] relative rounded-50-custom-border max-w-full overflow-hidden shrink-0 object-cover"
+            className="self-stretch  relative rounded-50-custom-border max-w-full overflow-hidden shrink-0 object-cover"
             alt="about-second-image"
-            src="/image-12@2x.png"
+            src="/images/img5.png"
           />
         </div>
         <div className="flex-1 flex flex-col items-center justify-start gap-[20px] min-w-[335px] max-w-full text-36-custom text-secondary-dark-30">

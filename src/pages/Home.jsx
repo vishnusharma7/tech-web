@@ -7,7 +7,6 @@ import Statistics from "../components/statistics";
 import Services from "../components/services";
 import Feature1 from "../components/feature1";
 import Feature from "../components/feature";
-import Project1 from "../components/project1";
 import Row from "../components/row";
 import Team from "../components/team";
 import FAQ from "../components/f-a-q";
@@ -29,7 +28,6 @@ const Home = () => {
       <Feature1 />
       <Feature />
       <section className="self-stretch flex flex-col items-start justify-start max-w-full text-left text-36-custom text-secondary-light-10 font-familymain">
-        <Project1 />
 
         <div className="self-stretch bg-secondary-light-10 overflow-hidden flex flex-col items-center justify-center py-[120px] px-5 box-border gap-[60px] max-w-full z-[1] mt-[-1px] mq750:gap-[60px] mq750:pb-[51px] mq750:box-border mq1250:pb-[78px] mq1250:box-border">
           <Row />

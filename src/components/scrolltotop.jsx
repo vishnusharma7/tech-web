@@ -31,7 +31,7 @@ function ScrollToTop() {
     <div>
       {isVisible && (
         <button
-          className=" [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex items-center justify-center z-50 fixed bottom-10 right-10  text-white rounded-full p-3 shadow-md outline-none focus:outline-none hover:bg-gray-200"
+          className=" [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex items-center justify-center z-50 fixed bottom-10 right-10 cursor-pointer text-white rounded-full p-3 shadow-md outline-none focus:outline-none hover:bg-gray-200"
           onClick={scrollToTop}
         >
         

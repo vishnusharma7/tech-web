@@ -5,7 +5,7 @@ const Feature2 = () => {
       <div className="w-[1300px] flex flex-row items-center justify-center gap-[80px] max-w-full mq450:gap-[80px] mq750:gap-[80px]">
         <div className="self-stretch flex flex-col   items-center justify-start gap-[60px] text-left text-16.3-custom font-h4-desktop-h4-bold">
           <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px]">
-            <div className="flex-1 rounded-medium-text h-[480px] flex flex-col items-end justify-end p-[30px] box-border bg-[url('/public/image1@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px]" data-aos="fade-right">
+            <div className="flex-1 rounded-medium-text h-[480px] flex flex-col items-end justify-end p-[30px] box-border bg-[url('/images/img4.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px]" data-aos="fade-right">
               <div className="relative rounded-[14.24px] bg-gray-200 [backdrop-filter:blur(25.45px)] w-[280px] h-[205.6px] overflow-hidden shrink-0">
                 <div className="absolute top-[25.3px] left-[25.3px] w-[229.4px] flex flex-row items-start justify-start gap-[9.49px]">
                   <div className="flex-1 relative tracking-[-0.03em] leading-[18.98px] font-semibold text-secondary-light-80">
@@ -202,7 +202,7 @@ const Feature2 = () => {
 
 
             </div>
-            <div className="flex-1 rounded-medium-text h-[480px] flex flex-col items-start justify-end p-[30px] box-border bg-[url('/public/image1@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] text-17.5-custom text-secondary-light-10 font-h4-desktop-h4-bold" data-aos="fade-left">
+            <div className="flex-1 rounded-medium-text h-[480px] flex flex-col items-start justify-end p-[30px] box-border bg-[url('/images/img2.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] text-17.5-custom text-secondary-light-10 font-h4-desktop-h4-bold" data-aos="fade-left">
               <div className="relative rounded-[12.71px] bg-gray-200 [backdrop-filter:blur(25px)] w-[250px] h-[268.4px] overflow-hidden shrink-0">
                 <div className="absolute top-[22.6px] left-[22.6px] w-[204.8px] flex flex-row items-center justify-start">
                   <div className="flex-1 relative tracking-[-0.03em] leading-[16.95px] font-semibold">

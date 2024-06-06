@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 const Hero = () => {
     
   return (
-    <section className="self-stretch [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] box-border overflow-hidden flex flex-col items-center justify-center pt-[120px] px-5 pb-0 max-w-full text-left text-60-custom text-secondary-light-10 font-familymain border-b-[5px] border-solid border-primary-801 mq750:pt-[78px] mq750:box-border">
-    <div className="w-[1300px] flex flex-row flex-wrap items-start justify-start py-0 pr-px pl-0 box-border gap-[80px] max-w-full mq450:gap-[80px] mq750:gap-[80px]">
+    <section className="self-stretch [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] box-border overflow-hidden flex flex-col items-center justify-center pt-[50px] px-5 pb-[50px] max-w-full text-left text-60-custom text-secondary-light-10 font-familymain border-b-[5px] border-solid border-primary-801 mq750:pt-[78px] mq750:box-border">
+    <div className="w-[1300px] flex flex-row flex-wrap items-center justify-start py-0 pr-px pl-0 box-border gap-[80px] max-w-full mq450:gap-[80px] mq750:gap-[80px]">
       <div className="flex-1 flex flex-col items-start justify-center gap-[20px] min-w-[335px] max-w-full"  data-aos="fade-right"
             data-aos-duration="700">
         <div className="self-stretch flex flex-col items-start justify-center gap-[15px] min-w-[360px]">
@@ -62,15 +62,11 @@ const Hero = () => {
           </div>
         </div> */}
       </div>
-      <div
-        className="flex justify-center  "
-        data-aos="fade-up"
-        data-aos-duration="700"
-      >
+      <div className="flex-1 justify-center animate-bounce-slow mb-[-80px] min-w-[335px]">
         <img
-          className="relative mq1050:w-full   w-[531px]   lg:w-[536.5px]   object-cover"
+          className="relative max-w-full "
           alt="main-photo"
-          src="/hero-imag-main-2x.png"
+          src="/main.svg"
         />
       </div>
     </div>

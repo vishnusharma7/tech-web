@@ -21,7 +21,7 @@ const Team1 = () => {
       </div>
       <div className="self-stretch flex flex-col items-center justify-center py-0 px-5 box-border min-h-[1082px] max-w-full z-[1] mt-[-150px] text-left text-sm font-custom-bold mq750:gap-[40px]">
         <div className="w-[1300px] rounded-30-custom-border shadow-[5px_5px_30px_rgba(0,_0,_0,_0.05)] overflow-hidden flex flex-row flex-wrap items-start justify-center min-h-[982px] max-w-full">
-          <div className="w-[413px] overflow-hidden flex flex-col items-start justify-end pt-[300px] px-10 pb-10 box-border gap-[20px] bg-[url('/public/team-01@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] max-w-full mq750:pt-[170px] mq750:pb-[26px] mq750:box-border">
+          <div className="w-[413px] overflow-hidden flex flex-col items-start justify-end pt-[300px] px-10 pb-10 box-border gap-[20px] bg-[url('/team-01@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] max-w-full mq750:pt-[170px] mq750:pb-[26px] mq750:box-border">
             <div className="self-stretch flex flex-col items-start justify-center gap-[10px] text-26-custom font-familymain">
               <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
                 James David
@@ -71,7 +71,7 @@ const Team1 = () => {
               />
             </div>
           </div>
-          <div className="w-[413px] overflow-hidden flex flex-col items-start justify-end pt-[300px] px-10 pb-10 box-border gap-[20px] bg-[url('/public/team-011@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] max-w-full mq750:pt-[170px] mq750:pb-[26px] mq750:box-border">
+          <div className="w-[413px] overflow-hidden flex flex-col items-start justify-end pt-[300px] px-10 pb-10 box-border gap-[20px] bg-[url('/team-011@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] max-w-full mq750:pt-[170px] mq750:pb-[26px] mq750:box-border">
             <div className="self-stretch flex flex-col items-start justify-center gap-[10px] text-26-custom font-familymain">
               <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
                 James David
@@ -119,7 +119,7 @@ const Team1 = () => {
               />
             </div>
           </div>
-          <div className="w-[413px] overflow-hidden flex flex-col items-start justify-end pt-[300px] px-10 pb-10 box-border gap-[20px] bg-[url('/public/team-02@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] max-w-full mq750:pt-[170px] mq750:pb-[26px] mq750:box-border">
+          <div className="w-[413px] overflow-hidden flex flex-col items-start justify-end pt-[300px] px-10 pb-10 box-border gap-[20px] bg-[url('/team-02@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] max-w-full mq750:pt-[170px] mq750:pb-[26px] mq750:box-border">
             <div className="self-stretch flex flex-col items-start justify-center gap-[10px] text-26-custom font-familymain">
               <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
                 James David
@@ -167,7 +167,7 @@ const Team1 = () => {
               />
             </div>
           </div>
-          <div className="w-[413px] overflow-hidden flex flex-col items-start justify-end pt-[300px] px-10 pb-10 box-border gap-[20px] bg-[url('/public/team-021@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] max-w-full mq750:pt-[170px] mq750:pb-[26px] mq750:box-border">
+          <div className="w-[413px] overflow-hidden flex flex-col items-start justify-end pt-[300px] px-10 pb-10 box-border gap-[20px] bg-[url('/team-021@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] max-w-full mq750:pt-[170px] mq750:pb-[26px] mq750:box-border">
             <div className="self-stretch flex flex-col items-start justify-center gap-[10px] text-26-custom font-familymain">
               <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
                 James David
@@ -215,7 +215,7 @@ const Team1 = () => {
               />
             </div>
           </div>
-          <div className="w-[413px] overflow-hidden flex flex-col items-start justify-end pt-[300px] px-10 pb-10 box-border gap-[20px] bg-[url('/public/team-03@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] max-w-full mq750:pt-[170px] mq750:pb-[26px] mq750:box-border">
+          <div className="w-[413px] overflow-hidden flex flex-col items-start justify-end pt-[300px] px-10 pb-10 box-border gap-[20px] bg-[url('/team-03@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] max-w-full mq750:pt-[170px] mq750:pb-[26px] mq750:box-border">
             <div className="self-stretch flex flex-col items-start justify-center gap-[10px] text-26-custom font-familymain">
               <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
                 James David
@@ -263,7 +263,7 @@ const Team1 = () => {
               />
             </div>
           </div>
-          <div className="w-[413px] overflow-hidden flex flex-col items-start justify-end pt-[300px] px-10 pb-10 box-border gap-[20px] bg-[url('/public/team-031@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] max-w-full mq750:pt-[170px] mq750:pb-[26px] mq750:box-border">
+          <div className="w-[413px] overflow-hidden flex flex-col items-start justify-end pt-[300px] px-10 pb-10 box-border gap-[20px] bg-[url('/team-031@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] max-w-full mq750:pt-[170px] mq750:pb-[26px] mq750:box-border">
             <div className="self-stretch flex flex-col items-start justify-center gap-[10px] text-26-custom font-familymain">
               <h2 className="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-21-custom mq450:leading-[29px]">
                 James David

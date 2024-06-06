@@ -89,7 +89,7 @@ const FAQ = () => {
                   />
                 </div>
                 <div
-                  className={`self-stretch relative  lg:leading-[30px] font-custom-bold text-[1.2rem]  text-secondary-dark-60`}
+                  className={`self-stretch relative  lg:leading-[30px] font-medium font-custom-bold  text-[1rem]  text-secondary-dark-40`}
                   style={{
                     maxHeight: openIndex === index ? "500px" : "0", // Adjust the max-height value as needed
                     overflow: "hidden",

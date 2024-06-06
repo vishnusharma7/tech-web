@@ -229,7 +229,7 @@ const Content = ({
     >
       <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px] max-w-full mq450:gap-[70px] mq750:gap-[70px]">
         <div
-          className="flex-[0.8872] rounded-25-custom-border flex flex-row items-end justify-end p-[30px] box-border bg-[url('/public/image5@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] min-h-[480px] max-w-full"
+          className="flex-[0.8872] rounded-25-custom-border flex flex-row items-end justify-end p-[30px] box-border bg-[url('/image5@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] min-h-[480px] max-w-full"
           style={imageStyle}
         >
           <div className="w-[280px] rounded-[14.24px] bg-gray-400 [backdrop-filter:blur(25.45px)] overflow-hidden shrink-0 flex flex-col items-center justify-start p-[25px] box-border gap-[19px]">
@@ -363,7 +363,7 @@ const Content = ({
               <div
                 className="flex-1 relative leading-[25px] font-medium inline-block max-w-[calc(100%_-_24px)]"
                 style={starItemStyle}
-              >{`Tailor marketing strategies to meet the specific needs `}</div>
+              >Tailor marketing strategies to meet the specific needs </div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[10px] max-w-full">
               <img className="h-3.5 w-3.5 relative" alt="" src="c-t-a-buttons.svg" />
@@ -484,7 +484,7 @@ const Content = ({
           </button>
         </div>
         <div
-          className="h-[480px] flex-[0.8872] rounded-25-custom-border flex flex-row items-end justify-start p-[30px] box-border bg-[url('/public/image6@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] max-w-full text-17.5-custom text-secondary-light-10 font-familymain"
+          className="h-[480px] flex-[0.8872] rounded-25-custom-border flex flex-row items-end justify-start p-[30px] box-border bg-[url('/image6@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] max-w-full text-17.5-custom text-secondary-light-10 font-familymain"
           style={image1Style}
         >
           <div className="w-[250px] rounded-[12.71px] bg-gray-400 [backdrop-filter:blur(25px)] overflow-hidden shrink-0 flex flex-col items-center justify-start py-[23px] px-[22px] box-border relative gap-[43px] mq450:gap-[43px]">

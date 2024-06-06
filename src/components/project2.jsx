@@ -14,7 +14,7 @@ const Project2 = () => {
         </div>
         <div className="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full text-30-custom text-secondary-light-10">
           <div className="self-stretch flex flex-col items-start justify-start max-w-full"  data-aos="fade-up" data-aos-delay="100">
-            <div className="self-stretch rounded-30-custom-border overflow-hidden flex flex-col items-start justify-center bg-[url('/public/hero@3x.jpg')] bg-cover bg-no-repeat bg-[top] min-w-[280px] max-w-full">
+            <div className="self-stretch rounded-30-custom-border overflow-hidden flex flex-col items-start justify-center bg-[url('/hero@3x.jpg')] bg-cover bg-no-repeat bg-[top] min-w-[280px] max-w-full">
               <div className="w-[510px]    rounded-30-custom-border bg-gray-200 [backdrop-filter:blur(40px)] overflow-hidden flex flex-col items-start justify-center py-[80px] px-10 box-border gap-[15px] max-w-full">
                 <h2 className="m-0 self-stretch h-[72px] relative text-inherit font-bold font-inherit inline-block mq450:text-lg mq750:text-24-custom">
                   MediServe Healthcare's Thought Leadership Campaign
@@ -44,7 +44,7 @@ const Project2 = () => {
             </div>
           </div>
           <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[30px] max-w-full">
-            <div className="flex-1  relative rounded-30-custom-border overflow-hidden flex flex-col items-center justify-start bg-[url('/public/hero@3x.jpg')] bg-cover bg-no-repeat bg-[top] min-w-[280px] min-h-[486px] max-w-full" data-aos="fade-right" data-aos-delay="200">
+            <div className="flex-1  relative rounded-30-custom-border overflow-hidden flex flex-col items-center justify-start bg-[url('/hero@3x.jpg')] bg-cover bg-no-repeat bg-[top] min-w-[280px] min-h-[486px] max-w-full" data-aos="fade-right" data-aos-delay="200">
               <div className="self-stretch absolute rounded-30-custom-border bg-gray-200 [backdrop-filter:blur(40px)] overflow-hidden flex flex-col items-start justify-center py-[50px] px-10 gap-[15px]">
                 <h2 className="m-0 self-stretch h-[72px] relative text-inherit font-bold font-inherit inline-block mq450:text-lg mq750:text-24-custom">
                   EcoEats Sustainable Social Media Overhaul
@@ -66,7 +66,7 @@ const Project2 = () => {
                     </button>
               </div>
             </div>
-            <div className="flex-1 rounded-30-custom-border overflow-hidden flex flex-col items-center justify-start bg-[url('/public/hero@3x.jpg')] bg-cover bg-no-repeat bg-[top] min-w-[280px] min-h-[486px] max-w-full" data-aos="fade-left" data-aos-delay="100">
+            <div className="flex-1 rounded-30-custom-border overflow-hidden flex flex-col items-center justify-start bg-[url('/hero@3x.jpg')] bg-cover bg-no-repeat bg-[top] min-w-[280px] min-h-[486px] max-w-full" data-aos="fade-left" data-aos-delay="100">
               <div className="self-stretch rounded-30-custom-border bg-gray-200 [backdrop-filter:blur(40px)] overflow-hidden flex flex-col items-start justify-center py-[50px] px-10 gap-[15px]">
                 <h2 className="m-0 self-stretch h-[72px] relative text-inherit font-bold font-inherit inline-block mq450:text-lg mq750:text-24-custom">
                   Artistic Impressions Gallery Virtual Exhibition
@@ -90,7 +90,7 @@ const Project2 = () => {
             </div>
           </div>
           <div className="self-stretch flex flex-row flex-wrap items-start justify-start py-0 pr-px pl-0 box-border gap-[30px] max-w-full">
-            <div className="h-[511px] flex-1 rounded-30-custom-border overflow-hidden flex flex-col items-center justify-start bg-[url('/public/hero@3x.jpg')] bg-cover bg-no-repeat bg-[top] min-w-[280px] max-w-full" data-aos="fade-up" data-aos-delay="100">
+            <div className="h-[511px] flex-1 rounded-30-custom-border overflow-hidden flex flex-col items-center justify-start bg-[url('/hero@3x.jpg')] bg-cover bg-no-repeat bg-[top] min-w-[280px] max-w-full" data-aos="fade-up" data-aos-delay="100">
               <div className="self-stretch rounded-30-custom-border bg-gray-200 [backdrop-filter:blur(40px)] overflow-hidden flex flex-col items-start justify-center py-[50px] px-10 gap-[15px]">
                 <h2 className="m-0 self-stretch h-[72px] relative text-inherit font-bold font-inherit inline-block mq450:text-lg mq750:text-24-custom">
                   FoodieFusion Event Marketing
@@ -112,7 +112,7 @@ const Project2 = () => {
                     </button>
               </div>
             </div>
-            <div className="h-[511px] flex-1 rounded-30-custom-border overflow-hidden flex flex-col items-center justify-start bg-[url('/public/hero@3x.jpg')] bg-cover bg-no-repeat bg-[top] min-w-[280px] max-w-full" data-aos="fade-up" data-aos-delay="200">
+            <div className="h-[511px] flex-1 rounded-30-custom-border overflow-hidden flex flex-col items-center justify-start bg-[url('/hero@3x.jpg')] bg-cover bg-no-repeat bg-[top] min-w-[280px] max-w-full" data-aos="fade-up" data-aos-delay="200">
               <div className="self-stretch rounded-30-custom-border bg-gray-200 [backdrop-filter:blur(40px)] overflow-hidden flex flex-col items-start justify-center py-[50px] px-10 gap-[15px]">
                 <h2 className="m-0 self-stretch h-[72px] relative text-inherit font-bold font-inherit inline-block mq450:text-lg mq750:text-24-custom">
                   SwiftStyle eCommerce Expansion
@@ -134,7 +134,7 @@ const Project2 = () => {
                     </button>
               </div>
             </div>
-            <div className="h-[511px] flex-1 rounded-30-custom-border overflow-hidden flex flex-col items-center justify-start bg-[url('/public/hero@3x.jpg')] bg-cover bg-no-repeat bg-[top] min-w-[280px] max-w-full" data-aos="fade-up" data-aos-delay="300">
+            <div className="h-[511px] flex-1 rounded-30-custom-border overflow-hidden flex flex-col items-center justify-start bg-[url('/hero@3x.jpg')] bg-cover bg-no-repeat bg-[top] min-w-[280px] max-w-full" data-aos="fade-up" data-aos-delay="300">
               <div className="self-stretch rounded-30-custom-border bg-gray-200 [backdrop-filter:blur(40px)] overflow-hidden flex flex-col items-start justify-center py-[50px] px-10 gap-[15px]">
                 <h2 className="m-0 self-stretch h-[72px] relative text-inherit font-bold font-inherit inline-block mq450:text-lg mq750:text-24-custom">
                   Website Revamp for Newly Startup

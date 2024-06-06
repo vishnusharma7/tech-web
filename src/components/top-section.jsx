@@ -16,7 +16,7 @@ const TopSection = ({
   }, [propHeight]);
 
   return (
-    <div className="self-stretch flex flex-row flex-wrap items-start justify-center gap-[30px] max-w-full text-left text-24-custom text-secondary-dark-20 font-custom-bold">
+    <div className="self-stretch flex flex-col items-center justify-start gap-[30px] max-w-full text-left text-24-custom font-custom-bold">
       <div className="flex-1 rounded-xl bg-secondary-light-10 shadow-[5px_5px_30px_rgba(0,_0,_0,_0.05)] box-border overflow-hidden flex flex-col items-start justify-start py-[25px] px-6 gap-[18px] min-w-[360px] max-w-full border-[1px] border-solid border-secondary-light-80" data-aos="fade-right">
         <button className="cursor-pointer [border:none] py-1.5 px-[17px] bg-primary-80 rounded-50-custom-border flex flex-row items-center justify-center whitespace-nowrap ">
           <div className="relative text-lg leading-[32px] font-semibold font-custom-bold text-secondary-light-10 text-center">

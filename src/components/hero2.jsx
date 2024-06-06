@@ -1,6 +1,6 @@
 const Hero2 = () => {
   return (
-    <section className="self-stretch overflow-hidden flex flex-col items-center justify-center py-[100px] pr-[420px] pl-5 box-border bg-[url('/public/hero@3x.jpg')] bg-cover bg-no-repeat bg-[top] max-w-full text-left text-60-custom text-secondary-light-10 font-familymain mq450:pr-5 mq450:box-border mq750:pt-[65px] mq750:pr-[105px] mq750:pb-[65px] mq750:box-border mq1250:pr-[210px] mq1250:box-border">
+    <section className="self-stretch overflow-hidden flex flex-col items-center justify-center py-[100px] pr-[420px] pl-5 box-border bg-[url('/hero@3x.jpg')] bg-cover bg-no-repeat bg-[top] max-w-full text-left text-60-custom text-secondary-light-10 font-familymain mq450:pr-5 mq450:box-border mq750:pt-[65px] mq750:pr-[105px] mq750:pb-[65px] mq750:box-border mq1250:pr-[210px] mq1250:box-border">
       <div className="w-[840px] flex flex-col items-start justify-center gap-[15px] max-w-full">
         <h1 className="m-0 self-stretch relative text-inherit font-bold font-inherit inline-block mq450:text-36-custom mq750:text-48-custom" data-aos="fade-right">
           Your Path to Marketing Excellence Begins Here

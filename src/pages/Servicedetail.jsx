@@ -59,7 +59,7 @@ function Servicedetail() {
         <div className="self-stretch flex flex-col items-center justify-start gap-[60px] text-left text-base-3 font-h4-desktop-h4-bold">
           <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[70px]">
             <div
-              className="flex-1 rounded-medium-text h-[480px] flex flex-col items-end justify-end p-[30px] box-border bg-[url('/public/image@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px]"
+              className="flex-1 rounded-medium-text h-[480px] flex flex-col items-end justify-end p-[30px] box-border bg-[url('/image@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px]"
               data-aos="fade-right"
               data-aos-duration="700"
             >
@@ -281,7 +281,7 @@ function Servicedetail() {
                     </button>
             </div>
             <div
-              className="flex-1 rounded-medium-text h-[480px] flex flex-col items-start justify-end p-[30px] box-border bg-[url('/public/image1@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] text-mid-5 text-secondary-light-10 font-h4-desktop-h4-bold"
+              className="flex-1 rounded-medium-text h-[480px] flex flex-col items-start justify-end p-[30px] box-border bg-[url('/image1@3x.png')] bg-cover bg-no-repeat bg-[top] min-w-[360px] text-mid-5 text-secondary-light-10 font-h4-desktop-h4-bold"
               data-aos="fade-left"
               data-aos-duration="700"
             >

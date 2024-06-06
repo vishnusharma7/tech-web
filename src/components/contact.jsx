@@ -115,7 +115,7 @@ const Contact = () => {
           </div>
 
         </div>
-        <div className="self-stretch rounded-30-custom-border bg-secondary-light-10 overflow-hidden flex flex-row items-center justify-center [row-gap:20px] max-w-full text-left text-36-custom text-secondary-dark-30 mq1050:flex-wrap">
+        <div className="self-stretch rounded-30-custom-border shadow-[5px_5px_30px_rgba(0,_0,_0,_0.05)]  bg-secondary-light-10 overflow-hidden flex flex-row items-center justify-center [row-gap:20px] max-w-full text-left text-36-custom text-secondary-dark-30 mq1050:flex-wrap">
           <div className="flex-1 shadow-[5px_5px_30px_rgba(0,_0,_0,_0.04)] overflow-hidden flex flex-col items-start justify-start p-10 box-border gap-[20px] min-w-[526px] max-w-full mq750:pt-[26px] mq750:pb-[26px] mq750:box-border mq750:min-w-full">
             <b className="self-stretch h-[86px] relative hidden mq750:text-29-custom mq450:text-22-custom">
               We’re Are Here To Help Your Business In Growth!
@@ -163,7 +163,7 @@ const Contact = () => {
             className="w-[431px] relative max-h-full object-cover max-w-full mq1050:flex-1"
             loading="eager"
             alt=""
-            src="/image8@2x.png"
+            src="/contactss.png"
           />
         </div>
       </div>
