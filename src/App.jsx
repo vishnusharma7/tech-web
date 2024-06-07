@@ -11,6 +11,7 @@ import Service from './pages/Service';
 import ScrollToTop from './components/scrolltotop';
 import ServicesTab from './components/services-tab';
 import ServiceDetails from './pages/ServiceDetails';
+import Technologies from './pages/Technologies';
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
             <Route path='/case-study' element={<Casestudy />} />
             <Route path="/services" element={<ServicesTab />} />
             <Route path="/service/:serviceId" element={<ServiceDetails />} />
+            <Route path="/technologies" element={<Technologies />} />
           </Routes>
           <ScrollToTop />
         </div>

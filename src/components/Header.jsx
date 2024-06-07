@@ -8,6 +8,7 @@ import { Fragment } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { Menu, Transition } from "@headlessui/react";
 import Navbardropdowns from "./navbardropdowns";
+
 import { AnimatePresence, motion } from "framer-motion";
 
 const Header = () => {
@@ -278,7 +279,7 @@ const Header = () => {
                         className="relative no-underline"
                       >
                         <Link 
-                          href="#"
+                         to={"/technologies"}
                           className={classNames(
                             active ? "bg-secodary-50 text-primary-80 no-underline " : "text-secondary-light-10 no-underline ",
                             "block px-4 py-2 "
@@ -294,7 +295,7 @@ const Header = () => {
                         {dropdownStates.technologies && (
                           <div className="relative top-full  border-l-[1px] border-solid text-[18px] flex flex-col gap-1  border-secondary-light-60 left-5 z-10  py-2 px-4 no-underline">
                             <Link
-                              to={"/case-study"}
+                              to={"/service"}
                               className="text-secondary-light-10 block py-1 no-underline hover:text-white"
                             >
                               ASP.Net

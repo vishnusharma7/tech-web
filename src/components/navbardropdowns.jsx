@@ -27,7 +27,7 @@ const Navbardropdowns = () => {
           Our work
         </FlyoutLink>
       </Link>
-      <Link to={"/contact"} className={`flex flex-row items-center justify-center text-secondary-light-10 no-underline ${location.pathname === '/contact' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}>
+      <Link to={"/technologies"} className={`flex flex-row items-center justify-center text-secondary-light-10 no-underline ${location.pathname === '/contact' ? ' border-b-[2px] border-solid border-primary-80' : ''}`}>
         <FlyoutLink FlyoutContent={PricingContent3}>
           Technologies
         </FlyoutLink>
@@ -251,62 +251,62 @@ const PricingContent3 = () => {
           <h3 className="font-semibold border-b-[2px] border-solid border-primary-80 w-fit">Technologies </h3>
           <p className="text-[12px]">Collaborate with TechCreare IT Expert to build an outstanding application, with industry experience and range of technologies to achieve highest ROI.</p>
         </div>
-        <a href="#" className="group flex gap-1 items-center text-black no-underline text-sm hover:text-primary-80">
+        <Link to={"/technologies"} className="group flex gap-1 items-center text-black no-underline text-sm hover:text-primary-80">
           ASP.Net
           <img
             className="transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
             alt=""
             src="/black.svg"
           />
-        </a>
-        <a href="#" className="group flex gap-1 items-center text-black no-underline text-sm hover:text-primary-80">
+        </Link>
+        <Link to={"/technologies"} className="group flex gap-1 items-center text-black no-underline text-sm hover:text-primary-80">
           ASP.Net Core
           <img
             className="transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
             alt=""
             src="/black.svg"
           />
-        </a>
-        <a href="#" className="group flex gap-1 items-center text-black no-underline text-sm hover:text-primary-80">
+     </Link>
+        <Link to={"/technologies"} className="group flex gap-1 items-center text-black no-underline text-sm hover:text-primary-80">
           Angular
           <img
             className="transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
             alt=""
             src="/black.svg"
           />
-        </a>
-        <a href="#" className="group flex gap-1 items-center text-black no-underline text-sm hover:text-primary-80">
+      </Link>
+        <Link to={"/technologies"} className="group flex gap-1 items-center text-black no-underline text-sm hover:text-primary-80">
           Node
           <img
             className="transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
             alt=""
             src="/black.svg"
           />
-        </a>
-        <a href="#" className="group flex gap-1 items-center text-black no-underline text-sm hover:text-primary-80">
+       </Link>
+             <Link to={"/technologies"} className="group flex gap-1 items-center text-black no-underline text-sm hover:text-primary-80">
           PHP Laravel
           <img
             className="transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
             alt=""
             src="/black.svg"
           />
-        </a>
-        <a href="#" className="group flex gap-1 items-center text-black no-underline text-sm hover:text-primary-80">
+        </Link>
+        <Link to={"/technologies"} className="group flex gap-1 items-center text-black no-underline text-sm hover:text-primary-80">
           Vue JS
           <img
             className="transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
             alt=""
             src="/black.svg"
           />
-        </a>
-        <a href="#" className="group flex gap-1 items-center text-black no-underline text-sm hover:text-primary-80">
+     </Link>
+        <Link to={"/technologies"}className="group flex gap-1 items-center text-black no-underline text-sm hover:text-primary-80">
           React JS
           <img
             className="transition-transform duration-300 ease-in-out transform group-hover:translate-x-1 h-5 w-5 relative overflow-hidden shrink-0"
             alt=""
             src="/black.svg"
           />
-        </a>
+        </Link>
 
       </div>
 

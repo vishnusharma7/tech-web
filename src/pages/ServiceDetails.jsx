@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Link } from "react-router-dom";
@@ -113,6 +114,30 @@ const ServiceDetails = () => {
   // Add other services here
  };
 
+ const backgroundStyles = {
+  'Responsive Web Design': 'linear-gradient(0deg, #ffffff, #CFFBFD 100%)',
+  'User Interface Development': 'linear-gradient(0deg, #ffffff, #000000 100%)',
+  'Single Page Applications': 'linear-gradient(0deg, #ffffff, #1ABC9C 100%)',
+  'Front-end Optimization': 'linear-gradient(0deg, #ffffff, #93B17C 100%)',
+  'Progressive Web App Development': 'linear-gradient(0deg, #ffffff, #93B17C 100%)',
+  'Front-end Frameworks': 'linear-gradient(0deg, #ffffff, #93B17C 100%)',
+  'Asp .Net Development': 'linear-gradient(0deg, #ffffff, #5C2D91 100%)',
+  'Angular Js Development': 'linear-gradient(0deg, #ffffff, #C3012F 100%)',
+  'Node Js Development': 'linear-gradient(0deg, #ffffff, #8CC84B 100%)',
+  'React Js Development': 'linear-gradient(0deg, #ffffff,#00D8FE 100%)',
+  'Custom Software Development': 'linear-gradient(0deg, #ffffff, #32BEA6 100%)',
+  'SQL Development': 'linear-gradient(0deg, #ffffff, #00BCF2 100%)',
+  'Ui UX Design': 'linear-gradient(0deg, #ffffff, #ffb2a2 100%)',
+  'Design Consulting': 'linear-gradient(0deg, #fff5e6, #ffe2a2 100%)',
+  'Design Thinking': 'linear-gradient(0deg, #e6f7ff, #a2e2ff 100%)',
+  'Design Experience': 'linear-gradient(0deg, #e6fff0, #a2ffd2 100%)',
+  'Design System': 'linear-gradient(0deg, #f5f5f5, #a2a2a2 100%)',
+  'Design Research': 'linear-gradient(0deg, #f0fff0, #c2ffc2 100%)',
+  'Digital Marketing': 'linear-gradient(0deg, #fff5e6, #ffd2a2 100%)',
+  'SEO': 'linear-gradient(0deg, #ffffff, #016775 100%)',
+};
+
+
  const service = tabData[serviceId];
 
  useEffect(() => {
@@ -133,13 +158,13 @@ const ServiceDetails = () => {
       <img src={service.tabImage} alt={service.headings} />
       <p>{service.para}</p> */}
    <div>
-    <section className="self-stretch [background:linear-gradient(0deg,_#ffffff,_#e6fcd2_100%)] box-border overflow-hidden flex flex-col items-center justify-center py-[100px] pr-5 pl-5 max-w-full text-left text-54-custom text-secondary-light-10 font-familymain  ">
+    <section style={{ background: backgroundStyles[service.headings] || 'white' }} className="self-stretch  box-border overflow-hidden flex flex-col items-center justify-center py-[100px] pr-5 pl-5 max-w-full text-left text-54-custom text-secondary-light-10 font-familymain  ">
      <div className=" flex flex-col items-start justify-center gap-[15px]  max-w-full">
       <div className='w-[1300px]  flex   justify-center  gap-[30px]  max-w-full'>
-       <div className='col-md-6'> <h1 className="m-0 self-stretch relative text-inherit font-bold text-secondary-dark-40 font-inherit inline-block mq450:text-36-custom mq750:text-48-custom">
+       <div className='col-md-6'> <h1 className="m-0 self-stretch relative text-inherit font-bold text-secondary-light-10 font-inherit inline-block mq450:text-36-custom mq750:text-48-custom">
         {service.headings}
        </h1>
-        <p className=" m-0 self-stretch relative text-lg leading-[27px] my-3 font-medium font-custom-bold text-secondary-dark-40" >
+        <p className=" m-0 self-stretch relative text-lg leading-[27px] my-3 font-medium font-custom-bold text-secondary-light-10" >
          {service.para}
         </p>
 
